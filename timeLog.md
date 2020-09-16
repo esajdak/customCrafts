@@ -3,7 +3,7 @@
 ## Week 1 ## 
 1.5 hours
 ## Week 2 ##
-
+6.85 hours
 ## Week 3 ##
 
 ## Week 4 ##
