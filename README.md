@@ -4,3 +4,6 @@ they consume a portion of your sales and charge you to post your items with a mo
 Custom Crafts will allow crafters to sell for no charge at all. Custom Crafts also includes 
 a small accounting assistant to document all sales and customers may choose to enter their costs
 to see a total revenue amount. 
+
+### Design ###
+* [User Stories](DesignDocuments/userStories.md)
