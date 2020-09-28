@@ -1,6 +1,6 @@
 package edu.matc.controller;
 
-import edu.matc.persistence.ItemDao;
+import edu.matc.persistence.ProductDao;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -19,16 +19,16 @@ import java.io.IOException;
         urlPatterns = {"/searchItem"}
 )
 
-public class SearchItem extends HttpServlet {
+public class SearchProduct extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        ItemDao itemDao = new ItemDao();
+        ProductDao productDao = new ProductDao();
         String searchTerm = req.getParameter("searchTerm");
         if ((searchTerm != "") && (searchTerm != null)) {
 //            TODO add option to pick what to search by and add term
-//            req.setAttribute("items", itemDao.getItemsByTag(searchTerm));
+//            req.setAttribute("items", productDao.getItemsByTag(searchTerm));
         } else {
-            req.setAttribute("items", itemDao.getAllItems());
+            req.setAttribute("products", productDao.getAllItems());
         }
         RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
         dispatcher.forward(req, resp);

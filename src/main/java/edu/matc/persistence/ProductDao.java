@@ -1,6 +1,6 @@
 package edu.matc.persistence;
 
-import edu.matc.entity.Item;
+import edu.matc.entity.Product;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.hibernate.Session;
@@ -12,33 +12,34 @@ import javax.persistence.criteria.Expression;
 import javax.persistence.criteria.Root;
 import java.util.List;
 
-public class ItemDao {
+public class ProductDao {
     private final Logger logger = LogManager.getLogger(this.getClass());
 
     /* Get all items */
-    public List<Item> getAllItems() {
+    public List<Product> getAllItems() {
         SessionFactory sessionFactory = SessionFactoryProvider.getSessionFactory();
         Session session = sessionFactory.openSession();
         CriteriaBuilder builder = session.getCriteriaBuilder();
-        CriteriaQuery<Item> query = builder.createQuery(Item.class);
-        Root<Item> root = query.from(Item.class);
-        List<Item> items = session.createQuery(query).getResultList();
+        CriteriaQuery<Product> query = builder.createQuery(Product.class);
+        Root<Product> root = query.from(Product.class);
+        List<Product> products = session.createQuery(query).getResultList();
         session.close();
-        return items;
+        logger.info(products);
+        return products;
     }
 
     /* Get all items */
-    public List<Item> getItemsByTitle(String title) {
+    public List<Product> getItemsByTitle(String title) {
         SessionFactory sessionFactory = SessionFactoryProvider.getSessionFactory();
         Session session = sessionFactory.openSession();
         CriteriaBuilder builder = session.getCriteriaBuilder();
-        CriteriaQuery<Item> query = builder.createQuery(Item.class);
-        Root<Item> root = query.from(Item.class);
+        CriteriaQuery<Product> query = builder.createQuery(Product.class);
+        Root<Product> root = query.from(Product.class);
 //        TODO figure out how to search by given term and type
         Expression<String> propertyPath = root.get("title");
         query.where(builder.like(propertyPath, "%" + title + "%"));
-        List<Item> items = session.createQuery(query).getResultList();
+        List<Product> products = session.createQuery(query).getResultList();
         session.close();
-        return items;
+        return products;
     }
 }

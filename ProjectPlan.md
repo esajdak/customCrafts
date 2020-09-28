@@ -57,8 +57,8 @@
 - [ ] Set up authentication on AWS
 - [ ] Add the db Tables, populate with data, (test, dev and prod dbs)
 - [ ] Create the db tables entities
-- [ ] Update order table to use items and users
-- [ ] Update items and users tests to be sure they work with the new relationships
+- [ ] Update order table to use products and users
+- [ ] Update products and users tests to be sure they work with the new relationships
 - [ ] Review and incorporate any feedback from Checkpoint 2.
 
 
