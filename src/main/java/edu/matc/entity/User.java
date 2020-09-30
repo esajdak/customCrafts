@@ -22,10 +22,29 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator="native")
     @GenericGenerator(name = "native",strategy = "native")
+    @Column(name = "user_id")
     private int userId;
 
+    /**
+     * Instantiates a new User.
+     */
     public User() {
 
+    }
+
+    /**
+     * Instantiates a new User.
+     *
+     * @param firstName the first name
+     * @param lastName  the last name
+     * @param email     the email
+     * @param password  the password
+     */
+    public User(String firstName, String lastName, String email, String password) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.password = password;
     }
 
     /**

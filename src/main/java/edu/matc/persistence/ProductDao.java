@@ -14,10 +14,10 @@ import java.util.List;
 
 public class ProductDao {
     private final Logger logger = LogManager.getLogger(this.getClass());
+    SessionFactory sessionFactory = SessionFactoryProvider.getSessionFactory();
 
     /* Get all items */
     public List<Product> getAllItems() {
-        SessionFactory sessionFactory = SessionFactoryProvider.getSessionFactory();
         Session session = sessionFactory.openSession();
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery<Product> query = builder.createQuery(Product.class);
@@ -29,17 +29,17 @@ public class ProductDao {
     }
 
     /* Get all items */
-    public List<Product> getItemsByTitle(String title) {
-        SessionFactory sessionFactory = SessionFactoryProvider.getSessionFactory();
-        Session session = sessionFactory.openSession();
-        CriteriaBuilder builder = session.getCriteriaBuilder();
-        CriteriaQuery<Product> query = builder.createQuery(Product.class);
-        Root<Product> root = query.from(Product.class);
-//        TODO figure out how to search by given term and type
-        Expression<String> propertyPath = root.get("title");
-        query.where(builder.like(propertyPath, "%" + title + "%"));
-        List<Product> products = session.createQuery(query).getResultList();
-        session.close();
-        return products;
-    }
+//    public List<Product> getItemsByTitle(String title) {
+//        SessionFactory sessionFactory = SessionFactoryProvider.getSessionFactory();
+//        Session session = sessionFactory.openSession();
+//        CriteriaBuilder builder = session.getCriteriaBuilder();
+//        CriteriaQuery<Product> query = builder.createQuery(Product.class);
+//        Root<Product> root = query.from(Product.class);
+////        TODO figure out how to search by given term and type
+//        Expression<String> propertyPath = root.get("title");
+//        query.where(builder.like(propertyPath, "%" + title + "%"));
+//        List<Product> products = session.createQuery(query).getResultList();
+//        session.close();
+//        return products;
+//    }
 }

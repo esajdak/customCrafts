@@ -2,11 +2,15 @@ package edu.matc.entity;
 
 import org.hibernate.annotations.GenericGenerator;
 
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
+/**
+ * A class to represent a product.
+ *
+ * @author Elizabeth Sajdak
+ */
+@Entity(name = "Product")
+@Table(name = "product") // case sensitive!
 public class Product {
     @Column(name = "title")
     private String title;

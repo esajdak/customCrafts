@@ -1,6 +1,7 @@
 package edu.matc.controller;
 
 import edu.matc.persistence.ProductDao;
+import edu.matc.persistence.UserDao;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -16,21 +17,22 @@ import java.io.IOException;
  */
 
 @WebServlet(
-        urlPatterns = {"/searchItem"}
+        urlPatterns = {"/searchUser"}
 )
 
-public class SearchProduct extends HttpServlet {
+public class SearchUser extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        ProductDao productDao = new ProductDao();
-        String searchTerm = req.getParameter("searchTerm");
-        if ((searchTerm != "") && (searchTerm != null)) {
+        UserDao userDao = new UserDao();
+//        String searchTerm = req.getParameter("searchTerm");
+//        if ((searchTerm != "") && (searchTerm != null)) {
 //            TODO add option to pick what to search by and add term
 //            req.setAttribute("items", productDao.getItemsByTag(searchTerm));
-            req.setAttribute("products", productDao.getAllItems());
-        } else {
-            req.setAttribute("products", productDao.getAllItems());
-        }
+//            req.setAttribute("products", productDao.getAllItems());
+//        } else {
+//            req.setAttribute("products", productDao.getAllItems());
+//        }
+        req.setAttribute("users", userDao.getAllUsers());
         RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
         dispatcher.forward(req, resp);
     }

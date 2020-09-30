@@ -1,0 +1,181 @@
+[INFO ] 2020-09-29 17:57:07.439 [main] UserDao - [edu.matc.entity.User@5eed6dfb]
+[INFO ] 2020-09-29 17:57:17.276 [main] UserDao - [edu.matc.entity.User@5eed6dfb]
+[INFO ] 2020-09-29 19:38:03.910 [main] UserDao - [edu.matc.entity.User@39266403]
+[DEBUG] 2020-09-29 19:38:03.945 [main] UserDao - Searching for user with lastName = Sajdak
+[DEBUG] 2020-09-29 19:38:04.138 [main] UserDao - Searching for user with lastName = e
+[DEBUG] 2020-09-29 19:49:16.867 [main] UserDao - Searching for user with lastName = k
+[ERROR] 2020-09-29 20:39:28.126 [main] Database - java.sql.SQLSyntaxErrorException: Unknown database 'test_sample'
+[ERROR] 2020-09-29 20:39:37.261 [main] Database - java.sql.SQLSyntaxErrorException: Unknown database 'test_sample'
+[ERROR] 2020-09-29 20:39:37.414 [main] Database - java.sql.SQLSyntaxErrorException: Unknown database 'test_sample'
+[INFO ] 2020-09-29 20:39:38.021 [main] UserDao - [edu.matc.entity.User@3ef3f661]
+[ERROR] 2020-09-29 20:39:38.191 [main] Database - java.sql.SQLSyntaxErrorException: Unknown database 'test_sample'
+[DEBUG] 2020-09-29 20:39:38.197 [main] UserDao - Searching for user with lastName = Sajdak
+[ERROR] 2020-09-29 20:39:38.379 [main] Database - java.sql.SQLSyntaxErrorException: Unknown database 'test_sample'
+[DEBUG] 2020-09-29 20:39:38.379 [main] UserDao - Searching for user with lastName = k
+[ERROR] 2020-09-29 20:39:38.482 [main] Database - java.sql.SQLSyntaxErrorException: Unknown database 'test_sample'
+[ERROR] 2020-09-29 20:45:42.503 [main] Database - java.sql.SQLSyntaxErrorException: Unknown database 'test_sample'
+[ERROR] 2020-09-29 20:45:56.050 [main] Database - java.sql.SQLSyntaxErrorException: Unknown database 'test_sample'
+[ERROR] 2020-09-29 20:45:56.216 [main] Database - java.sql.SQLSyntaxErrorException: Unknown database 'test_sample'
+[INFO ] 2020-09-29 20:45:57.339 [main] UserDao - [edu.matc.entity.User@2d4fb0d8]
+[ERROR] 2020-09-29 20:45:57.723 [main] Database - java.sql.SQLSyntaxErrorException: Unknown database 'test_sample'
+[DEBUG] 2020-09-29 20:45:57.726 [main] UserDao - Searching for user with lastName = Sajdak
+[ERROR] 2020-09-29 20:45:58.667 [main] Database - java.sql.SQLSyntaxErrorException: Unknown database 'test_sample'
+[DEBUG] 2020-09-29 20:45:58.679 [main] UserDao - Searching for user with lastName = k
+[ERROR] 2020-09-29 20:45:58.835 [main] Database - java.sql.SQLSyntaxErrorException: Unknown database 'test_sample'
+[ERROR] 2020-09-29 20:48:18.729 [main] Database - java.sql.SQLSyntaxErrorException: Unknown database 'test_sample'
+[ERROR] 2020-09-29 20:48:25.541 [main] Database - java.sql.SQLSyntaxErrorException: Unknown database 'test_sample'
+[ERROR] 2020-09-29 20:48:25.652 [main] Database - java.sql.SQLSyntaxErrorException: Unknown database 'test_sample'
+[DEBUG] 2020-09-29 20:48:25.657 [main] UserDao - Searching for user with lastName = Sajdak
+[ERROR] 2020-09-29 20:52:02.109 [main] Database - java.sql.SQLSyntaxErrorException: Unknown database 'test_sample'
+[DEBUG] 2020-09-29 20:52:08.268 [main] UserDao - Searching for user with lastName = Kelley
+[ERROR] 2020-09-29 20:53:36.375 [main] Database - java.sql.SQLSyntaxErrorException: Unknown database 'test_sample'
+[DEBUG] 2020-09-29 20:53:42.666 [main] UserDao - Searching for user with lastName = Kelley
+[ERROR] 2020-09-29 20:55:25.425 [main] Database - java.sql.SQLSyntaxErrorException: Unknown database 'test_sample'
+[DEBUG] 2020-09-29 20:55:31.553 [main] UserDao - Searching for user with LastName = Kelley
+[ERROR] 2020-09-29 20:58:20.284 [main] Database - java.sql.SQLSyntaxErrorException: Unknown database 'test_sample'
+[DEBUG] 2020-09-29 20:58:28.210 [main] UserDao - Searching for user with lastName = Kelley
+[ERROR] 2020-09-29 21:01:06.289 [main] Database - java.sql.SQLSyntaxErrorException: Unknown database 'test_sample'
+[ERROR] 2020-09-29 21:02:49.507 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[ERROR] 2020-09-29 21:02:56.792 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[ERROR] 2020-09-29 21:02:56.922 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[INFO ] 2020-09-29 21:02:57.353 [main] UserDao - [edu.matc.entity.User@4ce267cc]
+[ERROR] 2020-09-29 21:02:57.498 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[DEBUG] 2020-09-29 21:02:57.538 [main] UserDao - Searching for user with lastName = Kelley
+[ERROR] 2020-09-29 21:02:57.731 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[DEBUG] 2020-09-29 21:02:57.741 [main] UserDao - Searching for user with lastName = k
+[ERROR] 2020-09-29 21:02:57.856 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[ERROR] 2020-09-29 21:02:57.971 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[INFO ] 2020-09-29 21:10:30.234 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[ERROR] 2020-09-29 21:10:32.371 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[INFO ] 2020-09-29 21:10:40.035 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[ERROR] 2020-09-29 21:10:40.233 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[INFO ] 2020-09-29 21:10:40.287 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[ERROR] 2020-09-29 21:10:40.385 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[INFO ] 2020-09-29 21:10:41.086 [main] UserDao - [edu.matc.entity.User@3dea226b]
+[INFO ] 2020-09-29 21:10:41.107 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[ERROR] 2020-09-29 21:10:41.256 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[DEBUG] 2020-09-29 21:10:41.371 [main] UserDao - Searching for user with lastName = Kelley
+[INFO ] 2020-09-29 21:10:41.654 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[ERROR] 2020-09-29 21:10:41.837 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[DEBUG] 2020-09-29 21:10:41.842 [main] UserDao - Searching for user with lastName = k
+[INFO ] 2020-09-29 21:10:41.968 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[ERROR] 2020-09-29 21:10:42.107 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[INFO ] 2020-09-29 21:10:42.181 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[ERROR] 2020-09-29 21:10:42.297 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[INFO ] 2020-09-29 21:10:56.701 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[ERROR] 2020-09-29 21:10:59.950 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[INFO ] 2020-09-29 21:11:09.113 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[ERROR] 2020-09-29 21:11:12.398 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[INFO ] 2020-09-29 21:11:13.913 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[ERROR] 2020-09-29 21:11:14.041 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[INFO ] 2020-09-29 21:11:14.124 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[ERROR] 2020-09-29 21:11:14.244 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[INFO ] 2020-09-29 21:11:14.986 [main] UserDao - [edu.matc.entity.User@4fbaa7f5]
+[INFO ] 2020-09-29 21:11:15.008 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[ERROR] 2020-09-29 21:11:15.077 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[DEBUG] 2020-09-29 21:11:15.125 [main] UserDao - Searching for user with lastName = Kelley
+[INFO ] 2020-09-29 21:11:15.243 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[ERROR] 2020-09-29 21:11:15.353 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[DEBUG] 2020-09-29 21:11:15.359 [main] UserDao - Searching for user with lastName = k
+[INFO ] 2020-09-29 21:11:15.429 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[ERROR] 2020-09-29 21:11:15.534 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[INFO ] 2020-09-29 21:11:15.646 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[ERROR] 2020-09-29 21:11:15.739 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[INFO ] 2020-09-29 21:11:21.591 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[ERROR] 2020-09-29 21:11:21.680 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[INFO ] 2020-09-29 21:11:21.720 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[ERROR] 2020-09-29 21:11:21.797 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[INFO ] 2020-09-29 21:11:22.163 [main] UserDao - [edu.matc.entity.User@4fbaa7f5]
+[INFO ] 2020-09-29 21:11:22.191 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[ERROR] 2020-09-29 21:11:22.305 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[DEBUG] 2020-09-29 21:11:22.333 [main] UserDao - Searching for user with lastName = Kelley
+[INFO ] 2020-09-29 21:11:22.402 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[ERROR] 2020-09-29 21:11:22.468 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[DEBUG] 2020-09-29 21:11:22.473 [main] UserDao - Searching for user with lastName = k
+[INFO ] 2020-09-29 21:11:22.516 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[ERROR] 2020-09-29 21:11:22.574 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[INFO ] 2020-09-29 21:11:22.616 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[ERROR] 2020-09-29 21:11:22.689 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[INFO ] 2020-09-29 21:15:04.349 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[INFO ] 2020-09-29 21:15:14.366 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[INFO ] 2020-09-29 21:15:14.559 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[INFO ] 2020-09-29 21:15:15.247 [main] UserDao - [edu.matc.entity.User@2493eec6]
+[INFO ] 2020-09-29 21:15:15.294 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[DEBUG] 2020-09-29 21:15:15.500 [main] UserDao - Searching for user with lastName = Kelley
+[INFO ] 2020-09-29 21:15:15.648 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[DEBUG] 2020-09-29 21:15:15.806 [main] UserDao - Searching for user with lastName = k
+[INFO ] 2020-09-29 21:15:15.876 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[INFO ] 2020-09-29 21:15:16.040 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[INFO ] 2020-09-29 21:20:35.499 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[INFO ] 2020-09-29 21:20:45.415 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[INFO ] 2020-09-29 21:20:45.678 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[INFO ] 2020-09-29 21:20:46.390 [main] UserDao - [edu.matc.entity.User@3bcc8f13]
+[INFO ] 2020-09-29 21:20:46.422 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[DEBUG] 2020-09-29 21:20:46.643 [main] UserDao - Searching for user with lastName = Kelley
+[INFO ] 2020-09-29 21:20:46.794 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[DEBUG] 2020-09-29 21:20:46.867 [main] UserDao - Searching for user with lastName = k
+[INFO ] 2020-09-29 21:20:46.922 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[INFO ] 2020-09-29 21:20:47.104 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[INFO ] 2020-09-29 21:22:30.060 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[INFO ] 2020-09-29 21:22:54.392 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[INFO ] 2020-09-29 21:22:54.664 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[INFO ] 2020-09-29 21:22:56.897 [main] UserDao - [edu.matc.entity.User@3fd5d679, edu.matc.entity.User@7ba1cdbe]
+[INFO ] 2020-09-29 21:22:56.923 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[DEBUG] 2020-09-29 21:22:57.222 [main] UserDao - Searching for user with lastName = Kelley
+[INFO ] 2020-09-29 21:22:57.527 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[DEBUG] 2020-09-29 21:22:57.658 [main] UserDao - Searching for user with lastName = k
+[INFO ] 2020-09-29 21:22:57.795 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[INFO ] 2020-09-29 21:23:05.307 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[INFO ] 2020-09-29 21:23:05.798 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[INFO ] 2020-09-29 21:23:06.117 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[INFO ] 2020-09-29 21:23:06.572 [main] UserDao - [edu.matc.entity.User@6ba060af, edu.matc.entity.User@3ad847f8]
+[INFO ] 2020-09-29 21:23:06.606 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[DEBUG] 2020-09-29 21:23:06.833 [main] UserDao - Searching for user with lastName = Kelley
+[INFO ] 2020-09-29 21:23:07.027 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[DEBUG] 2020-09-29 21:23:07.146 [main] UserDao - Searching for user with lastName = k
+[INFO ] 2020-09-29 21:23:07.266 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[INFO ] 2020-09-29 21:23:07.479 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[INFO ] 2020-09-29 21:24:19.806 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[INFO ] 2020-09-29 21:24:27.998 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[INFO ] 2020-09-29 21:24:28.168 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[INFO ] 2020-09-29 21:24:28.646 [main] UserDao - [edu.matc.entity.User@76e6c070, edu.matc.entity.User@4ebd6fd6]
+[INFO ] 2020-09-29 21:24:28.660 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[DEBUG] 2020-09-29 21:24:28.821 [main] UserDao - Searching for user with lastName = Kelley
+[INFO ] 2020-09-29 21:24:28.897 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[DEBUG] 2020-09-29 21:24:29.004 [main] UserDao - Searching for user with lastName = k
+[INFO ] 2020-09-29 21:24:29.060 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[INFO ] 2020-09-29 21:24:29.153 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[INFO ] 2020-09-29 21:29:03.608 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[INFO ] 2020-09-29 21:29:11.472 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[INFO ] 2020-09-29 21:29:11.629 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[DEBUG] 2020-09-29 21:29:11.744 [main] UserDao - Searching for user with lastName = Kelley
+[INFO ] 2020-09-29 21:29:12.112 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[DEBUG] 2020-09-29 21:29:12.309 [main] UserDao - Searching for user with lastName = k
+[INFO ] 2020-09-29 21:29:12.388 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[INFO ] 2020-09-29 21:29:12.571 [main] Database - ***** jdbc:mysql://localhost:3306/test
+[INFO ] 2020-09-29 21:31:23.601 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[INFO ] 2020-09-29 21:31:31.937 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[INFO ] 2020-09-29 21:31:32.125 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[DEBUG] 2020-09-29 21:31:32.258 [main] UserDao - Searching for user with lastName = Kelley
+[INFO ] 2020-09-29 21:31:32.637 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[DEBUG] 2020-09-29 21:31:32.763 [main] UserDao - Searching for user with lastName = k
+[INFO ] 2020-09-29 21:31:32.819 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[INFO ] 2020-09-29 21:31:32.913 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[INFO ] 2020-09-29 21:38:06.077 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[INFO ] 2020-09-29 21:38:06.589 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[INFO ] 2020-09-29 21:38:06.729 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[INFO ] 2020-09-29 21:38:07.092 [main] UserDao - [edu.matc.entity.User@6806468e, edu.matc.entity.User@8e99809]
+[INFO ] 2020-09-29 21:38:07.106 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[DEBUG] 2020-09-29 21:38:07.231 [main] UserDao - Searching for user with lastName = Kelley
+[INFO ] 2020-09-29 21:38:07.321 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[DEBUG] 2020-09-29 21:38:07.407 [main] UserDao - Searching for user with lastName = k
+[INFO ] 2020-09-29 21:38:07.498 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[INFO ] 2020-09-29 21:38:07.612 [main] Database - ***** jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+[ERROR] 2020-09-29 21:41:02.349 [main] Database - java.lang.NullPointerException
+[ERROR] 2020-09-29 21:41:02.819 [main] Database - java.lang.NullPointerException
+[ERROR] 2020-09-29 21:41:02.897 [main] Database - java.lang.NullPointerException
+[DEBUG] 2020-09-29 21:41:02.987 [main] UserDao - Searching for user with lastName = Kelley
+[ERROR] 2020-09-29 21:41:03.757 [main] Database - java.lang.NullPointerException
+[DEBUG] 2020-09-29 21:41:03.768 [main] UserDao - Searching for user with lastName = k
+[ERROR] 2020-09-29 21:41:03.876 [main] Database - java.lang.NullPointerException
+[ERROR] 2020-09-29 21:41:03.905 [main] Database - java.lang.NullPointerException
