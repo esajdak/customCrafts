@@ -27,9 +27,9 @@ public class SearchProduct extends HttpServlet {
         if ((searchTerm != "") && (searchTerm != null)) {
 //            TODO add option to pick what to search by and add term
 //            req.setAttribute("items", productDao.getItemsByTag(searchTerm));
-            req.setAttribute("products", productDao.getAllItems());
+            req.setAttribute("products", productDao.getAllProducts());
         } else {
-            req.setAttribute("products", productDao.getAllItems());
+            req.setAttribute("products", productDao.getAllProducts());
         }
         RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
         dispatcher.forward(req, resp);

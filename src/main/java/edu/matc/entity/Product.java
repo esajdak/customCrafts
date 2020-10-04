@@ -12,26 +12,19 @@ import javax.persistence.*;
 @Entity(name = "Product")
 @Table(name = "product") // case sensitive!
 public class Product {
-    @Column(name = "title")
+    // don't need to annotate if column names are the same.
     private String title;
-
-    @Column(name = "price")
     private String price;
-
-    @Column(name = "image")
     private String image;
-
-    @Column(name = "description")
     private String description;
-
-    @Column(name = "tags")
     private String tags;
 
     @Column(name = "production_cost")
     private String productionCost;
 
-    @Column(name = "owner_id")
-    private int ownerId;
+    @ManyToOne
+    @JoinColumn(name = "user_id", foreignKey = @ForeignKey(name = "user_id"))
+    private User user;
 
     @Column(name = "customizable")
     private boolean customizable;
@@ -39,15 +32,25 @@ public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator="native")
     @GenericGenerator(name = "native",strategy = "native")
+    @Column(name = "item_id")
     private int itemId;
 
     public Product() {
 
     }
 
-    /**
-     * todo need to add getters and setters
-     */
+
+    // todo need different constructor to deal with optional values?
+    public Product(String description, User user, String image, String tags, String productionCost, String price, int Customizable, String title) {
+        this.user = user;
+        this.description = description;
+        this.image = image;
+        this.tags = tags;
+        this.productionCost = productionCost;
+        this.price = price;
+        this.customizable = customizable;
+        this.title = title;
+    }
 
     /**
      * Sets product's id number
@@ -67,23 +70,6 @@ public class Product {
         return itemId;
     }
 
-    /**
-     * Sets owner's id number
-     *
-     * @param ownerId
-     */
-    public void setOwnerId(int ownerId) {
-        this.ownerId = ownerId;
-    }
-
-    /**
-     * Gets ownerId
-     *
-     * @return owner's id number
-     */
-    public int getOwnerId() {
-        return ownerId;
-    }
 
     /**
      * Sets product image
@@ -209,6 +195,42 @@ public class Product {
      */
     public boolean getCustomizable() {
         return customizable;
+    }
+
+
+    /**
+     * Gets user.
+     *
+     * @return the user
+     */
+    public User getUser() {
+        return user;
+    }
+
+    /**
+     * Sets user.
+     *
+     * @param user the user
+     */
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "title='" + title + '\'' +
+                ", price='" + price + '\'' +
+                ", image='" + image + '\'' +
+                ", description='" + description + '\'' +
+                ", tags='" + tags + '\'' +
+                ", productionCost='" + productionCost + '\'' +
+                ", user=" + user +
+                ", customizable=" + customizable +
+                ", itemId=" + itemId +
+                '}';
     }
 
 

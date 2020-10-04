@@ -3,7 +3,12 @@ package edu.matc.entity;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
+/**
+ * The type User.
+ */
 @Entity(name = "User")
 @Table(name = "user")
 public class User {
@@ -25,11 +30,26 @@ public class User {
     @Column(name = "user_id")
     private int userId;
 
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    private Set<Product> products = new HashSet<>();
+
     /**
      * Instantiates a new User.
      */
     public User() {
 
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                ", userId=" + userId +
+                ", products=" + products +
+                '}';
     }
 
     /**
@@ -137,5 +157,41 @@ public class User {
         return userId;
     }
 
+    /**
+     * Gets products.
+     *
+     * @return the products
+     */
+    public Set<Product> getProducts() {
+        return products;
+    }
 
+    /**
+     * Sets products.
+     *
+     * @param products the products
+     */
+    public void setProducts(Set<Product> products) {
+        this.products = products;
+    }
+
+    /**
+     * Add product.
+     *
+     * @param product the product
+     */
+    public void addProduct(Product product) {
+        products.add(product);
+        product.setUser(this);
+    }
+
+    /**
+     * Remove product.
+     *
+     * @param product the product
+     */
+    public void removeProduct(Product product) {
+        products.remove(product);
+        product.setUser(null);
+    }
 }
