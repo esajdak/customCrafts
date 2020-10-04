@@ -10,8 +10,11 @@ and the week 2 exercise)
 5 hours on exercise
 2.5 hours on project checkpoint 1
 ## Week 4 ##
+2 hours watching videos
+~5 hours on exercise (I'm really bad at paying attention to how much time I actually spent on it)
 
 ## Week 5 ##
+
 
 ## Week 6 ##
 
