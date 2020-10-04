@@ -7,20 +7,20 @@
 - [x] Complete Problem Statement
 - [ ] Determine possible Web Services or APIs to use
 - [ ] List technologies, versions and how they will be used
-- [ ] Weekly journal entry
+- [x] Weekly journal entry
 - [x] Write project plan
 - [ ] Document application flow in text and pictures - I'll use wireframes that have clickable links for the screen design. Use Balsamiq? 
-- [ ] Triple-check for Checkpoint 1: Problem statement, project plan, screen design and time log pushed to GitHub. 
+- [x] Triple-check for Checkpoint 1: Problem statement, project plan, screen design and time log pushed to GitHub. 
 
 ### Week 4
 - [ ] Complete database design
-- [ ] Create the database and user table
-- [ ] Create the user entity class and annotate for hibernate
-- [ ] Create user dao
-- [ ] Create the test database
-- [ ] Create user dao unit tests
-- [ ] Weekly journal entry
-- [ ] Set up logging
+- [x] Create the database and user table
+- [x] Create the user entity class and annotate for hibernate
+- [x] Create user dao
+- [x] Create the test database
+- [x] Create user dao unit tests
+- [x] Weekly journal entry
+- [x] Set up logging
 - [ ] Create class uml diagram
 - [ ] Prepare for Week 5 peer design/code review
 
@@ -28,11 +28,11 @@
 ### Week 5
 
 - [ ] Create the template for all jsps using bootstrap or materialize
-- [ ] Weekly journal entry
-- [ ] Add the role table
-- [ ] Add the role entity
-- [ ] Create the role dao
-- [ ] Create the role dao unit tests
+- [x] Weekly journal entry
+- [x] Add the product table
+- [x] Add the product entity
+- [x] Create the product dao
+- [x] Create the product dao unit tests
 - [ ] Add a jsp to display user and role
 - [ ] Add jsp to add a user
 
