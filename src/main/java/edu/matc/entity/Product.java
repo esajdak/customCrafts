@@ -218,20 +218,20 @@ public class Product {
 
 
 
-    @Override
-    public String toString() {
-        return "Product{" +
-                "title='" + title + '\'' +
-                ", price='" + price + '\'' +
-                ", image='" + image + '\'' +
-                ", description='" + description + '\'' +
-                ", tags='" + tags + '\'' +
-                ", productionCost='" + productionCost + '\'' +
-                ", user=" + user +
-                ", customizable=" + customizable +
-                ", itemId=" + itemId +
-                '}';
-    }
+//    @Override
+//    public String toString() {
+//        return "Product{" +
+//                "title='" + title + '\'' +
+//                ", price='" + price + '\'' +
+//                ", image='" + image + '\'' +
+//                ", description='" + description + '\'' +
+//                ", tags='" + tags + '\'' +
+//                ", productionCost='" + productionCost + '\'' +
+//                ", user=" + user +
+//                ", customizable=" + customizable +
+//                ", itemId=" + itemId +
+//                '}';
+//    }
 
 
 }

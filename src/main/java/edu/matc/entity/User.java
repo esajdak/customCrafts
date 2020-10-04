@@ -40,17 +40,17 @@ public class User {
 
     }
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", email='" + email + '\'' +
-                ", password='" + password + '\'' +
-                ", userId=" + userId +
-                ", products=" + products +
-                '}';
-    }
+//    @Override
+//    public String toString() {
+//        return "User{" +
+//                "firstName='" + firstName + '\'' +
+//                ", lastName='" + lastName + '\'' +
+//                ", email='" + email + '\'' +
+//                ", password='" + password + '\'' +
+//                ", userId=" + userId +
+//                ", products=" + products +
+//                '}';
+//    }
 
     /**
      * Instantiates a new User.

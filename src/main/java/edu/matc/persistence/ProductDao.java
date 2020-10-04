@@ -28,7 +28,7 @@ public class ProductDao {
         Root<Product> root = query.from(Product.class);
         List<Product> products = session.createQuery(query).getResultList();
         session.close();
-        logger.info(products);
+        logger.debug(products);
         return products;
     }
 

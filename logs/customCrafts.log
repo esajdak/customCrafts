@@ -305,3 +305,18 @@
 [ERROR] 2020-10-04 14:13:14.878 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''product' (item_id, user_id, image, description, tags, production_cost, price, c' at line 1
 [DEBUG] 2020-10-04 14:15:24.155 [main] ProductDao - Searching for product with title = Product 1
 [DEBUG] 2020-10-04 14:15:24.322 [main] ProductDao - Searching for product with title = p
+[DEBUG] 2020-10-04 14:24:04.166 [main] ProductDao - Searching for product with title = Product 1
+[DEBUG] 2020-10-04 14:24:04.332 [main] ProductDao - Searching for product with title = p
+[DEBUG] 2020-10-04 14:32:32.696 [main] ProductDao - [edu.matc.entity.Product@76563ae7, edu.matc.entity.Product@7a66c35a]
+[DEBUG] 2020-10-04 14:33:02.386 [main] ProductDao - [edu.matc.entity.Product@3344d163, edu.matc.entity.Product@6cc48a17]
+[DEBUG] 2020-10-04 14:33:02.499 [main] ProductDao - Searching for product with title = Product 1
+[DEBUG] 2020-10-04 14:33:02.716 [main] ProductDao - Searching for product with title = p
+[DEBUG] 2020-10-04 14:33:49.633 [main] ProductDao - [edu.matc.entity.Product@5866731, edu.matc.entity.Product@56a05324]
+[DEBUG] 2020-10-04 14:33:49.782 [main] ProductDao - Searching for product with title = Product 1
+[DEBUG] 2020-10-04 14:33:49.978 [main] ProductDao - Searching for product with title = p
+[DEBUG] 2020-10-04 14:35:24.874 [main] ProductDao - [edu.matc.entity.Product@658e7ead, edu.matc.entity.Product@cfd5cd2]
+[DEBUG] 2020-10-04 14:35:25.018 [main] ProductDao - Searching for product with title = Product 1
+[DEBUG] 2020-10-04 14:35:25.284 [main] ProductDao - Searching for product with title = p
+[INFO ] 2020-10-04 14:35:26.916 [main] UserDao - [edu.matc.entity.User@6b2ef50e, edu.matc.entity.User@6f867b0c, edu.matc.entity.User@4b5ad306]
+[DEBUG] 2020-10-04 14:35:27.031 [main] UserDao - Searching for user with lastName = Kelley
+[DEBUG] 2020-10-04 14:35:27.245 [main] UserDao - Searching for user with lastName = a
