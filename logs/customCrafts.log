@@ -326,3 +326,10 @@
 [INFO ] 2020-10-04 14:51:52.152 [main] UserDao - [edu.matc.entity.User@3f866f50, edu.matc.entity.User@5844a2d1, edu.matc.entity.User@1201769d]
 [DEBUG] 2020-10-04 14:51:52.247 [main] UserDao - Searching for user with lastName = Kelley
 [DEBUG] 2020-10-04 14:51:52.368 [main] UserDao - Searching for user with lastName = a
+[DEBUG] 2020-10-06 16:35:51.875 [main] ProductDao - [edu.matc.entity.Product@437281c5, edu.matc.entity.Product@787178b1]
+[DEBUG] 2020-10-06 16:35:52.041 [main] ProductDao - Searching for product with title = Product 1
+[DEBUG] 2020-10-06 16:35:52.320 [main] ProductDao - Searching for product with title = p
+[INFO ] 2020-10-06 16:35:54.538 [main] UserDao - [edu.matc.entity.User@22048bd6, edu.matc.entity.User@566c1e71, edu.matc.entity.User@2e2f20b8]
+[DEBUG] 2020-10-06 16:35:54.666 [main] UserDao - Searching for user with lastName = Kelley
+[DEBUG] 2020-10-06 16:35:54.831 [main] UserDao - Searching for user with lastName = a
+[DEBUG] 2020-10-06 17:06:54.191 [main] UserDao - Searching for user with lastName = a

@@ -122,7 +122,7 @@ class UserDaoTest {
 
         assertNotEquals(0,id);
         User insertedUser = dao.getUserById(id);
-        assertEquals("John", insertedUser.getFirstName());
+        assertEquals(newUser, insertedUser);
         assertEquals(1, insertedUser.getProducts().size());
         // Could continue comparing all values, but
         // it may make sense to use .equals()
@@ -165,7 +165,7 @@ class UserDaoTest {
         userToUpdate.setLastName(newLastName);
         dao.saveOrUpdate(userToUpdate);
         User retrievedUser = dao.getUserById(1);
-        assertEquals(newLastName, retrievedUser.getLastName());
+        assertEquals(userToUpdate, retrievedUser);
     }
 
 

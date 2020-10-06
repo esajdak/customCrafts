@@ -14,6 +14,7 @@ and the week 2 exercise)
 ~5 hours on exercise (I'm really bad at paying attention to how much time I actually spent on it)
 
 ## Week 5 ##
+A little over 1.5 hours on videos, maybe an additional 1 hour trouble shooting the exercise besides doing it with videos.
 
 
 ## Week 6 ##
