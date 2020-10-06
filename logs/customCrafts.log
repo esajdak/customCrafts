@@ -333,3 +333,7 @@
 [DEBUG] 2020-10-06 16:35:54.666 [main] UserDao - Searching for user with lastName = Kelley
 [DEBUG] 2020-10-06 16:35:54.831 [main] UserDao - Searching for user with lastName = a
 [DEBUG] 2020-10-06 17:06:54.191 [main] UserDao - Searching for user with lastName = a
+[DEBUG] 2020-10-06 18:12:09.043 [main] GenericDao - Searching for product with title = Product 1
+[DEBUG] 2020-10-06 18:12:09.207 [main] GenericDao - Searching for product with title = p
+[DEBUG] 2020-10-06 18:12:10.049 [main] GenericDao - Searching for product with lastName = Kelley
+[DEBUG] 2020-10-06 18:12:10.150 [main] GenericDao - Searching for product with lastName = a

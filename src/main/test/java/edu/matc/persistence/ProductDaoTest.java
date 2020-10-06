@@ -11,14 +11,14 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ProductDaoTest {
-    ProductDao dao;
+    GenericDao genericDao;
 
     /**
      * Creating the dao.
      */
     @BeforeEach
     void setUp() {
-        dao = new ProductDao();
+        genericDao = new GenericDao(Product.class);
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
 
@@ -29,7 +29,7 @@ class ProductDaoTest {
      */
     @Test
     void getAllItemsSuccess() {
-        List<Product> products = dao.getAllProducts();
+        List<Product> products = genericDao.getAll();
         assertEquals(2, products.size());
     }
 
@@ -37,8 +37,8 @@ class ProductDaoTest {
      * Verifies a product is returned correctly by id search
      */
     @Test
-    void getProductByIdSuccess() {
-        Product retrievedProduct = dao.getProductById(1);
+    void getByIdSuccess() {
+        Product retrievedProduct = (Product)genericDao.getById(1);
         assertNotNull(retrievedProduct);
         assertEquals("Product 1", retrievedProduct.getTitle());
     }
@@ -48,8 +48,8 @@ class ProductDaoTest {
      */
     @Test
     void insertSuccess() {
-        UserDao userDao = new UserDao();
-        User user = userDao.getUserById(1);
+        GenericDao userDao = new GenericDao(User.class);
+        User user = (User)userDao.getById(1);
 
         String productDescription = "Product Test";
         String image = "Image Test";
@@ -62,12 +62,12 @@ class ProductDaoTest {
         Product newProduct = new Product(productDescription, user, image, tags, productionCost, price, customizable, title);
         user.addProduct(newProduct);
 
-        int id = dao.insert(newProduct);
+        int id = genericDao.insert(newProduct);
         assertNotEquals(0,id);
-        Product insertedProduct = dao.getProductById(id);
-        assertEquals("Test Product", insertedProduct.getTitle());
+        Product insertedProduct = (Product)genericDao.getById(id);
+        assertEquals(newProduct, insertedProduct);
         assertNotNull(insertedProduct.getUser());
-        assertEquals("Elizabeth", insertedProduct.getUser().getFirstName());
+        assertEquals(user, insertedProduct.getUser());
         // Could continue comparing all values, but
         // it may make sense to use .equals()
         // TODO review .equals recommendations http://docs.jboss.org/hibernate/orm/5.2/productguide/html_single/Hibernate_Product_Guide.html#mapping-model-pojo-equalshashcode
@@ -78,8 +78,8 @@ class ProductDaoTest {
      */
     @Test
     void deleteSuccess() {
-        dao.delete(dao.getProductById(2));
-        assertNull(dao.getProductById(2));
+        genericDao.delete(genericDao.getById(2));
+        assertNull(genericDao.getById(2));
     }
 
     /**
@@ -87,7 +87,7 @@ class ProductDaoTest {
      */
     @Test
     void getByPropertyEqualSuccess() {
-        List<Product> products = dao.getByPropertyEqual("title", "Product 1");
+        List<Product> products = genericDao.getByPropertyEqual("title", "Product 1");
         assertEquals(1, products.size());
         assertEquals(1, products.get(0).getItemId());
     }
@@ -97,18 +97,18 @@ class ProductDaoTest {
      */
     @Test
     void getByPropertyLikeSuccess() {
-        List<Product> products = dao.getByPropertyLike("title", "p");
+        List<Product> products = genericDao.getByPropertyLike("title", "p");
         assertEquals(2, products.size());
     }
 
     @Test
     void updateSuccess() {
         String newTitle = "Product One";
-        Product productToUpdate = dao.getProductById(1);
+        Product productToUpdate = (Product)genericDao.getById(1);
         productToUpdate.setTitle(newTitle);
-        dao.saveOrUpdate(productToUpdate);
-        Product retrievedProduct = dao.getProductById(1);
-        assertEquals(newTitle, retrievedProduct.getTitle());
+        genericDao.saveOrUpdate(productToUpdate);
+        Product retrievedProduct = (Product)genericDao.getById(1);
+        assertEquals(productToUpdate, retrievedProduct);
     }
 
 

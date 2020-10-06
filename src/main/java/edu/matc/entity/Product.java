@@ -3,6 +3,7 @@ package edu.matc.entity;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import java.util.Objects;
 
 /**
  * A class to represent a product.
@@ -216,6 +217,26 @@ public class Product {
         this.user = user;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Product product = (Product) o;
+        return customizable == product.customizable &&
+                itemId == product.itemId &&
+                Objects.equals(title, product.title) &&
+                Objects.equals(price, product.price) &&
+                Objects.equals(image, product.image) &&
+                Objects.equals(description, product.description) &&
+                Objects.equals(tags, product.tags) &&
+                Objects.equals(productionCost, product.productionCost) &&
+                Objects.equals(user, product.user);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(title, price, image, description, tags, productionCost, user, customizable, itemId);
+    }
 
 
 //    @Override

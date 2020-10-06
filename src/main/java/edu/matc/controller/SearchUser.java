@@ -1,7 +1,7 @@
 package edu.matc.controller;
 
-import edu.matc.persistence.ProductDao;
-import edu.matc.persistence.UserDao;
+import edu.matc.entity.User;
+import edu.matc.persistence.GenericDao;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -23,7 +23,8 @@ import java.io.IOException;
 public class SearchUser extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        UserDao userDao = new UserDao();
+        GenericDao genericDao = new GenericDao(User.class);
+
 //        String searchTerm = req.getParameter("searchTerm");
 //        if ((searchTerm != "") && (searchTerm != null)) {
 //            TODO add option to pick what to search by and add term
@@ -32,7 +33,7 @@ public class SearchUser extends HttpServlet {
 //        } else {
 //            req.setAttribute("products", productDao.getAllItems());
 //        }
-        req.setAttribute("users", userDao.getAllUsers());
+        req.setAttribute("users", genericDao.getAll());
         RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
         dispatcher.forward(req, resp);
     }
