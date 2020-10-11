@@ -6,7 +6,7 @@ As a registered user, I want to be able to login to post/update products or chec
 ### Post Item ###
 As a registered user, I want to be able to post an item for sale on my page.
 ### Edit/Delete Item ###
-As a registered user, I want to be able to update other users when my products are sold out or have a price update.
+As a registered user, I want to be able to update items when my products are sold out or have a price update.
 ### Search Item ###
 As any user I want to be able to search for products to be able to find what I'm looking for within the site.
 ### Add to Cart ###

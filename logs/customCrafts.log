@@ -337,3 +337,7 @@
 [DEBUG] 2020-10-06 18:12:09.207 [main] GenericDao - Searching for product with title = p
 [DEBUG] 2020-10-06 18:12:10.049 [main] GenericDao - Searching for product with lastName = Kelley
 [DEBUG] 2020-10-06 18:12:10.150 [main] GenericDao - Searching for product with lastName = a
+[DEBUG] 2020-10-11 10:25:43.433 [main] GenericDao - Searching for product with title = Product 1
+[DEBUG] 2020-10-11 10:25:43.624 [main] GenericDao - Searching for product with title = p
+[DEBUG] 2020-10-11 10:25:44.996 [main] GenericDao - Searching for product with lastName = Kelley
+[DEBUG] 2020-10-11 10:25:45.188 [main] GenericDao - Searching for product with lastName = a
