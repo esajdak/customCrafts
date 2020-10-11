@@ -8,3 +8,4 @@ to see a total revenue amount.
 ### Design ###
 * [User Stories](DesignDocuments/userStories.md)
 * [Project Plan](/ProjectPlan.md)
+* [Database Design](DesignDocuments/databaseDesign.png)
