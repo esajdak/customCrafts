@@ -34,7 +34,7 @@ public class SearchUser extends HttpServlet {
 //            req.setAttribute("products", productDao.getAllItems());
 //        }
         req.setAttribute("users", genericDao.getAll());
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/userResults.jsp");
         dispatcher.forward(req, resp);
     }
 }
