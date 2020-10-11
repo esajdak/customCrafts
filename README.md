@@ -9,3 +9,26 @@ to see a total revenue amount.
 * [User Stories](DesignDocuments/userStories.md)
 * [Project Plan](/ProjectPlan.md)
 * [Database Design](DesignDocuments/databaseDesign.png)
+
+## Project Technologies ##
+- Database:
+    - MySQL
+    - Store users, products, and orders
+- ORM Framework
+    - Hibernate 5
+- Dependency Management
+    - Maven
+- CSS
+    - Bootstrap likely?
+- Data Validation
+    - Bootstrap validator for front end
+    - Explore Hibernate's validation
+- Logging
+    - Log4J2
+- Hosting
+    - AWS
+- Unit Testing
+    - JUnit tests to achieve 80%+ code coverage
+- IDE: IntelliJ IDEA
+- API
+    - sales tax calculator ?
