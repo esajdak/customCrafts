@@ -9,11 +9,11 @@
 - [ ] List technologies, versions and how they will be used
 - [x] Weekly journal entry
 - [x] Write project plan
-- [ ] Document application flow in text and pictures - I'll use wireframes that have clickable links for the screen design. Use Balsamiq? 
+- [x] Document application flow in text and pictures - I'll use wireframes that have clickable links for the screen design. Use Balsamiq? 
 - [x] Triple-check for Checkpoint 1: Problem statement, project plan, screen design and time log pushed to GitHub. 
 
 ### Week 4
-- [ ] Complete database design
+- [x] Complete database design
 - [x] Create the database and user table
 - [x] Create the user entity class and annotate for hibernate
 - [x] Create user dao
@@ -22,7 +22,7 @@
 - [x] Weekly journal entry
 - [x] Set up logging
 - [ ] Create class uml diagram
-- [ ] Prepare for Week 5 peer design/code review
+- [x] Prepare for Week 5 peer design/code review
 
 
 ### Week 5
