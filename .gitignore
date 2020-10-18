@@ -47,3 +47,6 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+
+#config
+src/main/test/java/edu/matc/test/util/Database.java
