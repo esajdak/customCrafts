@@ -18,5 +18,8 @@ A little over 1.5 hours on videos, maybe an additional 1 hour trouble shooting t
 
 
 ## Week 6 ##
+Videos- about 1 hour  
+Exercise- Mostly finished along side videos, spent about 30 minutes outside of video time troubleshooting any issues I had  
+Design reviews- approximately 30 minutes filling out both  
 
 ## Week 7 ##
