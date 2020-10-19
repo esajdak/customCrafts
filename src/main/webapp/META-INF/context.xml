@@ -1,11 +1,12 @@
 <Context docBase="customCrafts_war" path="/customCrafts_war" reloadable="true">
     <Realm className="org.apache.catalina.realm.JDBCRealm"
            driverName="com.mysql.cj.jdbc.Driver"
-           connectionURL="jdbc:mysql://localhost:3306/custom_crafts?serverTimezone=UTC&amp;user=root&amp;password=uBUs4XoxU9UsEw"
+           connectionURL="jdbc:mysql://localhost:3306/custom_crafts?serverTimezone=UTC&amp;user=root&amp;password=student"
            userTable="user" userNameCol="email" userCredCol="password"
            userRoleTable="role" roleNameCol="role_name" >
     </Realm>
 </Context>
 
-        <!--           -->
-<!--        connectionURL="jdbc:mysql://localhost:3306/custom_crafts?serverTimezone=UTC&amp;user=root&amp;password=student"-->
+        <!--
+           connectionURL="jdbc:mysql://localhost:3306/custom_crafts?serverTimezone=UTC&amp;user=root&amp;password=uBUs4XoxU9UsEw"        -->
+<!--        -->

@@ -65,6 +65,7 @@ public class GenericDao<T> {
         Root<T> root = query.from(type);
         List<T> list = session.createQuery(query).getResultList();
         session.close();
+        logger.info(list);
         return list;
 
     }
