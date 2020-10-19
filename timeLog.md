@@ -24,4 +24,6 @@ Design reviews- approximately 30 minutes filling out both
 
 ## Week 7 ##
 About 20 minutes trying to troubleshoot why TomEE wasn't working with AWS deploy, turns out you just need to type the correctly url..  
+Videos- about 1 hour  
+Extra time spent on exercise- somewhere between 3 to 4 hours.  
 
