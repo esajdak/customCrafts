@@ -25,7 +25,7 @@ public class Role {
     @JoinColumn(name = "user_id", foreignKey = @ForeignKey(name = "role_user_user_id_fk"))
     private User user;
 
-    public Role(String roleName) {
+    public Role() {
     }
 
     public Role(String roleName, String email, User user) {
