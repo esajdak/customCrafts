@@ -36,12 +36,27 @@ public class Product {
     @Column(name = "item_id")
     private int itemId;
 
+    /**
+     * Instantiates a new Product.
+     */
     public Product() {
 
     }
 
 
-    // todo need different constructor to deal with optional values?
+    /**
+     * Instantiates a new Product.
+     *
+     * @param description    the description
+     * @param user           the user
+     * @param image          the image
+     * @param tags           the tags
+     * @param productionCost the production cost
+     * @param price          the price
+     * @param Customizable   the customizable
+     * @param title          the title
+     */
+// todo need different constructor to deal with optional values?
     public Product(String description, User user, String image, String tags, String productionCost, String price, int Customizable, String title) {
         this.user = user;
         this.description = description;
@@ -56,7 +71,7 @@ public class Product {
     /**
      * Sets product's id number
      *
-     * @param itemId
+     * @param itemId the item id
      */
     public void setItemId(int itemId) {
         this.itemId = itemId;
@@ -65,7 +80,7 @@ public class Product {
     /**
      * Gets itemId
      *
-     * @return product's id number
+     * @return product 's id number
      */
     public int getItemId() {
         return itemId;
@@ -75,7 +90,7 @@ public class Product {
     /**
      * Sets product image
      *
-     * @param image
+     * @param image the image
      */
     public void setImage(String image) {
         this.image = image;
@@ -84,7 +99,7 @@ public class Product {
     /**
      * Gets image
      *
-     * @return product's image
+     * @return product 's image
      */
     public String getImage() {
         return image;
@@ -93,7 +108,7 @@ public class Product {
     /**
      * Sets product's description
      *
-     * @param description
+     * @param description the description
      */
     public void setDescription(String description) {
         this.description = description;
@@ -102,7 +117,7 @@ public class Product {
     /**
      * Gets description
      *
-     * @return product's description
+     * @return product 's description
      */
     public String getDescription() {
         return description;
@@ -111,7 +126,7 @@ public class Product {
     /**
      * Sets tags for product
      *
-     * @param tags
+     * @param tags the tags
      */
     public void setTags(String tags) {
         this.tags = tags;
@@ -129,7 +144,7 @@ public class Product {
     /**
      * Sets production cost of product
      *
-     * @param productionCost
+     * @param productionCost the production cost
      */
     public void setProductionCost(String productionCost) {
         this.productionCost = productionCost;
@@ -138,7 +153,7 @@ public class Product {
     /**
      * Gets production cost of product
      *
-     * @return productionCost
+     * @return productionCost production cost
      */
     public String getProductionCost() {
         return productionCost;
@@ -147,7 +162,7 @@ public class Product {
     /**
      * Sets price of product
      *
-     * @param price
+     * @param price the price
      */
     public void setPrice(String price) {
         this.price = price;
@@ -156,7 +171,7 @@ public class Product {
     /**
      * Gets price of product
      *
-     * @return price
+     * @return price price
      */
     public String getPrice() {
         return price;
@@ -165,7 +180,7 @@ public class Product {
     /**
      * Sets title of product
      *
-     * @param title
+     * @param title the title
      */
     public void setTitle(String title) {
         this.title = title;
@@ -183,7 +198,7 @@ public class Product {
     /**
      * Sets customizable
      *
-     * @param customizable
+     * @param customizable the customizable
      */
     public void setCustomizable(boolean customizable) {
         this.customizable = customizable;
@@ -192,7 +207,7 @@ public class Product {
     /**
      * Gets customizable
      *
-     * @return customizable
+     * @return customizable customizable
      */
     public boolean getCustomizable() {
         return customizable;

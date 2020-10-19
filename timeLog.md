@@ -23,3 +23,5 @@ Exercise- Mostly finished along side videos, spent about 30 minutes outside of v
 Design reviews- approximately 30 minutes filling out both  
 
 ## Week 7 ##
+About 20 minutes trying to troubleshoot why TomEE wasn't working with AWS deploy, turns out you just need to type the correctly url..  
+

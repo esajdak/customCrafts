@@ -34,6 +34,9 @@ public class User {
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<Product> products = new HashSet<>();
 
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    private Set<Role> roles = new HashSet<>();
+
     /**
      * Instantiates a new User.
      */
@@ -80,7 +83,7 @@ public class User {
     /**
      * Gets first name
      *
-     * @return user's first name
+     * @return user 's first name
      */
     public String getFirstName() {
         return firstName;
@@ -98,7 +101,7 @@ public class User {
     /**
      * Gets last name
      *
-     * @return user's last name
+     * @return user 's last name
      */
     public String getLastName() {
         return lastName;
@@ -116,7 +119,7 @@ public class User {
     /**
      * Gets email
      *
-     * @return user's email
+     * @return user 's email
      */
     public String getEmail() {
         return email;
@@ -134,7 +137,7 @@ public class User {
     /**
      * Gets password
      *
-     * @return user's password
+     * @return user 's password
      */
     public String getPassword() {
         return password;
@@ -152,7 +155,7 @@ public class User {
     /**
      * Gets user id
      *
-     * @return user's id
+     * @return user 's id
      */
     public int getUserId() {
         return userId;
@@ -194,6 +197,25 @@ public class User {
     public void removeProduct(Product product) {
         products.remove(product);
         product.setUser(null);
+    }
+
+
+    public Set<Role> getRoles() {
+        return roles;
+    }
+
+    public void setRoles(Set<Role> roles) {
+        this.roles = roles;
+    }
+
+    public void addRole(Role role) {
+        roles.add(role);
+        role.setUser(this);
+    }
+
+    public void removeRole(Role role) {
+        roles.remove(role);
+        role.setUser(null);
     }
 
     @Override

@@ -31,7 +31,7 @@ public class GenericDao<T> {
 
     /**
      * Returns an open session from the SessionFactory
-     * @return sesion
+     * @return session
      */
     private Session getSession() {
         return SessionFactoryProvider.getSessionFactory().openSession();
