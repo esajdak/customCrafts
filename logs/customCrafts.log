@@ -27,3 +27,21 @@
 [INFO ] 2020-10-19 18:23:28.295 [http-nio-8080-exec-8] GenericDao - [edu.matc.entity.User@44c64a22, edu.matc.entity.User@d1d71710]
 [INFO ] 2020-10-19 18:23:38.888 [http-nio-8080-exec-10] GenericDao - [edu.matc.entity.User@44c64a22, edu.matc.entity.User@d1d71710]
 [INFO ] 2020-10-19 18:23:50.531 [http-nio-8080-exec-4] GenericDao - [edu.matc.entity.User@44c64a22, edu.matc.entity.User@d1d71710]
+[INFO ] 2020-10-19 18:25:34.595 [main] GenericDao - [edu.matc.entity.Product@533ca097, edu.matc.entity.Product@c3eab35c]
+[DEBUG] 2020-10-19 18:25:34.707 [main] GenericDao - Searching for product with title = Product 1
+[DEBUG] 2020-10-19 18:25:34.856 [main] GenericDao - Searching for product with title = p
+[INFO ] 2020-10-19 18:25:36.628 [main] GenericDao - [edu.matc.entity.User@f9b69fd2, edu.matc.entity.User@9007436d, edu.matc.entity.User@3e3f28f8]
+[DEBUG] 2020-10-19 18:25:36.724 [main] GenericDao - Searching for product with lastName = Kelley
+[DEBUG] 2020-10-19 18:25:36.871 [main] GenericDao - Searching for product with lastName = a
+[INFO ] 2020-10-19 18:26:06.113 [main] GenericDao - [edu.matc.entity.Product@533ca097, edu.matc.entity.Product@c3eab35c]
+[DEBUG] 2020-10-19 18:26:06.321 [main] GenericDao - Searching for product with title = Product 1
+[DEBUG] 2020-10-19 18:26:06.512 [main] GenericDao - Searching for product with title = p
+[INFO ] 2020-10-19 18:26:07.367 [main] GenericDao - [edu.matc.entity.User@f9b69fd2, edu.matc.entity.User@9007436d, edu.matc.entity.User@3e3f28f8]
+[DEBUG] 2020-10-19 18:26:07.431 [main] GenericDao - Searching for product with lastName = Kelley
+[DEBUG] 2020-10-19 18:26:07.538 [main] GenericDao - Searching for product with lastName = a
+[INFO ] 2020-10-19 18:35:04.219 [main] GenericDao - [edu.matc.entity.Product@533ca097, edu.matc.entity.Product@c3eab35c]
+[DEBUG] 2020-10-19 18:35:04.328 [main] GenericDao - Searching for product with title = Product 1
+[DEBUG] 2020-10-19 18:35:04.482 [main] GenericDao - Searching for product with title = p
+[INFO ] 2020-10-19 18:35:05.264 [main] GenericDao - [edu.matc.entity.User@f9b69fd2, edu.matc.entity.User@9007436d, edu.matc.entity.User@3e3f28f8]
+[DEBUG] 2020-10-19 18:35:05.327 [main] GenericDao - Searching for product with lastName = Kelley
+[DEBUG] 2020-10-19 18:35:05.430 [main] GenericDao - Searching for product with lastName = a
