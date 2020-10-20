@@ -52,11 +52,11 @@
 
 ### Week 7
 
-- [ ] Weekly journal entry
-- [ ] Set up authentication locally
-- [ ] Set up authentication on AWS
-- [ ] Add the db Tables, populate with data, (test, dev and prod dbs)
-- [ ] Create the db tables entities
+- [x] Weekly journal entry
+- [x] Set up authentication locally
+- [x] Set up authentication on AWS
+- [x] Add the db Tables, populate with data, (test, dev and prod dbs)
+- [x] Create the db tables entities
 - [ ] Update order table to use products and users
 - [ ] Update products and users tests to be sure they work with the new relationships
 - [ ] Review and incorporate any feedback from Checkpoint 2.
