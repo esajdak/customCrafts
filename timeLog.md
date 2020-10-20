@@ -26,4 +26,5 @@ Design reviews- approximately 30 minutes filling out both
 About 20 minutes trying to troubleshoot why TomEE wasn't working with AWS deploy, turns out you just need to type the correctly url..  
 Videos- about 1 hour  
 Extra time spent on exercise- somewhere between 3 to 4 hours.  
+2 hours spent trying to figure out how to get the root dir back into my AWS tomcat
 
