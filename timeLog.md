@@ -28,3 +28,11 @@ Videos- about 1 hour
 Extra time spent on exercise- somewhere between 3 to 4 hours.  
 2 hours spent trying to figure out how to get the root dir back into my AWS tomcat
 
+## Week 8 ##
+A little over an hours on videos
+Activities mostly done with the videos
+Spent about 2 hours trouble shooting why I couldn't get that API to work, eventually created new project and used different API to get past it
+
+## Week 9 ##
+
+

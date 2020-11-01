@@ -64,13 +64,13 @@
 
 ### Week 8
 
-- [ ] Weekly journal entry
+- [x] Weekly journal entry
 - [ ] Integration with api
 - [ ] Create the dao
 - [ ] Create the dao unit tests
 - [ ] Build the item search jsp
 - [ ] Build the crud jsps
-- [ ] Prepare for Checkpoint 3: Deployed to AWS, at least one JSP that displays data from the database is implemented. 
+- [x] Prepare for Checkpoint 3: Deployed to AWS, at least one JSP that displays data from the database is implemented. 
 
 ### Week 9
 - [ ] Weekly journal entry
