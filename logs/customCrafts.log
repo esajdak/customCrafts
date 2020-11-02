@@ -47,3 +47,4 @@
 [DEBUG] 2020-10-19 18:35:05.430 [main] GenericDao - Searching for product with lastName = a
 [INFO ] 2020-11-01 20:55:49.600 [http-nio-8080-exec-7] GenericDao - [edu.matc.entity.User@44c64a22, edu.matc.entity.User@d1d71710]
 [INFO ] 2020-11-01 20:55:49.600 [http-nio-8080-exec-5] GenericDao - [edu.matc.entity.User@44c64a22, edu.matc.entity.User@d1d71710]
+[INFO ] 2020-11-01 21:12:13.575 [http-nio-8080-exec-3] GenericDao - [edu.matc.entity.User@44c64a22, edu.matc.entity.User@d1d71710]

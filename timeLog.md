@@ -34,5 +34,7 @@ Activities mostly done with the videos
 Spent about 2 hours trouble shooting why I couldn't get that API to work, eventually created new project and used different API to get past it
 
 ## Week 9 ##
-
+About 25 minutes on videos
+About 30 minutes to an hour additional time spent on activity besides when following along on the video
+Probably 1 to 2 hours spent on exercise 
 
