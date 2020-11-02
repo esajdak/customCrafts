@@ -73,17 +73,17 @@
 - [x] Prepare for Checkpoint 3: Deployed to AWS, at least one JSP that displays data from the database is implemented. 
 
 ### Week 9
-- [ ] Weekly journal entry
-- [ ] Review and incorporate feedback from Checkpoint 3.
+- [x] Weekly journal entry
+- [x] Review and incorporate feedback from Checkpoint 3.
 - [ ] Carefully review code for standards and best practices - use a code quality tool? 
 
 ### Week 8
-- [ ] Weekly journal entry
+- [x] Weekly journal entry
 - [ ] Implement paging of search results
 - [ ] Code review
 
 ### Week 9
-- [ ] Weekly journal entry
+- [x] Weekly journal entry
 - [ ] Add password reset/reminder functionality
 
 ### Week 10
