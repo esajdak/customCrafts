@@ -45,3 +45,5 @@
 [INFO ] 2020-10-19 18:35:05.264 [main] GenericDao - [edu.matc.entity.User@f9b69fd2, edu.matc.entity.User@9007436d, edu.matc.entity.User@3e3f28f8]
 [DEBUG] 2020-10-19 18:35:05.327 [main] GenericDao - Searching for product with lastName = Kelley
 [DEBUG] 2020-10-19 18:35:05.430 [main] GenericDao - Searching for product with lastName = a
+[INFO ] 2020-11-01 20:55:49.600 [http-nio-8080-exec-7] GenericDao - [edu.matc.entity.User@44c64a22, edu.matc.entity.User@d1d71710]
+[INFO ] 2020-11-01 20:55:49.600 [http-nio-8080-exec-5] GenericDao - [edu.matc.entity.User@44c64a22, edu.matc.entity.User@d1d71710]
