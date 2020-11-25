@@ -87,14 +87,14 @@
 - [ ] Add password reset/reminder functionality
 
 ### Week 10
-- [ ] Weekly journal entry
+- [x] Weekly journal entry
 - [ ] Unit test all api integrations
 
 ### Week 11 - Team project work week
-- [ ] Weekly journal entry
+- [x] Weekly journal entry
 
 ### Week 12 - Team project due
-- [ ] Weekly journal entry
+- [x] Weekly journal entry
 - [ ] Review indie project and create list of todos
 
 ### Week 13
