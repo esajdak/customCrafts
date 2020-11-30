@@ -9,7 +9,7 @@
   <login-config>
     <auth-method>FORM</auth-method>
     <form-login-config>
-      <form-login-page>/signInOld.jsp</form-login-page>
+      <form-login-page>/signIn.jsp</form-login-page>
       <form-error-page>/signInError.jsp</form-error-page>
     </form-login-config>
   </login-config>

@@ -70,3 +70,4 @@
 [INFO ] 2020-11-02 20:03:16.703 [main] GenericDao - [User(firstName=Elizabeth, lastName=Sajdak, email=es@gmail.com, password=password, userId=1), User(firstName=Kyle, lastName=Kelley, email=kk@gmail.com, password=anotherpassword, userId=2), User(firstName=Emily, lastName=Gorman, email=eg@gmail.com, password=password, userId=3)]
 [DEBUG] 2020-11-02 20:03:16.912 [main] GenericDao - Searching for product with lastName = Kelley
 [DEBUG] 2020-11-02 20:03:17.076 [main] GenericDao - Searching for product with lastName = a
+[INFO ] 2020-11-29 20:32:12.029 [http-nio-8080-exec-8] GenericDao - [User(firstName=Elizabeth, lastName=Sajdak, email=esajdak@madisoncollege.edu, password=password, userId=1), User(firstName=Kyle, lastName=Kelley, email=kk@gmail.com, password=password, userId=2)]
