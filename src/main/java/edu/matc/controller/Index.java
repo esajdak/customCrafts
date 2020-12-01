@@ -17,7 +17,7 @@ import java.io.IOException;
  */
 
 @WebServlet(
-        urlPatterns = {"/"}
+        urlPatterns = {""}
 )
 
 public class Index extends HttpServlet {

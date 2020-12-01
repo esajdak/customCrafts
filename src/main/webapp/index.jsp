@@ -108,16 +108,19 @@
         <!-- Category Start-->
         <div class="category">
             <div class="container-fluid">
-                <c:forEach var="product" items="${products}">
-                    <div class="row">
-                        <div class="category-item ch-400">
-                            <img src="productImages/${product.image}" alt="product"/>
-                            <a class="category-name" href="">
-                                <p>${product.title} ${product.price}</p>
-                            </a>
-                        </div>
-                    </div>
-                </c:forEach>
+                <div class="row">
+                    <c:forEach var="product" items="${products}">
+                            <div class="col-md-3">
+                                <div class="category-item ch-400">
+                                    <img id="${product.itemId}" src="productImages/${product.image}" alt="product"/>
+                                    <a class="category-name" href="/productDetail/?id=${product.itemId}">
+                                        <p>${product.title} ${product.price}</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                    </c:forEach>
+                </div>
 
             </div>
         </div>
