@@ -715,7 +715,7 @@
                 }
                 break;
 
-            case 'index':
+            case 'index.jsp':
                 var index = event.data.index === 0 ? 0 :
                     event.data.index || $target.index() * _.options.slidesToScroll;
 
@@ -1252,7 +1252,7 @@
 
         _.changeSlide({
             data: {
-                message: 'index',
+                message: 'index.jsp',
                 index: parseInt(slide)
             }
         }, dontAnimate);
@@ -1395,7 +1395,7 @@
 
         if (_.options.dots === true && _.slideCount > _.options.slidesToShow) {
             $('li', _.$dots).on('click.slick', {
-                message: 'index'
+                message: 'index.jsp'
             }, _.changeSlide);
 
             if (_.options.accessibility === true) {
@@ -1847,7 +1847,7 @@
 
             _.changeSlide({
                 data: {
-                    message: 'index',
+                    message: 'index.jsp',
                     index: currentSlide
                 }
             }, false);

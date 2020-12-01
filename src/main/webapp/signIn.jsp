@@ -1,8 +1,9 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="en">
-        <c:import url="header.jsp"/>
-        
+    <c:import url="header.jsp"/>
+    <body>
+        <c:import url="nav.jsp"/>
         <!-- Breadcrumb Start -->
         <div class="breadcrumb-wrap">
             <div class="container-fluid">

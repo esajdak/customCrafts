@@ -2,7 +2,10 @@
 
 <!DOCTYPE html>
 <html lang="en">
-        <c:import url="header.jsp"/>
+    <c:import url="header.jsp"/>
+    </head>
+    <body>
+        <c:import url="nav.jsp"/>
         <!-- Breadcrumb Start -->
         <div class="breadcrumb-wrap">
             <div class="container-fluid">
@@ -26,14 +29,14 @@
                                     <div class="product-slider-single normal-slider">
                                         <img src="productImages/${product.image}" alt="Product Image">
                                     </div>
-                                    <div class="product-slider-single-nav normal-slider">
-                                        <div class="slider-nav-img"><img src="template/img/product-1.jpg" alt="Product Image"></div>
-                                        <div class="slider-nav-img"><img src="template/img/product-3.jpg" alt="Product Image"></div>
-                                        <div class="slider-nav-img"><img src="template/img/product-5.jpg" alt="Product Image"></div>
-                                        <div class="slider-nav-img"><img src="template/img/product-7.jpg" alt="Product Image"></div>
-                                        <div class="slider-nav-img"><img src="template/img/product-9.jpg" alt="Product Image"></div>
-                                        <div class="slider-nav-img"><img src="template/img/product-10.jpg" alt="Product Image"></div>
-                                    </div>
+<%--                                    <div class="product-slider-single-nav normal-slider">--%>
+<%--                                        <div class="slider-nav-img"><img src="template/img/product-1.jpg" alt="Product Image"></div>--%>
+<%--                                        <div class="slider-nav-img"><img src="template/img/product-3.jpg" alt="Product Image"></div>--%>
+<%--                                        <div class="slider-nav-img"><img src="template/img/product-5.jpg" alt="Product Image"></div>--%>
+<%--                                        <div class="slider-nav-img"><img src="template/img/product-7.jpg" alt="Product Image"></div>--%>
+<%--                                        <div class="slider-nav-img"><img src="template/img/product-9.jpg" alt="Product Image"></div>--%>
+<%--                                        <div class="slider-nav-img"><img src="template/img/product-10.jpg" alt="Product Image"></div>--%>
+<%--                                    </div>--%>
                                 </div>
                                 <div class="col-md-7">
                                     <div class="product-content">
@@ -448,21 +451,6 @@
             </div>
         </div>
         <!-- Product Detail End -->
-        
-        <!-- Brand Start -->
-        <div class="brand">
-            <div class="container-fluid">
-                <div class="brand-slider">
-                    <div class="brand-item"><img src="template/img/brand-1.png" alt=""></div>
-                    <div class="brand-item"><img src="template/img/brand-2.png" alt=""></div>
-                    <div class="brand-item"><img src="template/img/brand-3.png" alt=""></div>
-                    <div class="brand-item"><img src="template/img/brand-4.png" alt=""></div>
-                    <div class="brand-item"><img src="template/img/brand-5.png" alt=""></div>
-                    <div class="brand-item"><img src="template/img/brand-6.png" alt=""></div>
-                </div>
-            </div>
-        </div>
-        <!-- Brand End -->
         
         <c:import url="footer.jsp"/>
     </body>
