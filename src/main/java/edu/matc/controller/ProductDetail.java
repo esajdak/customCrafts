@@ -24,16 +24,17 @@ public class ProductDetail extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         GenericDao genericDao = new GenericDao(Product.class);
-        int id = Integer.parseInt(req.getParameter("id"));
-//        if ((searchTerm != "") && (searchTerm != null)) {
-//            TODO add option to pick what to search by and add term
-//            req.setAttribute("items", productDao.getItemsByTag(searchTerm));
-//            req.setAttribute("products", productDao.getAllItems());
-//        } else {
-//            req.setAttribute("products", productDao.getAllItems());
-//        }
-        req.setAttribute("product", genericDao.getById(id));
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/productDetail.jsp");
-        dispatcher.forward(req, resp);
+        String id = req.getParameter("id");
+        if ((id != "") && (id != null)) {
+            int newId = Integer.parseInt(id);
+            req.setAttribute("product", genericDao.getById(newId));
+            RequestDispatcher dispatcher = req.getRequestDispatcher("/productDetail.jsp");
+            dispatcher.forward(req, resp);
+        } else {
+            req.setAttribute("products", genericDao.getAll());
+            RequestDispatcher dispatcher = req.getRequestDispatcher("/index.jsp");
+            dispatcher.forward(req, resp);
+        }
+
     }
 }
