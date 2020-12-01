@@ -1831,3 +1831,605 @@
 [DEBUG] 2020-11-30 21:42:19.416 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
 [DEBUG] 2020-11-30 21:42:19.416 [http-nio-8080-exec-10] TwoPhaseLoad - Done materializing entity [edu.matc.entity.Product#12]
 [DEBUG] 2020-11-30 21:42:19.433 [http-nio-8080-exec-10] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2020-11-30 21:46:35.980 [http-nio-8080-exec-10] CriteriaQueryImpl - Rendered criteria query -> select generatedAlias0 from Product as generatedAlias0
+[DEBUG] 2020-11-30 21:46:35.981 [http-nio-8080-exec-10] SQL - select product0_.item_id as item_id1_0_, product0_.customizable as customiz2_0_, product0_.description as descript3_0_, product0_.image as image4_0_, product0_.price as price5_0_, product0_.production_cost as producti6_0_, product0_.tags as tags7_0_, product0_.title as title8_0_, product0_.user_id as user_id9_0_ from product product0_
+[DEBUG] 2020-11-30 21:46:36.026 [http-nio-8080-exec-10] Loader - Result set row: 0
+[DEBUG] 2020-11-30 21:46:36.026 [http-nio-8080-exec-10] Loader - Result row: EntityKey[edu.matc.entity.Product#1]
+[DEBUG] 2020-11-30 21:46:36.026 [http-nio-8080-exec-10] Loader - Result set row: 1
+[DEBUG] 2020-11-30 21:46:36.026 [http-nio-8080-exec-10] Loader - Result row: EntityKey[edu.matc.entity.Product#2]
+[DEBUG] 2020-11-30 21:46:36.026 [http-nio-8080-exec-10] Loader - Result set row: 2
+[DEBUG] 2020-11-30 21:46:36.026 [http-nio-8080-exec-10] Loader - Result row: EntityKey[edu.matc.entity.Product#3]
+[DEBUG] 2020-11-30 21:46:36.026 [http-nio-8080-exec-10] Loader - Result set row: 3
+[DEBUG] 2020-11-30 21:46:36.026 [http-nio-8080-exec-10] Loader - Result row: EntityKey[edu.matc.entity.Product#4]
+[DEBUG] 2020-11-30 21:46:36.026 [http-nio-8080-exec-10] Loader - Result set row: 4
+[DEBUG] 2020-11-30 21:46:36.027 [http-nio-8080-exec-10] Loader - Result row: EntityKey[edu.matc.entity.Product#5]
+[DEBUG] 2020-11-30 21:46:36.029 [http-nio-8080-exec-10] Loader - Result set row: 5
+[DEBUG] 2020-11-30 21:46:36.031 [http-nio-8080-exec-10] Loader - Result row: EntityKey[edu.matc.entity.Product#6]
+[DEBUG] 2020-11-30 21:46:36.032 [http-nio-8080-exec-10] Loader - Result set row: 6
+[DEBUG] 2020-11-30 21:46:36.034 [http-nio-8080-exec-10] Loader - Result row: EntityKey[edu.matc.entity.Product#7]
+[DEBUG] 2020-11-30 21:46:36.034 [http-nio-8080-exec-10] Loader - Result set row: 7
+[DEBUG] 2020-11-30 21:46:36.034 [http-nio-8080-exec-10] Loader - Result row: EntityKey[edu.matc.entity.Product#8]
+[DEBUG] 2020-11-30 21:46:36.034 [http-nio-8080-exec-10] Loader - Result set row: 8
+[DEBUG] 2020-11-30 21:46:36.035 [http-nio-8080-exec-10] Loader - Result row: EntityKey[edu.matc.entity.Product#9]
+[DEBUG] 2020-11-30 21:46:36.035 [http-nio-8080-exec-10] Loader - Result set row: 9
+[DEBUG] 2020-11-30 21:46:36.035 [http-nio-8080-exec-10] Loader - Result row: EntityKey[edu.matc.entity.Product#10]
+[DEBUG] 2020-11-30 21:46:36.035 [http-nio-8080-exec-10] Loader - Result set row: 10
+[DEBUG] 2020-11-30 21:46:36.035 [http-nio-8080-exec-10] Loader - Result row: EntityKey[edu.matc.entity.Product#11]
+[DEBUG] 2020-11-30 21:46:36.035 [http-nio-8080-exec-10] Loader - Result set row: 11
+[DEBUG] 2020-11-30 21:46:36.035 [http-nio-8080-exec-10] Loader - Result row: EntityKey[edu.matc.entity.Product#12]
+[DEBUG] 2020-11-30 21:46:36.035 [http-nio-8080-exec-10] TwoPhaseLoad - Resolving attributes for [edu.matc.entity.Product#1]
+[DEBUG] 2020-11-30 21:46:36.035 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `customizable` : value = false
+[DEBUG] 2020-11-30 21:46:36.035 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`customizable`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.035 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `description` : value = 2020 Wooden Ornaments with white ribbon
+[DEBUG] 2020-11-30 21:46:36.035 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`description`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.035 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `image` : value = 2020Ornaments.jpg
+[DEBUG] 2020-11-30 21:46:36.035 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.035 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `price` : value = $5
+[DEBUG] 2020-11-30 21:46:36.035 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.035 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `productionCost` : value = $1
+[DEBUG] 2020-11-30 21:46:36.035 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`productionCost`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.035 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `tags` : value = #ornaments
+[DEBUG] 2020-11-30 21:46:36.035 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`tags`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.035 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `title` : value = 2020 Wooden Ornaments
+[DEBUG] 2020-11-30 21:46:36.035 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`title`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.036 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2020-11-30 21:46:36.036 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.036 [http-nio-8080-exec-10] SQL - select user0_.user_id as user_id1_2_0_, user0_.email as email2_2_0_, user0_.first_name as first_na3_2_0_, user0_.last_name as last_nam4_2_0_, user0_.password as password5_2_0_, products1_.user_id as user_id9_0_1_, products1_.item_id as item_id1_0_1_, products1_.item_id as item_id1_0_2_, products1_.customizable as customiz2_0_2_, products1_.description as descript3_0_2_, products1_.image as image4_0_2_, products1_.price as price5_0_2_, products1_.production_cost as producti6_0_2_, products1_.tags as tags7_0_2_, products1_.title as title8_0_2_, products1_.user_id as user_id9_0_2_, roles2_.user_id as user_id4_1_3_, roles2_.id as id1_1_3_, roles2_.id as id1_1_4_, roles2_.email as email2_1_4_, roles2_.role_name as role_nam3_1_4_, roles2_.user_id as user_id4_1_4_ from user user0_ left outer join product products1_ on user0_.user_id=products1_.user_id left outer join role roles2_ on user0_.user_id=roles2_.user_id where user0_.user_id=?
+[DEBUG] 2020-11-30 21:46:36.081 [http-nio-8080-exec-10] ResultSetProcessorImpl - Starting ResultSet row #0
+[DEBUG] 2020-11-30 21:46:36.081 [http-nio-8080-exec-10] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[DEBUG] 2020-11-30 21:46:36.083 [http-nio-8080-exec-10] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.products#1]
+[DEBUG] 2020-11-30 21:46:36.083 [http-nio-8080-exec-10] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.roles#1]
+[DEBUG] 2020-11-30 21:46:36.083 [http-nio-8080-exec-10] ResultSetProcessorImpl - Starting ResultSet row #1
+[DEBUG] 2020-11-30 21:46:36.083 [http-nio-8080-exec-10] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[DEBUG] 2020-11-30 21:46:36.083 [http-nio-8080-exec-10] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.products#1]
+[DEBUG] 2020-11-30 21:46:36.083 [http-nio-8080-exec-10] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.roles#1]
+[DEBUG] 2020-11-30 21:46:36.087 [http-nio-8080-exec-10] ResultSetProcessorImpl - Starting ResultSet row #2
+[DEBUG] 2020-11-30 21:46:36.087 [http-nio-8080-exec-10] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[DEBUG] 2020-11-30 21:46:36.087 [http-nio-8080-exec-10] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.products#1]
+[DEBUG] 2020-11-30 21:46:36.090 [http-nio-8080-exec-10] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.roles#1]
+[DEBUG] 2020-11-30 21:46:36.092 [http-nio-8080-exec-10] ResultSetProcessorImpl - Starting ResultSet row #3
+[DEBUG] 2020-11-30 21:46:36.093 [http-nio-8080-exec-10] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[DEBUG] 2020-11-30 21:46:36.093 [http-nio-8080-exec-10] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.products#1]
+[DEBUG] 2020-11-30 21:46:36.093 [http-nio-8080-exec-10] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.roles#1]
+[DEBUG] 2020-11-30 21:46:36.093 [http-nio-8080-exec-10] ResultSetProcessorImpl - Starting ResultSet row #4
+[DEBUG] 2020-11-30 21:46:36.094 [http-nio-8080-exec-10] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[DEBUG] 2020-11-30 21:46:36.094 [http-nio-8080-exec-10] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.products#1]
+[DEBUG] 2020-11-30 21:46:36.097 [http-nio-8080-exec-10] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.roles#1]
+[DEBUG] 2020-11-30 21:46:36.098 [http-nio-8080-exec-10] ResultSetProcessorImpl - Starting ResultSet row #5
+[DEBUG] 2020-11-30 21:46:36.099 [http-nio-8080-exec-10] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[DEBUG] 2020-11-30 21:46:36.099 [http-nio-8080-exec-10] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.products#1]
+[DEBUG] 2020-11-30 21:46:36.099 [http-nio-8080-exec-10] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.roles#1]
+[DEBUG] 2020-11-30 21:46:36.104 [http-nio-8080-exec-10] ResultSetProcessorImpl - Starting ResultSet row #6
+[DEBUG] 2020-11-30 21:46:36.107 [http-nio-8080-exec-10] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[DEBUG] 2020-11-30 21:46:36.113 [http-nio-8080-exec-10] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.products#1]
+[DEBUG] 2020-11-30 21:46:36.113 [http-nio-8080-exec-10] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.roles#1]
+[DEBUG] 2020-11-30 21:46:36.114 [http-nio-8080-exec-10] ResultSetProcessorImpl - Starting ResultSet row #7
+[DEBUG] 2020-11-30 21:46:36.114 [http-nio-8080-exec-10] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[DEBUG] 2020-11-30 21:46:36.114 [http-nio-8080-exec-10] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.products#1]
+[DEBUG] 2020-11-30 21:46:36.114 [http-nio-8080-exec-10] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.roles#1]
+[DEBUG] 2020-11-30 21:46:36.117 [http-nio-8080-exec-10] ResultSetProcessorImpl - Starting ResultSet row #8
+[DEBUG] 2020-11-30 21:46:36.117 [http-nio-8080-exec-10] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[DEBUG] 2020-11-30 21:46:36.117 [http-nio-8080-exec-10] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.products#1]
+[DEBUG] 2020-11-30 21:46:36.119 [http-nio-8080-exec-10] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.roles#1]
+[DEBUG] 2020-11-30 21:46:36.119 [http-nio-8080-exec-10] ResultSetProcessorImpl - Starting ResultSet row #9
+[DEBUG] 2020-11-30 21:46:36.119 [http-nio-8080-exec-10] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[DEBUG] 2020-11-30 21:46:36.119 [http-nio-8080-exec-10] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.products#1]
+[DEBUG] 2020-11-30 21:46:36.119 [http-nio-8080-exec-10] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.roles#1]
+[DEBUG] 2020-11-30 21:46:36.119 [http-nio-8080-exec-10] ResultSetProcessorImpl - Starting ResultSet row #10
+[DEBUG] 2020-11-30 21:46:36.119 [http-nio-8080-exec-10] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[DEBUG] 2020-11-30 21:46:36.119 [http-nio-8080-exec-10] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.products#1]
+[DEBUG] 2020-11-30 21:46:36.120 [http-nio-8080-exec-10] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.roles#1]
+[DEBUG] 2020-11-30 21:46:36.120 [http-nio-8080-exec-10] ResultSetProcessorImpl - Starting ResultSet row #11
+[DEBUG] 2020-11-30 21:46:36.121 [http-nio-8080-exec-10] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[DEBUG] 2020-11-30 21:46:36.122 [http-nio-8080-exec-10] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.products#1]
+[DEBUG] 2020-11-30 21:46:36.122 [http-nio-8080-exec-10] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.roles#1]
+[DEBUG] 2020-11-30 21:46:36.122 [http-nio-8080-exec-10] TwoPhaseLoad - Resolving attributes for [edu.matc.entity.User#1]
+[DEBUG] 2020-11-30 21:46:36.122 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `email` : value = esajdak@madisoncollege.edu
+[DEBUG] 2020-11-30 21:46:36.123 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.123 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `firstName` : value = Elizabeth
+[DEBUG] 2020-11-30 21:46:36.123 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`firstName`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.123 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `lastName` : value = Sajdak
+[DEBUG] 2020-11-30 21:46:36.123 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`lastName`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.123 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `password` : value = password
+[DEBUG] 2020-11-30 21:46:36.123 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`password`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.123 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `products` : value = NOT NULL COLLECTION
+[DEBUG] 2020-11-30 21:46:36.123 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`products`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.123 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `roles` : value = NOT NULL COLLECTION
+[DEBUG] 2020-11-30 21:46:36.123 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`roles`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.123 [http-nio-8080-exec-10] TwoPhaseLoad - Done materializing entity [edu.matc.entity.User#1]
+[DEBUG] 2020-11-30 21:46:36.123 [http-nio-8080-exec-10] TwoPhaseLoad - Resolving attributes for [edu.matc.entity.Role#1]
+[DEBUG] 2020-11-30 21:46:36.123 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `email` : value = esajdak@madisoncollege.edu
+[DEBUG] 2020-11-30 21:46:36.123 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.123 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `roleName` : value = admin
+[DEBUG] 2020-11-30 21:46:36.123 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`roleName`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.123 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2020-11-30 21:46:36.123 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.123 [http-nio-8080-exec-10] TwoPhaseLoad - Done materializing entity [edu.matc.entity.Role#1]
+[DEBUG] 2020-11-30 21:46:36.123 [http-nio-8080-exec-10] CollectionLoadContext - 1 collections were found in result set for role: edu.matc.entity.User.products
+[DEBUG] 2020-11-30 21:46:36.123 [http-nio-8080-exec-10] CollectionLoadContext - Collection fully initialized: [edu.matc.entity.User.products#1]
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] CollectionLoadContext - 1 collections initialized for role: edu.matc.entity.User.products
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] CollectionLoadContext - 1 collections were found in result set for role: edu.matc.entity.User.roles
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] CollectionLoadContext - Collection fully initialized: [edu.matc.entity.User.roles#1]
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] CollectionLoadContext - 1 collections initialized for role: edu.matc.entity.User.roles
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] AbstractLoadPlanBasedEntityLoader - Done entity load : edu.matc.entity.User#1
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Done materializing entity [edu.matc.entity.Product#1]
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Resolving attributes for [edu.matc.entity.Product#2]
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `customizable` : value = false
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`customizable`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `description` : value = Set of 3 holiday shot glasses perfect for showing your holiday spirit!
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`description`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `image` : value = shotGlasses.jpg
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `price` : value = $10
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `productionCost` : value = $2
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`productionCost`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `tags` : value = #shotglasses
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`tags`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `title` : value = Holiday Shot Glasses
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`title`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Done materializing entity [edu.matc.entity.Product#2]
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Resolving attributes for [edu.matc.entity.Product#3]
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `customizable` : value = true
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`customizable`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `description` : value = Custom Made Shirts
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`description`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `image` : value = customShirts.jpg
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `price` : value = $20
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `productionCost` : value = $8
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`productionCost`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `tags` : value = null
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`tags`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `title` : value = Custom Shirts
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`title`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Done materializing entity [edu.matc.entity.Product#3]
+[DEBUG] 2020-11-30 21:46:36.124 [http-nio-8080-exec-10] TwoPhaseLoad - Resolving attributes for [edu.matc.entity.Product#4]
+[DEBUG] 2020-11-30 21:46:36.125 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `customizable` : value = false
+[DEBUG] 2020-11-30 21:46:36.125 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`customizable`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.125 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `description` : value = Set of 6 scary movie character shot glasses
+[DEBUG] 2020-11-30 21:46:36.125 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`description`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.125 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `image` : value = halloweenShotGlasses.jpg
+[DEBUG] 2020-11-30 21:46:36.125 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.125 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `price` : value = $10
+[DEBUG] 2020-11-30 21:46:36.125 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.125 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `productionCost` : value = $4
+[DEBUG] 2020-11-30 21:46:36.132 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`productionCost`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.132 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `tags` : value = null
+[DEBUG] 2020-11-30 21:46:36.132 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`tags`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.132 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `title` : value = Halloween Shot Glasses
+[DEBUG] 2020-11-30 21:46:36.132 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`title`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.132 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2020-11-30 21:46:36.132 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.133 [http-nio-8080-exec-10] TwoPhaseLoad - Done materializing entity [edu.matc.entity.Product#4]
+[DEBUG] 2020-11-30 21:46:36.133 [http-nio-8080-exec-10] TwoPhaseLoad - Resolving attributes for [edu.matc.entity.Product#5]
+[DEBUG] 2020-11-30 21:46:36.133 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `customizable` : value = false
+[DEBUG] 2020-11-30 21:46:36.133 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`customizable`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.137 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `description` : value = Here for the boos wine glass
+[DEBUG] 2020-11-30 21:46:36.137 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`description`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.137 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `image` : value = halloweenWineGlass.jpg
+[DEBUG] 2020-11-30 21:46:36.137 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.137 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `price` : value = $6
+[DEBUG] 2020-11-30 21:46:36.137 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.137 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `productionCost` : value = $1
+[DEBUG] 2020-11-30 21:46:36.137 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`productionCost`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.137 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `tags` : value = null
+[DEBUG] 2020-11-30 21:46:36.137 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`tags`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.137 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `title` : value = Halloween Wine Glass
+[DEBUG] 2020-11-30 21:46:36.137 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`title`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.137 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2020-11-30 21:46:36.137 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.139 [http-nio-8080-exec-10] TwoPhaseLoad - Done materializing entity [edu.matc.entity.Product#5]
+[DEBUG] 2020-11-30 21:46:36.139 [http-nio-8080-exec-10] TwoPhaseLoad - Resolving attributes for [edu.matc.entity.Product#6]
+[DEBUG] 2020-11-30 21:46:36.139 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `customizable` : value = false
+[DEBUG] 2020-11-30 21:46:36.139 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`customizable`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.139 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `description` : value = Red and black koi fish shirt
+[DEBUG] 2020-11-30 21:46:36.139 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`description`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.139 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `image` : value = koiShirt.jpg
+[DEBUG] 2020-11-30 21:46:36.139 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.139 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `price` : value = $15
+[DEBUG] 2020-11-30 21:46:36.139 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.139 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `productionCost` : value = $5
+[DEBUG] 2020-11-30 21:46:36.139 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`productionCost`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.139 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `tags` : value = null
+[DEBUG] 2020-11-30 21:46:36.139 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`tags`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.139 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `title` : value = Koi Shirt
+[DEBUG] 2020-11-30 21:46:36.139 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`title`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.139 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2020-11-30 21:46:36.139 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.139 [http-nio-8080-exec-10] TwoPhaseLoad - Done materializing entity [edu.matc.entity.Product#6]
+[DEBUG] 2020-11-30 21:46:36.139 [http-nio-8080-exec-10] TwoPhaseLoad - Resolving attributes for [edu.matc.entity.Product#7]
+[DEBUG] 2020-11-30 21:46:36.139 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `customizable` : value = true
+[DEBUG] 2020-11-30 21:46:36.139 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`customizable`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.139 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `description` : value = Custom name ornaments
+[DEBUG] 2020-11-30 21:46:36.140 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`description`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.140 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `image` : value = nameOrnaments.jpg
+[DEBUG] 2020-11-30 21:46:36.140 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.140 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `price` : value = $10
+[DEBUG] 2020-11-30 21:46:36.140 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.140 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `productionCost` : value = $2
+[DEBUG] 2020-11-30 21:46:36.140 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`productionCost`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.140 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `tags` : value = null
+[DEBUG] 2020-11-30 21:46:36.140 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`tags`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.140 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `title` : value = Custom Name Ornaments
+[DEBUG] 2020-11-30 21:46:36.140 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`title`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.140 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2020-11-30 21:46:36.140 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.140 [http-nio-8080-exec-10] TwoPhaseLoad - Done materializing entity [edu.matc.entity.Product#7]
+[DEBUG] 2020-11-30 21:46:36.140 [http-nio-8080-exec-10] TwoPhaseLoad - Resolving attributes for [edu.matc.entity.Product#8]
+[DEBUG] 2020-11-30 21:46:36.147 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `customizable` : value = true
+[DEBUG] 2020-11-30 21:46:36.147 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`customizable`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.147 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `description` : value = Your choice of potholder, you can pick the color as well.
+[DEBUG] 2020-11-30 21:46:36.147 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`description`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.147 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `image` : value = potHolders.jpg
+[DEBUG] 2020-11-30 21:46:36.147 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.147 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `price` : value = $8
+[DEBUG] 2020-11-30 21:46:36.147 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.147 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `productionCost` : value = $2
+[DEBUG] 2020-11-30 21:46:36.147 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`productionCost`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.147 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `tags` : value = null
+[DEBUG] 2020-11-30 21:46:36.147 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`tags`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.147 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `title` : value = Pot Holders
+[DEBUG] 2020-11-30 21:46:36.154 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`title`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.154 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2020-11-30 21:46:36.154 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.157 [http-nio-8080-exec-10] TwoPhaseLoad - Done materializing entity [edu.matc.entity.Product#8]
+[DEBUG] 2020-11-30 21:46:36.157 [http-nio-8080-exec-10] TwoPhaseLoad - Resolving attributes for [edu.matc.entity.Product#9]
+[DEBUG] 2020-11-30 21:46:36.157 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `customizable` : value = true
+[DEBUG] 2020-11-30 21:46:36.160 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`customizable`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.160 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `description` : value = Custom santa buckets.
+[DEBUG] 2020-11-30 21:46:36.160 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`description`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.160 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `image` : value = santaBuckets.jpg
+[DEBUG] 2020-11-30 21:46:36.160 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.160 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `price` : value = $6
+[DEBUG] 2020-11-30 21:46:36.160 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.160 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `productionCost` : value = $2
+[DEBUG] 2020-11-30 21:46:36.160 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`productionCost`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.160 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `tags` : value = null
+[DEBUG] 2020-11-30 21:46:36.160 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`tags`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.160 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `title` : value = Custom Santa Buckets
+[DEBUG] 2020-11-30 21:46:36.160 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`title`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.160 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2020-11-30 21:46:36.160 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.161 [http-nio-8080-exec-10] TwoPhaseLoad - Done materializing entity [edu.matc.entity.Product#9]
+[DEBUG] 2020-11-30 21:46:36.161 [http-nio-8080-exec-10] TwoPhaseLoad - Resolving attributes for [edu.matc.entity.Product#10]
+[DEBUG] 2020-11-30 21:46:36.161 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `customizable` : value = false
+[DEBUG] 2020-11-30 21:46:36.161 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`customizable`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.161 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `description` : value = Set of 6 skull shot glasses
+[DEBUG] 2020-11-30 21:46:36.161 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`description`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.161 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `image` : value = skullShotGlasses.jpg
+[DEBUG] 2020-11-30 21:46:36.161 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.161 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `price` : value = $15
+[DEBUG] 2020-11-30 21:46:36.161 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.161 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `productionCost` : value = $4
+[DEBUG] 2020-11-30 21:46:36.161 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`productionCost`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.161 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `tags` : value = null
+[DEBUG] 2020-11-30 21:46:36.161 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`tags`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.161 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `title` : value = Skull Shot Glasses
+[DEBUG] 2020-11-30 21:46:36.161 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`title`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.161 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2020-11-30 21:46:36.161 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.169 [http-nio-8080-exec-10] TwoPhaseLoad - Done materializing entity [edu.matc.entity.Product#10]
+[DEBUG] 2020-11-30 21:46:36.170 [http-nio-8080-exec-10] TwoPhaseLoad - Resolving attributes for [edu.matc.entity.Product#11]
+[DEBUG] 2020-11-30 21:46:36.170 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `customizable` : value = false
+[DEBUG] 2020-11-30 21:46:36.170 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`customizable`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.170 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `description` : value = Holiday tree tile
+[DEBUG] 2020-11-30 21:46:36.170 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`description`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.170 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `image` : value = treeTile.jpg
+[DEBUG] 2020-11-30 21:46:36.170 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.170 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `price` : value = $12
+[DEBUG] 2020-11-30 21:46:36.170 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.170 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `productionCost` : value = $1
+[DEBUG] 2020-11-30 21:46:36.170 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`productionCost`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.170 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `tags` : value = null
+[DEBUG] 2020-11-30 21:46:36.170 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`tags`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.170 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `title` : value = Holiday Tree Tile
+[DEBUG] 2020-11-30 21:46:36.170 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`title`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.170 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2020-11-30 21:46:36.170 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.170 [http-nio-8080-exec-10] TwoPhaseLoad - Done materializing entity [edu.matc.entity.Product#11]
+[DEBUG] 2020-11-30 21:46:36.170 [http-nio-8080-exec-10] TwoPhaseLoad - Resolving attributes for [edu.matc.entity.Product#12]
+[DEBUG] 2020-11-30 21:46:36.170 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `customizable` : value = true
+[DEBUG] 2020-11-30 21:46:36.170 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`customizable`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.170 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `description` : value = Wisconsin mug with a heart in Madison, can move the heart to any city
+[DEBUG] 2020-11-30 21:46:36.170 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`description`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.170 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `image` : value = wisconsinMug.jpg
+[DEBUG] 2020-11-30 21:46:36.170 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.170 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `price` : value = $8
+[DEBUG] 2020-11-30 21:46:36.170 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.170 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `productionCost` : value = $2
+[DEBUG] 2020-11-30 21:46:36.171 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`productionCost`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.171 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `tags` : value = null
+[DEBUG] 2020-11-30 21:46:36.171 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`tags`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.171 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `title` : value = Wisconsin Mug
+[DEBUG] 2020-11-30 21:46:36.171 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`title`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.171 [http-nio-8080-exec-10] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2020-11-30 21:46:36.171 [http-nio-8080-exec-10] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:46:36.174 [http-nio-8080-exec-10] TwoPhaseLoad - Done materializing entity [edu.matc.entity.Product#12]
+[DEBUG] 2020-11-30 21:46:36.176 [http-nio-8080-exec-10] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2020-11-30 21:47:07.280 [http-nio-8080-exec-5] SQL - select product0_.item_id as item_id1_0_0_, product0_.customizable as customiz2_0_0_, product0_.description as descript3_0_0_, product0_.image as image4_0_0_, product0_.price as price5_0_0_, product0_.production_cost as producti6_0_0_, product0_.tags as tags7_0_0_, product0_.title as title8_0_0_, product0_.user_id as user_id9_0_0_, user1_.user_id as user_id1_2_1_, user1_.email as email2_2_1_, user1_.first_name as first_na3_2_1_, user1_.last_name as last_nam4_2_1_, user1_.password as password5_2_1_, roles2_.user_id as user_id4_1_2_, roles2_.id as id1_1_2_, roles2_.id as id1_1_3_, roles2_.email as email2_1_3_, roles2_.role_name as role_nam3_1_3_, roles2_.user_id as user_id4_1_3_ from product product0_ left outer join user user1_ on product0_.user_id=user1_.user_id left outer join role roles2_ on user1_.user_id=roles2_.user_id where product0_.item_id=?
+[DEBUG] 2020-11-30 21:47:07.409 [http-nio-8080-exec-5] ResultSetProcessorImpl - Starting ResultSet row #0
+[DEBUG] 2020-11-30 21:47:07.412 [http-nio-8080-exec-5] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[DEBUG] 2020-11-30 21:47:07.412 [http-nio-8080-exec-5] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.roles#1]
+[DEBUG] 2020-11-30 21:47:07.421 [http-nio-8080-exec-5] TwoPhaseLoad - Resolving attributes for [edu.matc.entity.Product#2]
+[DEBUG] 2020-11-30 21:47:07.421 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `customizable` : value = false
+[DEBUG] 2020-11-30 21:47:07.423 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`customizable`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.423 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `description` : value = Set of 3 holiday shot glasses perfect for showing your holiday spirit!
+[DEBUG] 2020-11-30 21:47:07.423 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`description`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.427 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `image` : value = shotGlasses.jpg
+[DEBUG] 2020-11-30 21:47:07.429 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.429 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `price` : value = $10
+[DEBUG] 2020-11-30 21:47:07.429 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.429 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `productionCost` : value = $2
+[DEBUG] 2020-11-30 21:47:07.429 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`productionCost`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.429 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `tags` : value = #shotglasses
+[DEBUG] 2020-11-30 21:47:07.429 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`tags`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.429 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `title` : value = Holiday Shot Glasses
+[DEBUG] 2020-11-30 21:47:07.429 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`title`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.429 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2020-11-30 21:47:07.429 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.438 [http-nio-8080-exec-5] TwoPhaseLoad - Done materializing entity [edu.matc.entity.Product#2]
+[DEBUG] 2020-11-30 21:47:07.438 [http-nio-8080-exec-5] TwoPhaseLoad - Resolving attributes for [edu.matc.entity.User#1]
+[DEBUG] 2020-11-30 21:47:07.438 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `email` : value = esajdak@madisoncollege.edu
+[DEBUG] 2020-11-30 21:47:07.438 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.438 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `firstName` : value = Elizabeth
+[DEBUG] 2020-11-30 21:47:07.438 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`firstName`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.438 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `lastName` : value = Sajdak
+[DEBUG] 2020-11-30 21:47:07.438 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`lastName`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.438 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `password` : value = password
+[DEBUG] 2020-11-30 21:47:07.438 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`password`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.438 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `products` : value = NOT NULL COLLECTION
+[DEBUG] 2020-11-30 21:47:07.438 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`products`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.438 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `roles` : value = NOT NULL COLLECTION
+[DEBUG] 2020-11-30 21:47:07.438 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`roles`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.438 [http-nio-8080-exec-5] TwoPhaseLoad - Done materializing entity [edu.matc.entity.User#1]
+[DEBUG] 2020-11-30 21:47:07.439 [http-nio-8080-exec-5] TwoPhaseLoad - Resolving attributes for [edu.matc.entity.Role#1]
+[DEBUG] 2020-11-30 21:47:07.439 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `email` : value = esajdak@madisoncollege.edu
+[DEBUG] 2020-11-30 21:47:07.439 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.439 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `roleName` : value = admin
+[DEBUG] 2020-11-30 21:47:07.439 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`roleName`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.439 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2020-11-30 21:47:07.439 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.445 [http-nio-8080-exec-5] TwoPhaseLoad - Done materializing entity [edu.matc.entity.Role#1]
+[DEBUG] 2020-11-30 21:47:07.445 [http-nio-8080-exec-5] CollectionLoadContext - 1 collections were found in result set for role: edu.matc.entity.User.roles
+[DEBUG] 2020-11-30 21:47:07.445 [http-nio-8080-exec-5] CollectionLoadContext - Collection fully initialized: [edu.matc.entity.User.roles#1]
+[DEBUG] 2020-11-30 21:47:07.445 [http-nio-8080-exec-5] CollectionLoadContext - 1 collections initialized for role: edu.matc.entity.User.roles
+[DEBUG] 2020-11-30 21:47:07.446 [http-nio-8080-exec-5] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-11-30 21:47:07.478 [http-nio-8080-exec-5] AbstractLoadPlanBasedCollectionInitializer - Loading collection: [edu.matc.entity.User.products#1]
+[DEBUG] 2020-11-30 21:47:07.485 [http-nio-8080-exec-5] SQL - select products0_.user_id as user_id9_0_0_, products0_.item_id as item_id1_0_0_, products0_.item_id as item_id1_0_1_, products0_.customizable as customiz2_0_1_, products0_.description as descript3_0_1_, products0_.image as image4_0_1_, products0_.price as price5_0_1_, products0_.production_cost as producti6_0_1_, products0_.tags as tags7_0_1_, products0_.title as title8_0_1_, products0_.user_id as user_id9_0_1_ from product products0_ where products0_.user_id=?
+[DEBUG] 2020-11-30 21:47:07.492 [http-nio-8080-exec-5] ResultSetProcessorImpl - Preparing collection initializer : [edu.matc.entity.User.products#1]
+[DEBUG] 2020-11-30 21:47:07.502 [http-nio-8080-exec-5] ResultSetProcessorImpl - Starting ResultSet row #0
+[DEBUG] 2020-11-30 21:47:07.502 [http-nio-8080-exec-5] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.products#1]
+[DEBUG] 2020-11-30 21:47:07.502 [http-nio-8080-exec-5] ResultSetProcessorImpl - Starting ResultSet row #1
+[DEBUG] 2020-11-30 21:47:07.503 [http-nio-8080-exec-5] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.products#1]
+[DEBUG] 2020-11-30 21:47:07.520 [http-nio-8080-exec-5] ResultSetProcessorImpl - Starting ResultSet row #2
+[DEBUG] 2020-11-30 21:47:07.520 [http-nio-8080-exec-5] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.products#1]
+[DEBUG] 2020-11-30 21:47:07.533 [http-nio-8080-exec-5] ResultSetProcessorImpl - Starting ResultSet row #3
+[DEBUG] 2020-11-30 21:47:07.542 [http-nio-8080-exec-5] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.products#1]
+[DEBUG] 2020-11-30 21:47:07.547 [http-nio-8080-exec-5] ResultSetProcessorImpl - Starting ResultSet row #4
+[DEBUG] 2020-11-30 21:47:07.547 [http-nio-8080-exec-5] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.products#1]
+[DEBUG] 2020-11-30 21:47:07.548 [http-nio-8080-exec-5] ResultSetProcessorImpl - Starting ResultSet row #5
+[DEBUG] 2020-11-30 21:47:07.550 [http-nio-8080-exec-5] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.products#1]
+[DEBUG] 2020-11-30 21:47:07.550 [http-nio-8080-exec-5] ResultSetProcessorImpl - Starting ResultSet row #6
+[DEBUG] 2020-11-30 21:47:07.550 [http-nio-8080-exec-5] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.products#1]
+[DEBUG] 2020-11-30 21:47:07.550 [http-nio-8080-exec-5] ResultSetProcessorImpl - Starting ResultSet row #7
+[DEBUG] 2020-11-30 21:47:07.551 [http-nio-8080-exec-5] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.products#1]
+[DEBUG] 2020-11-30 21:47:07.551 [http-nio-8080-exec-5] ResultSetProcessorImpl - Starting ResultSet row #8
+[DEBUG] 2020-11-30 21:47:07.558 [http-nio-8080-exec-5] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.products#1]
+[DEBUG] 2020-11-30 21:47:07.558 [http-nio-8080-exec-5] ResultSetProcessorImpl - Starting ResultSet row #9
+[DEBUG] 2020-11-30 21:47:07.558 [http-nio-8080-exec-5] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.products#1]
+[DEBUG] 2020-11-30 21:47:07.572 [http-nio-8080-exec-5] ResultSetProcessorImpl - Starting ResultSet row #10
+[DEBUG] 2020-11-30 21:47:07.576 [http-nio-8080-exec-5] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.products#1]
+[DEBUG] 2020-11-30 21:47:07.576 [http-nio-8080-exec-5] ResultSetProcessorImpl - Starting ResultSet row #11
+[DEBUG] 2020-11-30 21:47:07.576 [http-nio-8080-exec-5] CollectionReferenceInitializerImpl - Found row of collection: [edu.matc.entity.User.products#1]
+[DEBUG] 2020-11-30 21:47:07.576 [http-nio-8080-exec-5] TwoPhaseLoad - Resolving attributes for [edu.matc.entity.Product#1]
+[DEBUG] 2020-11-30 21:47:07.576 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `customizable` : value = false
+[DEBUG] 2020-11-30 21:47:07.576 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`customizable`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.576 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `description` : value = 2020 Wooden Ornaments with white ribbon
+[DEBUG] 2020-11-30 21:47:07.576 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`description`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.576 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `image` : value = 2020Ornaments.jpg
+[DEBUG] 2020-11-30 21:47:07.576 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.579 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `price` : value = $5
+[DEBUG] 2020-11-30 21:47:07.579 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.579 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `productionCost` : value = $1
+[DEBUG] 2020-11-30 21:47:07.579 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`productionCost`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.579 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `tags` : value = #ornaments
+[DEBUG] 2020-11-30 21:47:07.580 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`tags`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.580 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `title` : value = 2020 Wooden Ornaments
+[DEBUG] 2020-11-30 21:47:07.580 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`title`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.580 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2020-11-30 21:47:07.580 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.580 [http-nio-8080-exec-5] TwoPhaseLoad - Done materializing entity [edu.matc.entity.Product#1]
+[DEBUG] 2020-11-30 21:47:07.582 [http-nio-8080-exec-5] TwoPhaseLoad - Resolving attributes for [edu.matc.entity.Product#3]
+[DEBUG] 2020-11-30 21:47:07.582 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `customizable` : value = true
+[DEBUG] 2020-11-30 21:47:07.583 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`customizable`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.583 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `description` : value = Custom Made Shirts
+[DEBUG] 2020-11-30 21:47:07.583 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`description`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.583 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `image` : value = customShirts.jpg
+[DEBUG] 2020-11-30 21:47:07.583 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.583 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `price` : value = $20
+[DEBUG] 2020-11-30 21:47:07.583 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.583 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `productionCost` : value = $8
+[DEBUG] 2020-11-30 21:47:07.583 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`productionCost`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.583 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `tags` : value = null
+[DEBUG] 2020-11-30 21:47:07.583 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`tags`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.583 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `title` : value = Custom Shirts
+[DEBUG] 2020-11-30 21:47:07.583 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`title`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.583 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2020-11-30 21:47:07.583 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.583 [http-nio-8080-exec-5] TwoPhaseLoad - Done materializing entity [edu.matc.entity.Product#3]
+[DEBUG] 2020-11-30 21:47:07.583 [http-nio-8080-exec-5] TwoPhaseLoad - Resolving attributes for [edu.matc.entity.Product#4]
+[DEBUG] 2020-11-30 21:47:07.583 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `customizable` : value = false
+[DEBUG] 2020-11-30 21:47:07.583 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`customizable`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.583 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `description` : value = Set of 6 scary movie character shot glasses
+[DEBUG] 2020-11-30 21:47:07.583 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`description`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.583 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `image` : value = halloweenShotGlasses.jpg
+[DEBUG] 2020-11-30 21:47:07.583 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.583 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `price` : value = $10
+[DEBUG] 2020-11-30 21:47:07.583 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.583 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `productionCost` : value = $4
+[DEBUG] 2020-11-30 21:47:07.583 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`productionCost`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.583 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `tags` : value = null
+[DEBUG] 2020-11-30 21:47:07.587 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`tags`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.587 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `title` : value = Halloween Shot Glasses
+[DEBUG] 2020-11-30 21:47:07.587 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`title`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.587 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2020-11-30 21:47:07.587 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.587 [http-nio-8080-exec-5] TwoPhaseLoad - Done materializing entity [edu.matc.entity.Product#4]
+[DEBUG] 2020-11-30 21:47:07.587 [http-nio-8080-exec-5] TwoPhaseLoad - Resolving attributes for [edu.matc.entity.Product#5]
+[DEBUG] 2020-11-30 21:47:07.587 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `customizable` : value = false
+[DEBUG] 2020-11-30 21:47:07.587 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`customizable`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.587 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `description` : value = Here for the boos wine glass
+[DEBUG] 2020-11-30 21:47:07.587 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`description`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.587 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `image` : value = halloweenWineGlass.jpg
+[DEBUG] 2020-11-30 21:47:07.587 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.587 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `price` : value = $6
+[DEBUG] 2020-11-30 21:47:07.587 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.587 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `productionCost` : value = $1
+[DEBUG] 2020-11-30 21:47:07.587 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`productionCost`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.587 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `tags` : value = null
+[DEBUG] 2020-11-30 21:47:07.587 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`tags`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.587 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `title` : value = Halloween Wine Glass
+[DEBUG] 2020-11-30 21:47:07.587 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`title`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.587 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2020-11-30 21:47:07.587 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.587 [http-nio-8080-exec-5] TwoPhaseLoad - Done materializing entity [edu.matc.entity.Product#5]
+[DEBUG] 2020-11-30 21:47:07.587 [http-nio-8080-exec-5] TwoPhaseLoad - Resolving attributes for [edu.matc.entity.Product#6]
+[DEBUG] 2020-11-30 21:47:07.587 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `customizable` : value = false
+[DEBUG] 2020-11-30 21:47:07.588 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`customizable`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.588 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `description` : value = Red and black koi fish shirt
+[DEBUG] 2020-11-30 21:47:07.588 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`description`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.588 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `image` : value = koiShirt.jpg
+[DEBUG] 2020-11-30 21:47:07.588 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.588 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `price` : value = $15
+[DEBUG] 2020-11-30 21:47:07.588 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.588 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `productionCost` : value = $5
+[DEBUG] 2020-11-30 21:47:07.588 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`productionCost`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.588 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `tags` : value = null
+[DEBUG] 2020-11-30 21:47:07.588 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`tags`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.588 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `title` : value = Koi Shirt
+[DEBUG] 2020-11-30 21:47:07.588 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`title`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.588 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2020-11-30 21:47:07.588 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.593 [http-nio-8080-exec-5] TwoPhaseLoad - Done materializing entity [edu.matc.entity.Product#6]
+[DEBUG] 2020-11-30 21:47:07.594 [http-nio-8080-exec-5] TwoPhaseLoad - Resolving attributes for [edu.matc.entity.Product#7]
+[DEBUG] 2020-11-30 21:47:07.594 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `customizable` : value = true
+[DEBUG] 2020-11-30 21:47:07.594 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`customizable`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.594 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `description` : value = Custom name ornaments
+[DEBUG] 2020-11-30 21:47:07.594 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`description`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.594 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `image` : value = nameOrnaments.jpg
+[DEBUG] 2020-11-30 21:47:07.594 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.594 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `price` : value = $10
+[DEBUG] 2020-11-30 21:47:07.594 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.594 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `productionCost` : value = $2
+[DEBUG] 2020-11-30 21:47:07.594 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`productionCost`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.594 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `tags` : value = null
+[DEBUG] 2020-11-30 21:47:07.594 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`tags`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.594 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `title` : value = Custom Name Ornaments
+[DEBUG] 2020-11-30 21:47:07.594 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`title`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.594 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2020-11-30 21:47:07.594 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.594 [http-nio-8080-exec-5] TwoPhaseLoad - Done materializing entity [edu.matc.entity.Product#7]
+[DEBUG] 2020-11-30 21:47:07.594 [http-nio-8080-exec-5] TwoPhaseLoad - Resolving attributes for [edu.matc.entity.Product#8]
+[DEBUG] 2020-11-30 21:47:07.594 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `customizable` : value = true
+[DEBUG] 2020-11-30 21:47:07.594 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`customizable`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.594 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `description` : value = Your choice of potholder, you can pick the color as well.
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`description`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `image` : value = potHolders.jpg
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `price` : value = $8
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `productionCost` : value = $2
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`productionCost`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `tags` : value = null
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`tags`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `title` : value = Pot Holders
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`title`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Done materializing entity [edu.matc.entity.Product#8]
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Resolving attributes for [edu.matc.entity.Product#9]
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `customizable` : value = true
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`customizable`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `description` : value = Custom santa buckets.
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`description`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `image` : value = santaBuckets.jpg
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `price` : value = $6
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `productionCost` : value = $2
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`productionCost`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `tags` : value = null
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`tags`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `title` : value = Custom Santa Buckets
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`title`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Done materializing entity [edu.matc.entity.Product#9]
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Resolving attributes for [edu.matc.entity.Product#10]
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `customizable` : value = false
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`customizable`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `description` : value = Set of 6 skull shot glasses
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`description`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `image` : value = skullShotGlasses.jpg
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `price` : value = $15
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `productionCost` : value = $4
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`productionCost`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `tags` : value = null
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`tags`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `title` : value = Skull Shot Glasses
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`title`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Done materializing entity [edu.matc.entity.Product#10]
+[DEBUG] 2020-11-30 21:47:07.595 [http-nio-8080-exec-5] TwoPhaseLoad - Resolving attributes for [edu.matc.entity.Product#11]
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `customizable` : value = false
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`customizable`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `description` : value = Holiday tree tile
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`description`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `image` : value = treeTile.jpg
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `price` : value = $12
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `productionCost` : value = $1
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`productionCost`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `tags` : value = null
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`tags`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `title` : value = Holiday Tree Tile
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`title`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Done materializing entity [edu.matc.entity.Product#11]
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Resolving attributes for [edu.matc.entity.Product#12]
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `customizable` : value = true
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`customizable`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `description` : value = Wisconsin mug with a heart in Madison, can move the heart to any city
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`description`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `image` : value = wisconsinMug.jpg
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`image`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `price` : value = $8
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`price`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `productionCost` : value = $2
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`productionCost`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `tags` : value = null
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`tags`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `title` : value = Wisconsin Mug
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`title`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Processing attribute `user` : value = 1
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Attribute (`user`)  - enhanced for lazy-loading? - false
+[DEBUG] 2020-11-30 21:47:07.596 [http-nio-8080-exec-5] TwoPhaseLoad - Done materializing entity [edu.matc.entity.Product#12]
+[DEBUG] 2020-11-30 21:47:07.602 [http-nio-8080-exec-5] CollectionLoadContext - 1 collections were found in result set for role: edu.matc.entity.User.products
+[DEBUG] 2020-11-30 21:47:07.603 [http-nio-8080-exec-5] CollectionLoadContext - Collection fully initialized: [edu.matc.entity.User.products#1]
+[DEBUG] 2020-11-30 21:47:07.603 [http-nio-8080-exec-5] CollectionLoadContext - 1 collections initialized for role: edu.matc.entity.User.products
+[DEBUG] 2020-11-30 21:47:07.603 [http-nio-8080-exec-5] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2020-11-30 21:47:07.603 [http-nio-8080-exec-5] AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+[DEBUG] 2020-11-30 21:47:07.603 [http-nio-8080-exec-5] AbstractLoadPlanBasedEntityLoader - Done entity load : edu.matc.entity.Product#2
+[DEBUG] 2020-11-30 21:47:07.606 [http-nio-8080-exec-5] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction

@@ -113,7 +113,7 @@
                             <div class="col-md-3">
                                 <div class="category-item ch-400">
                                     <img id="${product.itemId}" src="productImages/${product.image}" alt="product"/>
-                                    <a class="category-name" href="productDetail/?id=${product.itemId}">
+                                    <a class="category-name" href="productDetail?id=${product.itemId}">
                                         <p>${product.title} ${product.price}</p>
                                     </a>
                                 </div>
