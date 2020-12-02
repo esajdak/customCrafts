@@ -26,9 +26,8 @@
 
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav mr-auto">
-                    <a href="index.jsp" class="nav-item nav-link">Home</a>
+                    <a href="home" class="nav-item nav-link">Home</a>
                     <a href="template/product-list.html" class="nav-item nav-link">Products</a>
-                    <a href="productDetail.jsp" class="nav-item nav-link">Product Detail</a>
                     <a href="template/cart.html" class="nav-item nav-link">Cart</a>
                     <a href="template/checkout.html" class="nav-item nav-link">Checkout</a>
                     <a href="template/my-account.html" class="nav-item nav-link">My Account</a>
@@ -63,7 +62,7 @@
             <div class="col-md-3">
                 <div class="logo">
                     <a href="index.jsp">
-                        <img src="img/logo.png" alt="Logo">
+                        <img src="img/crafts.png" alt="Logo" style="height:212px;width:auto;">
                     </a>
                 </div>
             </div>

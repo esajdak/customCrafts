@@ -92,9 +92,9 @@
                                     <li class="nav-item">
                                         <a class="nav-link active" data-toggle="pill" href="#description">Description</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" data-toggle="pill" href="#specification">Specification</a>
-                                    </li>
+<%--                                    <li class="nav-item">--%>
+<%--                                        <a class="nav-link" data-toggle="pill" href="#specification">Specification</a>--%>
+<%--                                    </li>--%>
                                     <li class="nav-item">
                                         <a class="nav-link" data-toggle="pill" href="#reviews">Reviews (1)</a>
                                     </li>
@@ -107,19 +107,19 @@
                                           ${product.description}
                                         </p>
                                     </div>
-                                    <div id="specification" class="container tab-pane fade">
-                                        <h4>Product specification</h4>
-                                        <ul>
-                                            <li>Lorem ipsum dolor sit amet</li>
-                                            <li>Lorem ipsum dolor sit amet</li>
-                                            <li>Lorem ipsum dolor sit amet</li>
-                                            <li>Lorem ipsum dolor sit amet</li>
-                                            <li>Lorem ipsum dolor sit amet</li>
-                                        </ul>
-                                    </div>
+<%--                                    <div id="specification" class="container tab-pane fade">--%>
+<%--                                        <h4>Product specification</h4>--%>
+<%--                                        <ul>--%>
+<%--                                            <li>Lorem ipsum dolor sit amet</li>--%>
+<%--                                            <li>Lorem ipsum dolor sit amet</li>--%>
+<%--                                            <li>Lorem ipsum dolor sit amet</li>--%>
+<%--                                            <li>Lorem ipsum dolor sit amet</li>--%>
+<%--                                            <li>Lorem ipsum dolor sit amet</li>--%>
+<%--                                        </ul>--%>
+<%--                                    </div>--%>
                                     <div id="reviews" class="container tab-pane fade">
                                         <div class="reviews-submitted">
-                                            <div class="reviewer">Phasellus Gravida - <span>01 Jan 2020</span></div>
+                                            <div class="reviewer">Some Person - <span>01 Nov 2020</span></div>
                                             <div class="ratting">
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
@@ -128,7 +128,7 @@
                                                 <i class="fa fa-star"></i>
                                             </div>
                                             <p>
-                                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                                                This is the greatest product I have ever bought.
                                             </p>
                                         </div>
                                         <div class="reviews-submit">
@@ -418,32 +418,21 @@
                             </div>
                         </div>
                         
-                        <div class="sidebar-widget brands">
-                            <h2 class="title">Our Brands</h2>
-                            <ul>
-                                <li><a href="#">Nulla </a><span>(45)</span></li>
-                                <li><a href="#">Curabitur </a><span>(34)</span></li>
-                                <li><a href="#">Nunc </a><span>(67)</span></li>
-                                <li><a href="#">Ullamcorper</a><span>(74)</span></li>
-                                <li><a href="#">Fusce </a><span>(89)</span></li>
-                                <li><a href="#">Sagittis</a><span>(28)</span></li>
-                            </ul>
-                        </div>
+<%--                        <div class="sidebar-widget brands">--%>
+<%--                            <h2 class="title">Our Brands</h2>--%>
+<%--                            <ul>--%>
+<%--                                <li><a href="#">Nulla </a><span>(45)</span></li>--%>
+<%--                                <li><a href="#">Curabitur </a><span>(34)</span></li>--%>
+<%--                                <li><a href="#">Nunc </a><span>(67)</span></li>--%>
+<%--                                <li><a href="#">Ullamcorper</a><span>(74)</span></li>--%>
+<%--                                <li><a href="#">Fusce </a><span>(89)</span></li>--%>
+<%--                                <li><a href="#">Sagittis</a><span>(28)</span></li>--%>
+<%--                            </ul>--%>
+<%--                        </div>--%>
                         
                         <div class="sidebar-widget tag">
                             <h2 class="title">Tags Cloud</h2>
-                            <a href="#">Lorem ipsum</a>
-                            <a href="#">Vivamus</a>
-                            <a href="#">Phasellus</a>
-                            <a href="#">pulvinar</a>
-                            <a href="#">Curabitur</a>
-                            <a href="#">Fusce</a>
-                            <a href="#">Sem quis</a>
-                            <a href="#">Mollis metus</a>
-                            <a href="#">Sit amet</a>
-                            <a href="#">Vel posuere</a>
-                            <a href="#">orci luctus</a>
-                            <a href="#">Nam lorem</a>
+                            <a href="#">${product.tags}</a>
                         </div>
                     </div>
                     <!-- Side Bar End -->

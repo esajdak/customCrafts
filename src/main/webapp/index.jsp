@@ -5,61 +5,61 @@
     <body>
         <c:import url="nav.jsp"/>
         <!-- Main Slider Start -->
-        <div class="header">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-9">
-                        <nav class="navbar bg-light">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fa fa-home"></i>Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fa fa-shopping-bag"></i>Best Selling</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fa fa-plus-square"></i>New Arrivals</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fa fa-female"></i>Fashion & Beauty</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fa fa-child"></i>Kids & Babies Clothes</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fa fa-tshirt"></i>Men & Women Clothes</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fa fa-mobile-alt"></i>Gadgets & Accessories</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fa fa-microchip"></i>Electronics & Accessories</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
+<%--        <div class="header">--%>
+<%--            <div class="container-fluid">--%>
+<%--                <div class="row">--%>
+<%--                    <div class="col-md-9">--%>
+<%--                        <nav class="navbar bg-light">--%>
+<%--                            <ul class="navbar-nav">--%>
+<%--                                <li class="nav-item">--%>
+<%--                                    <a class="nav-link" href="#"><i class="fa fa-home"></i>Home</a>--%>
+<%--                                </li>--%>
+<%--                                <li class="nav-item">--%>
+<%--                                    <a class="nav-link" href="#"><i class="fa fa-shopping-bag"></i>Best Selling</a>--%>
+<%--                                </li>--%>
+<%--                                <li class="nav-item">--%>
+<%--                                    <a class="nav-link" href="#"><i class="fa fa-plus-square"></i>New Arrivals</a>--%>
+<%--                                </li>--%>
+<%--                                <li class="nav-item">--%>
+<%--                                    <a class="nav-link" href="#"><i class="fa fa-female"></i>Fashion & Beauty</a>--%>
+<%--                                </li>--%>
+<%--                                <li class="nav-item">--%>
+<%--                                    <a class="nav-link" href="#"><i class="fa fa-child"></i>Kids & Babies Clothes</a>--%>
+<%--                                </li>--%>
+<%--                                <li class="nav-item">--%>
+<%--                                    <a class="nav-link" href="#"><i class="fa fa-tshirt"></i>Men & Women Clothes</a>--%>
+<%--                                </li>--%>
+<%--                                <li class="nav-item">--%>
+<%--                                    <a class="nav-link" href="#"><i class="fa fa-mobile-alt"></i>Gadgets & Accessories</a>--%>
+<%--                                </li>--%>
+<%--                                <li class="nav-item">--%>
+<%--                                    <a class="nav-link" href="#"><i class="fa fa-microchip"></i>Electronics & Accessories</a>--%>
+<%--                                </li>--%>
+<%--                            </ul>--%>
+<%--                        </nav>--%>
+<%--                    </div>--%>
 
-                    <div class="col-md-3">
-                        <div class="header-img">
-                            <div class="img-item">
-                                <img src="img/category-1.jpg" />
-                                <a class="img-text" href="">
-                                    <p>Some text goes here that describes the image</p>
-                                </a>
-                            </div>
-                            <div class="img-item">
-                                <img src="img/category-2.jpg" />
-                                <a class="img-text" href="">
-                                    <p>Some text goes here that describes the image</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Main Slider End -->
-        
+<%--                    <div class="col-md-3">--%>
+<%--                        <div class="header-img">--%>
+<%--                            <div class="img-item">--%>
+<%--                                <img src="img/category-1.jpg" />--%>
+<%--                                <a class="img-text" href="">--%>
+<%--                                    <p>Some text goes here that describes the image</p>--%>
+<%--                                </a>--%>
+<%--                            </div>--%>
+<%--                            <div class="img-item">--%>
+<%--                                <img src="img/category-2.jpg" />--%>
+<%--                                <a class="img-text" href="">--%>
+<%--                                    <p>Some text goes here that describes the image</p>--%>
+<%--                                </a>--%>
+<%--                            </div>--%>
+<%--                        </div>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+<%--            </div>--%>
+<%--        </div>--%>
+<%--        <!-- Main Slider End -->--%>
+
         <!-- Feature Start-->
         <div class="feature">
             <div class="container-fluid">
@@ -103,8 +103,8 @@
                 </div>
             </div>
         </div>
-        <!-- Feature End-->      
-        
+        <!-- Feature End-->
+
         <!-- Category Start-->
         <div class="category">
             <div class="container-fluid">
@@ -124,8 +124,8 @@
 
             </div>
         </div>
-        <!-- Category End-->       
-        
+        <!-- Category End-->
+
         <!-- Call to Action Start -->
         <div class="call-to-action">
             <div class="container-fluid">
