@@ -34,20 +34,29 @@ public class ProductDetail extends HttpServlet {
         String id = req.getParameter("id");
         if ((id != "") && (id != null)) {
             int newId = Integer.parseInt(id);
+
             Product productOnPage = (Product)genericDao.getById(newId);
             logger.info("productOnPage" + productOnPage);
 
             req.setAttribute("product", productOnPage);
+
             String productOnPageTags = productOnPage.getTags();
             logger.info("productOnPageTags" + productOnPageTags);
 
             String [] arrOfTags = productOnPageTags.split(" ");
             logger.info("arrOfTags" + arrOfTags);
-            List<Product> relatedProducts = new ArrayList<>();
-            for (String tag: arrOfTags)
-                relatedProducts.add((Product)genericDao.getByPropertyLike("tags", tag));
 
+            List<Product> relatedProducts = new ArrayList<>();
+            for (String tag: arrOfTags) {
+                // todo, trying to add a list to a list
+                List<Product> originalRelatedProducts = new ArrayList<>();
+                originalRelatedProducts = (Product)genericDao.getByPropertyLike("tags", tag);
+
+                relatedProducts.add();
+            }
             logger.info("relatedProducts" + relatedProducts);
+
+            req.setAttribute("relatedProduct", relatedProducts);
 
             RequestDispatcher dispatcher = req.getRequestDispatcher("/productDetail.jsp");
             dispatcher.forward(req, resp);
