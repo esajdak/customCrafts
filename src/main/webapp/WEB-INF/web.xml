@@ -9,7 +9,7 @@
   <login-config>
     <auth-method>FORM</auth-method>
     <form-login-config>
-      <form-login-page>/signIn.jsp</form-login-page>
+      <form-login-page>/signIn</form-login-page>
       <form-error-page>/signInError.jsp</form-error-page>
     </form-login-config>
   </login-config>
@@ -18,7 +18,7 @@
   <security-constraint>
     <web-resource-collection>
       <web-resource-name>users</web-resource-name>
-      <url-pattern>/search.jsp</url-pattern>
+      <url-pattern>/signin</url-pattern>
     </web-resource-collection>
     <auth-constraint>
       <role-name>admin</role-name>

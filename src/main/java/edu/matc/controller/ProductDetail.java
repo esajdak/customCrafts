@@ -41,10 +41,11 @@ public class ProductDetail extends HttpServlet {
             req.setAttribute("product", productOnPage);
 
             String productOnPageTags = productOnPage.getTags();
-            req.setAttribute("productTags", productOnPageTags);
+
             logger.info("productOnPageTags" + productOnPageTags);
 
             String [] arrOfTags = productOnPageTags.split(" ");
+            req.setAttribute("productTags", arrOfTags);
             logger.info("arrOfTags" + arrOfTags);
 
             List<Product> relatedProducts = new ArrayList<>();

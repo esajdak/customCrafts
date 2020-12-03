@@ -35,7 +35,7 @@
                         <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">More Pages</a>
                         <div class="dropdown-menu">
                             <a href="template/wishlist.html" class="dropdown-item">Wishlist</a>
-                            <a href="signIn.jsp" class="dropdown-item active">Login & Register</a>
+                            <a href="signIn" class="dropdown-item active">Login & Register</a>
                             <a href="template/contact.html" class="dropdown-item">Contact Us</a>
                         </div>
                     </div>
@@ -44,7 +44,7 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">User Account</a>
                         <div class="dropdown-menu">
-                            <a href="#" class="dropdown-item">Login</a>
+                            <a href="signIn" class="dropdown-item">Login</a>
                             <a href="#" class="dropdown-item">Register</a>
                         </div>
                     </div>
