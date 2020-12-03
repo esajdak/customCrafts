@@ -39,3 +39,30 @@
 [INFO ] 2020-12-02 17:21:23.138 [http-nio-8080-exec-2] ProductDetail - productOnPageTags#ornaments #christmas
 [INFO ] 2020-12-02 17:21:23.140 [http-nio-8080-exec-2] ProductDetail - arrOfTags[Ljava.lang.String;@7a78cafc
 [DEBUG] 2020-12-02 17:21:23.160 [http-nio-8080-exec-2] GenericDao - Searching for product with tags = #ornaments
+[INFO ] 2020-12-02 17:59:57.985 [http-nio-8080-exec-6] GenericDao - [edu.matc.entity.Product@5e99cc2d, edu.matc.entity.Product@9dfbe818, edu.matc.entity.Product@7d809fd2, edu.matc.entity.Product@6568d06c, edu.matc.entity.Product@4f65308c, edu.matc.entity.Product@c8336d5, edu.matc.entity.Product@49f809fe, edu.matc.entity.Product@759263eb, edu.matc.entity.Product@a22de10b, edu.matc.entity.Product@5bf4c0d9, edu.matc.entity.Product@594ab465, edu.matc.entity.Product@e116ca93]
+[INFO ] 2020-12-02 18:00:06.034 [http-nio-8080-exec-9] GenericDao - [edu.matc.entity.Product@5e99cc2d, edu.matc.entity.Product@9dfbe818, edu.matc.entity.Product@7d809fd2, edu.matc.entity.Product@6568d06c, edu.matc.entity.Product@4f65308c, edu.matc.entity.Product@c8336d5, edu.matc.entity.Product@49f809fe, edu.matc.entity.Product@759263eb, edu.matc.entity.Product@a22de10b, edu.matc.entity.Product@5bf4c0d9, edu.matc.entity.Product@594ab465, edu.matc.entity.Product@e116ca93]
+[INFO ] 2020-12-02 18:14:36.568 [http-nio-8080-exec-9] ProductDetail - productOnPageedu.matc.entity.Product@5e99cc2d
+[INFO ] 2020-12-02 18:26:35.061 [http-nio-8080-exec-6] GenericDao - [edu.matc.entity.Product@5e99cc2d, edu.matc.entity.Product@9dfbe818, edu.matc.entity.Product@7d809fd2, edu.matc.entity.Product@6568d06c, edu.matc.entity.Product@4f65308c, edu.matc.entity.Product@c8336d5, edu.matc.entity.Product@49f809fe, edu.matc.entity.Product@759263eb, edu.matc.entity.Product@a22de10b, edu.matc.entity.Product@5bf4c0d9, edu.matc.entity.Product@594ab465, edu.matc.entity.Product@e116ca93]
+[INFO ] 2020-12-02 18:26:40.694 [http-nio-8080-exec-10] GenericDao - [edu.matc.entity.Product@5e99cc2d, edu.matc.entity.Product@9dfbe818, edu.matc.entity.Product@7d809fd2, edu.matc.entity.Product@6568d06c, edu.matc.entity.Product@4f65308c, edu.matc.entity.Product@c8336d5, edu.matc.entity.Product@49f809fe, edu.matc.entity.Product@759263eb, edu.matc.entity.Product@a22de10b, edu.matc.entity.Product@5bf4c0d9, edu.matc.entity.Product@594ab465, edu.matc.entity.Product@e116ca93]
+[INFO ] 2020-12-02 18:26:50.774 [http-nio-8080-exec-1] ProductDetail - productOnPageedu.matc.entity.Product@5e99cc2d
+[INFO ] 2020-12-02 18:26:50.782 [http-nio-8080-exec-1] ProductDetail - productOnPageTags#ornaments #christmas
+[INFO ] 2020-12-02 18:26:50.790 [http-nio-8080-exec-1] ProductDetail - arrOfTags[Ljava.lang.String;@6e43862d
+[DEBUG] 2020-12-02 18:26:50.833 [http-nio-8080-exec-1] GenericDao - Searching for product with tags = #ornaments
+[DEBUG] 2020-12-02 18:26:51.151 [http-nio-8080-exec-1] GenericDao - Searching for product with tags = #christmas
+[INFO ] 2020-12-02 18:26:51.268 [http-nio-8080-exec-1] ProductDetail - relatedProducts[edu.matc.entity.Product@5e99cc2d, edu.matc.entity.Product@49f809fe, edu.matc.entity.Product@5e99cc2d, edu.matc.entity.Product@49f809fe, edu.matc.entity.Product@759263eb, edu.matc.entity.Product@a22de10b, edu.matc.entity.Product@594ab465]
+[INFO ] 2020-12-02 18:36:23.580 [http-nio-8080-exec-6] GenericDao - [edu.matc.entity.Product@5e99cc2d, edu.matc.entity.Product@9dfbe818, edu.matc.entity.Product@7d809fd2, edu.matc.entity.Product@6568d06c, edu.matc.entity.Product@4f65308c, edu.matc.entity.Product@c8336d5, edu.matc.entity.Product@49f809fe, edu.matc.entity.Product@759263eb, edu.matc.entity.Product@a22de10b, edu.matc.entity.Product@5bf4c0d9, edu.matc.entity.Product@594ab465, edu.matc.entity.Product@e116ca93]
+[INFO ] 2020-12-02 18:36:31.682 [http-nio-8080-exec-10] GenericDao - [edu.matc.entity.Product@5e99cc2d, edu.matc.entity.Product@9dfbe818, edu.matc.entity.Product@7d809fd2, edu.matc.entity.Product@6568d06c, edu.matc.entity.Product@4f65308c, edu.matc.entity.Product@c8336d5, edu.matc.entity.Product@49f809fe, edu.matc.entity.Product@759263eb, edu.matc.entity.Product@a22de10b, edu.matc.entity.Product@5bf4c0d9, edu.matc.entity.Product@594ab465, edu.matc.entity.Product@e116ca93]
+[INFO ] 2020-12-02 18:37:07.406 [http-nio-8080-exec-4] ProductDetail - productOnPageedu.matc.entity.Product@9dfbe818
+[INFO ] 2020-12-02 18:37:07.408 [http-nio-8080-exec-4] ProductDetail - productOnPageTags#shotglasses #glasses #shots
+[INFO ] 2020-12-02 18:37:07.409 [http-nio-8080-exec-4] ProductDetail - arrOfTags[Ljava.lang.String;@196e33cd
+[DEBUG] 2020-12-02 18:37:07.431 [http-nio-8080-exec-4] GenericDao - Searching for product with tags = #shotglasses
+[DEBUG] 2020-12-02 18:37:07.742 [http-nio-8080-exec-4] GenericDao - Searching for product with tags = #glasses
+[DEBUG] 2020-12-02 18:37:07.868 [http-nio-8080-exec-4] GenericDao - Searching for product with tags = #shots
+[INFO ] 2020-12-02 18:37:07.992 [http-nio-8080-exec-4] ProductDetail - relatedProducts[edu.matc.entity.Product@9dfbe818, edu.matc.entity.Product@6568d06c, edu.matc.entity.Product@5bf4c0d9, edu.matc.entity.Product@4f65308c]
+[INFO ] 2020-12-02 18:38:16.427 [http-nio-8080-exec-9] ProductDetail - productOnPageedu.matc.entity.Product@5bf4c0d9
+[INFO ] 2020-12-02 18:38:16.446 [http-nio-8080-exec-9] ProductDetail - productOnPageTags#shotglasses #shots #glasses
+[INFO ] 2020-12-02 18:38:16.447 [http-nio-8080-exec-9] ProductDetail - arrOfTags[Ljava.lang.String;@6acb1e22
+[DEBUG] 2020-12-02 18:38:16.467 [http-nio-8080-exec-9] GenericDao - Searching for product with tags = #shotglasses
+[DEBUG] 2020-12-02 18:38:17.050 [http-nio-8080-exec-9] GenericDao - Searching for product with tags = #shots
+[DEBUG] 2020-12-02 18:38:17.386 [http-nio-8080-exec-9] GenericDao - Searching for product with tags = #glasses
+[INFO ] 2020-12-02 18:38:17.701 [http-nio-8080-exec-9] ProductDetail - relatedProducts[edu.matc.entity.Product@9dfbe818, edu.matc.entity.Product@6568d06c, edu.matc.entity.Product@5bf4c0d9, edu.matc.entity.Product@4f65308c]

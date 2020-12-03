@@ -166,146 +166,36 @@
                             </div>
 
                             <div class="row align-items-center product-slider product-slider-3">
-                                <div class="col-lg-3">
-                                    <div class="product-item">
-                                        <div class="product-title">
-                                            <a href="#">Product Name</a>
-                                            <div class="ratting">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
+                                <c:forEach var="relatedProduct" items="${relatedProducts}">
+                                    <div class="col-lg-3">
+                                        <div class="product-item">
+                                            <div class="product-title">
+                                                <a href="#">${relatedProduct.title}</a>
+                                                <div class="ratting">
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="product-image">
-                                            <a href="productDetail.jsp">
-                                                <img src="template/img/product-10.jpg" alt="Product Image">
-                                            </a>
-                                            <div class="product-action">
-                                                <a href="#"><i class="fa fa-cart-plus"></i></a>
-                                                <a href="#"><i class="fa fa-heart"></i></a>
-                                                <a href="#"><i class="fa fa-search"></i></a>
+                                            <div class="product-image">
+                                                <a href="productDetail?id=${relatedProduct.itemId}">
+                                                    <img src="productImages/${relatedProduct.image}" alt="Product Image">
+                                                </a>
+                                                <div class="product-action">
+                                                    <a href="#"><i class="fa fa-cart-plus"></i></a>
+                                                    <a href="#"><i class="fa fa-heart"></i></a>
+                                                    <a href="#"><i class="fa fa-search"></i></a>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="product-price">
-                                            <h3><span>$</span>99</h3>
-                                            <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
+                                            <div class="product-price">
+                                                <h3>${relatedProduct.price}</h3>
+                                                <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="product-item">
-                                        <div class="product-title">
-                                            <a href="#">Product Name</a>
-                                            <div class="ratting">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </div>
-                                        </div>
-                                        <div class="product-image">
-                                            <a href="productDetail.jsp">
-                                                <img src="template/img/product-8.jpg" alt="Product Image">
-                                            </a>
-                                            <div class="product-action">
-                                                <a href="#"><i class="fa fa-cart-plus"></i></a>
-                                                <a href="#"><i class="fa fa-heart"></i></a>
-                                                <a href="#"><i class="fa fa-search"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="product-price">
-                                            <h3><span>$</span>99</h3>
-                                            <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="product-item">
-                                        <div class="product-title">
-                                            <a href="#">Product Name</a>
-                                            <div class="ratting">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </div>
-                                        </div>
-                                        <div class="product-image">
-                                            <a href="productDetail.jsp">
-                                                <img src="template/img/product-6.jpg" alt="Product Image">
-                                            </a>
-                                            <div class="product-action">
-                                                <a href="#"><i class="fa fa-cart-plus"></i></a>
-                                                <a href="#"><i class="fa fa-heart"></i></a>
-                                                <a href="#"><i class="fa fa-search"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="product-price">
-                                            <h3><span>$</span>99</h3>
-                                            <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="product-item">
-                                        <div class="product-title">
-                                            <a href="#">Product Name</a>
-                                            <div class="ratting">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </div>
-                                        </div>
-                                        <div class="product-image">
-                                            <a href="productDetail.jsp">
-                                                <img src="template/img/product-4.jpg" alt="Product Image">
-                                            </a>
-                                            <div class="product-action">
-                                                <a href="#"><i class="fa fa-cart-plus"></i></a>
-                                                <a href="#"><i class="fa fa-heart"></i></a>
-                                                <a href="#"><i class="fa fa-search"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="product-price">
-                                            <h3><span>$</span>99</h3>
-                                            <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="product-item">
-                                        <div class="product-title">
-                                            <a href="#">Product Name</a>
-                                            <div class="ratting">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </div>
-                                        </div>
-                                        <div class="product-image">
-                                            <a href="productDetail.jsp">
-                                                <img src="template/img/product-2.jpg" alt="Product Image">
-                                            </a>
-                                            <div class="product-action">
-                                                <a href="#"><i class="fa fa-cart-plus"></i></a>
-                                                <a href="#"><i class="fa fa-heart"></i></a>
-                                                <a href="#"><i class="fa fa-search"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="product-price">
-                                            <h3><span>$</span>99</h3>
-                                            <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
-                                        </div>
-                                    </div>
-                                </div>
+                                </c:forEach>
                             </div>
                         </div>
                     </div>
@@ -429,10 +319,12 @@
 <%--                                <li><a href="#">Sagittis</a><span>(28)</span></li>--%>
 <%--                            </ul>--%>
 <%--                        </div>--%>
-                        
+
                         <div class="sidebar-widget tag">
                             <h2 class="title">Tags Cloud</h2>
-                            <a href="#">${product.tags}</a>
+                            <c:forEach var="tag" items="${productTags}">
+                                <a href="#">${tag}</a>
+                            </c:forEach>
                         </div>
                     </div>
                     <!-- Side Bar End -->

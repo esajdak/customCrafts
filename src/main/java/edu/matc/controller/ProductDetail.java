@@ -41,6 +41,7 @@ public class ProductDetail extends HttpServlet {
             req.setAttribute("product", productOnPage);
 
             String productOnPageTags = productOnPage.getTags();
+            req.setAttribute("productTags", productOnPageTags);
             logger.info("productOnPageTags" + productOnPageTags);
 
             String [] arrOfTags = productOnPageTags.split(" ");
@@ -48,15 +49,16 @@ public class ProductDetail extends HttpServlet {
 
             List<Product> relatedProducts = new ArrayList<>();
             for (String tag: arrOfTags) {
-                // todo, trying to add a list to a list
-                List<Product> originalRelatedProducts = new ArrayList<>();
-                originalRelatedProducts = (Product)genericDao.getByPropertyLike("tags", tag);
-
-                relatedProducts.add();
+                List<Product> originalRelatedProducts = genericDao.getByPropertyLike("tags", tag);
+                for (Product relatedProduct: originalRelatedProducts) {
+                    if (!relatedProducts.contains(relatedProduct)) {
+                        relatedProducts.add(relatedProduct);
+                    }
+                }
             }
             logger.info("relatedProducts" + relatedProducts);
 
-            req.setAttribute("relatedProduct", relatedProducts);
+            req.setAttribute("relatedProducts", relatedProducts);
 
             RequestDispatcher dispatcher = req.getRequestDispatcher("/productDetail.jsp");
             dispatcher.forward(req, resp);
