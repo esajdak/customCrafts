@@ -1,5 +1,7 @@
 package edu.matc.controller;
 
+import edu.matc.entity.User;
+import edu.matc.persistence.GenericDao;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -10,6 +12,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.List;
 
 @WebServlet(
         urlPatterns = {"/signIn"}
@@ -19,14 +22,24 @@ import java.io.IOException;
 
 public class SignIn extends HttpServlet {
     private final Logger logger = LogManager.getLogger(this.getClass());
+    private GenericDao genericDao = new GenericDao(User.class);
+
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response)
         throws ServletException, IOException {
         logger.info("The logged in user: " + request.getRemoteUser() + " has role of : " + request.isUserInRole("admin"));
-//        <c:if test="${pageContext.request.isUserInRole('admin)}">
-//            only admin will see what's here/ this goes on some jsp that you want to forward to
-//        </c:if>
-        String url = "/index.jsp";
+
+        String currentUserEmail = request.getRemoteUser();
+        List<User> currentUserList = genericDao.getByPropertyEqual("email", currentUserEmail);
+        logger.info("currentUserList " + currentUserList);
+        for (User thisUser: currentUserList) {
+            User currentUser = thisUser;
+            logger.info("User being sent " + currentUser);
+            request.setAttribute("currentUser", currentUser);
+        }
+
+
+        String url = "/myAccount.jsp";
 
         RequestDispatcher dispatcher = request.getRequestDispatcher(url);
         dispatcher.forward(request, response);

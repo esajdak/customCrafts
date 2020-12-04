@@ -30,7 +30,7 @@
                     <a href="template/product-list.html" class="nav-item nav-link">Products</a>
                     <a href="template/cart.html" class="nav-item nav-link">Cart</a>
                     <a href="template/checkout.html" class="nav-item nav-link">Checkout</a>
-                    <a href="template/my-account.html" class="nav-item nav-link">My Account</a>
+                    <a href="myAccount" class="nav-item nav-link">My Account</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">More Pages</a>
                         <div class="dropdown-menu">
@@ -88,3 +88,4 @@
     </div>
 </div>
 <!-- Bottom Bar End -->
+

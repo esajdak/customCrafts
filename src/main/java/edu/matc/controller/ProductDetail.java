@@ -32,6 +32,7 @@ public class ProductDetail extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         GenericDao genericDao = new GenericDao(Product.class);
         String id = req.getParameter("id");
+//         TODO split into separate methods
         if ((id != "") && (id != null)) {
             int newId = Integer.parseInt(id);
 
