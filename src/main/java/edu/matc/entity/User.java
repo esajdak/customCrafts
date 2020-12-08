@@ -40,6 +40,9 @@ public class User {
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     @ToString.Exclude @EqualsAndHashCode.Exclude private Set<Role> roles = new HashSet<>();
 
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    @ToString.Exclude @EqualsAndHashCode.Exclude private Set<WholeOrder> orders = new HashSet<>();
+
     /**
      * Instantiates a new User.
      *

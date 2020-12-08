@@ -3,7 +3,9 @@ package edu.matc.entity;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import java.util.HashSet;
 import java.util.Objects;
+import java.util.Set;
 
 /**
  * A class to represent a product.
@@ -35,6 +37,9 @@ public class Product {
     @GenericGenerator(name = "native",strategy = "native")
     @Column(name = "item_id")
     private int itemId;
+
+    @OneToMany(mappedBy = "item_id", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    private Set<OrderItem> orderItems = new HashSet<>();
 
     /**
      * Instantiates a new Product.
@@ -251,6 +256,26 @@ public class Product {
     @Override
     public int hashCode() {
         return Objects.hash(title, price, image, description, tags, productionCost, user, customizable, itemId);
+    }
+
+    /**
+     * Add orderItem.
+     *
+     * @param orderItem the orderItem
+     */
+    public void addOrderItem(OrderItem orderItem) {
+        orderItems.add(orderItem);
+        orderItem.setProduct(this);
+    }
+
+    /**
+     * Remove orderItem.
+     *
+     * @param orderItem the orderItem
+     */
+    public void removeOrderItem(OrderItem orderItem) {
+        orderItems.remove(orderItem);
+        orderItem.setProduct(null);
     }
 
 
