@@ -30,7 +30,7 @@ class ProductDaoTest {
     @Test
     void getAllItemsSuccess() {
         List<Product> products = genericDao.getAll();
-        assertEquals(2, products.size());
+        assertEquals(12, products.size());
     }
 
     /**
@@ -40,7 +40,7 @@ class ProductDaoTest {
     void getByIdSuccess() {
         Product retrievedProduct = (Product)genericDao.getById(1);
         assertNotNull(retrievedProduct);
-        assertEquals("Product 1", retrievedProduct.getTitle());
+        assertEquals("2020 Wooden Ornaments", retrievedProduct.getTitle());
     }
 
     /**
@@ -87,9 +87,9 @@ class ProductDaoTest {
      */
     @Test
     void getByPropertyEqualSuccess() {
-        List<Product> products = genericDao.getByPropertyEqual("title", "Product 1");
+        List<Product> products = genericDao.getByPropertyEqual("title", "Custom Shirts");
         assertEquals(1, products.size());
-        assertEquals(1, products.get(0).getItemId());
+        assertEquals(3, products.get(0).getItemId());
     }
 
     /**
@@ -97,8 +97,8 @@ class ProductDaoTest {
      */
     @Test
     void getByPropertyLikeSuccess() {
-        List<Product> products = genericDao.getByPropertyLike("title", "p");
-        assertEquals(2, products.size());
+        List<Product> products = genericDao.getByPropertyLike("title", "Glass");
+        assertEquals(4, products.size());
     }
 
     @Test

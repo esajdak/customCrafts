@@ -8,7 +8,7 @@
                     <div class="contact-info">
                         <p><i class="fa fa-map-marker"></i>123 E Store, Los Angeles, USA</p>
                         <p><i class="fa fa-envelope"></i>esajdak@madisoncollege.edu</p>
-                        <p><i class="fa fa-phone"></i>+608-000-9999/p>
+                        <p><i class="fa fa-phone"></i>+608-000-9999</p>
                     </div>
                 </div>
             </div>

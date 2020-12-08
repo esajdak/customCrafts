@@ -38,7 +38,7 @@ public class Product {
     @Column(name = "item_id")
     private int itemId;
 
-    @OneToMany(mappedBy = "item_id", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "product", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<OrderItem> orderItems = new HashSet<>();
 
     /**
