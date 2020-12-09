@@ -34,3 +34,15 @@
 [ERROR] 2020-12-08 17:40:17.849 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
 [ERROR] 2020-12-08 17:40:18.105 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
 [ERROR] 2020-12-08 17:40:18.489 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-08 17:46:34.624 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-08 17:47:27.613 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-08 17:47:57.582 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[INFO ] 2020-12-08 17:48:06.279 [main] GenericDao - [WholeOrder(user=User(firstName=Elizabeth, lastName=Sajdak, email=esajdak@madisoncollege.edu, password=password, userId=1), orderNumber=1)]
+[ERROR] 2020-12-08 18:55:48.158 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-08 18:56:27.909 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-08 19:01:02.030 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-08 19:06:09.182 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-08 19:21:42.951 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-08 19:38:03.465 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-08 19:43:22.488 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-08 19:44:34.191 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1

@@ -97,4 +97,24 @@ public class User {
         roles.remove(role);
         role.setUser(null);
     }
+
+    /**
+     * Add wholeOrder.
+     *
+     * @param wholeOrder the wholeOrder
+     */
+    public void addWholeOrder(WholeOrder wholeOrder) {
+        orders.add(wholeOrder);
+        wholeOrder.setUser(this);
+    }
+
+    /**
+     * Remove wholeOrder.
+     *
+     * @param wholeOrder the wholeOrder
+     */
+    public void removeWholeOrder(WholeOrder wholeOrder) {
+        orders.remove(wholeOrder);
+        wholeOrder.setUser(null);
+    }
 }

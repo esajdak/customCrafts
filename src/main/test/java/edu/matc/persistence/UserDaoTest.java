@@ -53,81 +53,68 @@ class UserDaoTest {
         int id = genericDao.insert(newUser);
         assertNotEquals(0,id);
         User insertedUser = (User)genericDao.getById(id);
-        assertEquals(newUser, insertedUser);
-        // Could continue comparing all values, but
-        // it may make sense to use .equals()
-        // TODO review .equals recommendations http://docs.jboss.org/hibernate/orm/5.2/userguide/html_single/Hibernate_User_Guide.html#mapping-model-pojo-equalshashcode
+        assertTrue(newUser.equals(insertedUser));
     }
 
     /**
      * Verify successful insert of a user
      * todo test remove too
      */
-//    @Test
-//    void removeWithProductSuccess() {
-//
-//        User newUser = new User("John", "Doe", "jdd@yahoo.com", "password");
-//        ProductDao productDao = new ProductDao();
-//        Product productToRemove = productDao.getProductById(1);
-//
-//        String productDescription = "Product 1";
-//        String image = "Image 1";
-//        String tags = "#FirstProduct";
-//        String productionCost = "2.00";
-//        String price = "15.00";
-//        int customizable = 1;
-//        String title = "First Product";
-//
-//        Product product = new Product(productDescription, newUser, image, tags, productionCost, price, customizable, title);
-//
-//        newUser.removeProduct(productToRemove);
-//
-//
-//        int id = dao.insert(newUser);
-//
-//        assertNotEquals(0,id);
-//        User insertedUser = dao.getUserById(id);
-//        assertNull(productToRemove.getUserId);
-//        assertEquals("John", insertedUser.getFirstName());
-//        assertEquals(1, insertedUser.getProducts().size());
-//         Could continue comparing all values, but
-//         it may make sense to use .equals()
-//         TODO review .equals recommendations http://docs.jboss.org/hibernate/orm/5.2/userguide/html_single/Hibernate_User_Guide.html#mapping-model-pojo-equalshashcode
-//    }
+    @Test
+    void removeWithProductSuccess() {
+        GenericDao productDao = new GenericDao(Product.class);
+        User newUser = new User("John", "Doe", "jdd@yahoo.com", "password");
+        Product productToRemove = (Product)productDao.getById(1);
+
+        String productDescription = "Product 1";
+        String image = "Image 1";
+        String tags = "#FirstProduct";
+        String productionCost = "2.00";
+        String price = "15.00";
+        int customizable = 1;
+        String title = "First Product";
+
+        Product product = new Product(productDescription, newUser, image, tags, productionCost, price, customizable, title);
+
+        newUser.removeProduct(productToRemove);
+
+        int id = genericDao.insert(newUser);
+
+        assertNotEquals(0,id);
+        User insertedUser = (User)genericDao.getById(id);
+        assertNull(productToRemove.getUser());
+        assertTrue(newUser.equals(insertedUser));
+        assertEquals(0, insertedUser.getProducts().size());
+    }
 
     /**
      * Verify successful insert of a user
      * todo test remove too
      */
-//    @Test
-//    void insertWithProductSuccess() {
-//
-//        User newUser = new User("John", "Doe", "jdd@yahoo.com", "password");
-//
-//
-//        String productDescription = "Product 1";
-//        String image = "Image 1";
-//        String tags = "#FirstProduct";
-//        String productionCost = "2.00";
-//        String price = "15.00";
-//        int customizable = 1;
-//        String title = "First Product";
-//
-//        Product product = new Product(productDescription, newUser, image, tags, productionCost, price, customizable, title);
-//
-//        newUser.addProduct(product);
-//
-//
-//        int id = dao.insert(newUser);
-//
-//        assertNotEquals(0,id);
-//        User insertedUser = dao.getUserById(id);
-//        assertEquals(newUser, insertedUser);
-//        assertEquals(1, insertedUser.getProducts().size());
-//        // Could continue comparing all values, but
-//        // it may make sense to use .equals()
-//        // TODO review .equals recommendations http://docs.jboss.org/hibernate/orm/5.2/userguide/html_single/Hibernate_User_Guide.html#mapping-model-pojo-equalshashcode
-//    }
+    @Test
+    void insertWithProductSuccess() {
+
+        User newUser = new User("John", "Doe", "jdd@yahoo.com", "password");
+
+        String productDescription = "Product 1";
+        String image = "Image 1";
+        String tags = "#FirstProduct";
+        String productionCost = "2.00";
+        String price = "15.00";
+        int customizable = 1;
+        String title = "First Product";
+
+        Product product = new Product(productDescription, newUser, image, tags, productionCost, price, customizable, title);
+
+        newUser.addProduct(product);
+
+        int id = genericDao.insert(newUser);
+
+        assertNotEquals(0,id);
+        User insertedUser = (User)genericDao.getById(id);
+        assertEquals(newUser, insertedUser);
+        assertEquals(1, insertedUser.getProducts().size());
+    }
 
 
     /**
