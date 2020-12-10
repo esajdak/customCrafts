@@ -65,8 +65,8 @@ public class ProductDetail extends HttpServlet {
             RequestDispatcher dispatcher = req.getRequestDispatcher("/productDetail.jsp");
             dispatcher.forward(req, resp);
         } else {
-            req.setAttribute("products", genericDao.getAll());
-            RequestDispatcher dispatcher = req.getRequestDispatcher("/index.jsp");
+
+            RequestDispatcher dispatcher = req.getRequestDispatcher("/home");
             dispatcher.forward(req, resp);
         }
 

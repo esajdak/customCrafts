@@ -73,6 +73,7 @@ public class GenericDao<T> {
      * @param entity  entity to be inserted or updated
      */
     public int insert(T entity) {
+        //todo check if unique constrait violated, send id=0 if so
         int id = 0;
         Session session = getSession();
         Transaction transaction = session.beginTransaction();
