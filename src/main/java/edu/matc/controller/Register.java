@@ -1,6 +1,7 @@
 package edu.matc.controller;
 
 import edu.matc.entity.Product;
+import edu.matc.entity.Role;
 import edu.matc.entity.User;
 import edu.matc.persistence.GenericDao;
 
@@ -53,6 +54,9 @@ public class Register extends HttpServlet {
         newUser.setLastName(lastName);
         newUser.setEmail(email);
         newUser.setPassword(password);
+        Role role = new Role();
+        role.setRoleName("all");
+        newUser.addRole(role);
 
         GenericDao userDao = new GenericDao(User.class);
         int id = userDao.insert(newUser);

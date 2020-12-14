@@ -21,11 +21,11 @@
       <url-pattern>/signIn</url-pattern>
     </web-resource-collection>
     <auth-constraint>
-      <role-name>admin</role-name>
+      <role-name>all</role-name>
     </auth-constraint>
   </security-constraint>
 
   <security-role>
-    <role-name>admin</role-name>
+    <role-name>all</role-name>
   </security-role>
 </web-app>

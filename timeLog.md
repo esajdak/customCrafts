@@ -55,4 +55,20 @@ making sure all types of requests worked, debugging things that weren't working,
 
 11/18:
 * 1 hour, final deploy to AWS, double check that everything's working- finishing touches.
+## Week 13 ##
+I forgot to log what I did this week..
+## Week 14 ##
+12.5 hours total:  
+Work completed:  
+- Peer review (1.5h)
+I didn't log exactly what I completed in the time I spent working on the indie project, but I began
+working on templating my jsp pages from an html template online. Starting working on the index page and getting
+data from the database to display on the page. Set up the product details page to grab whichever product information
+from the product that was click on to display all details, and to grab similar tags to display like products on the bottom.
+## Week 15 ##
+7 hours:
+Continued to work on templating jsp pages, doing them as I need when connecting how pages are interacting.
+Set up log in page and sign up page, got new users to show up in the database. Realized I may need to do some extra work to 
+keep a user logged in/continue displaying their personal information where needed. 
+## Week 16 ##
 

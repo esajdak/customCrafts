@@ -39,7 +39,7 @@ public class SignIn extends HttpServlet {
         }
 
 
-        String url = "/myAccount.jsp";
+        String url = "/myAccount";
 
         RequestDispatcher dispatcher = request.getRequestDispatcher(url);
         dispatcher.forward(request, response);
