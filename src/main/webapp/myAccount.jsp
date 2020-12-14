@@ -30,7 +30,7 @@
                             <a class="nav-link" id="payment-nav" data-toggle="pill" href="#payment-tab" role="tab"><i class="fa fa-credit-card"></i>Payment Method</a>
                             <a class="nav-link" id="address-nav" data-toggle="pill" href="#address-tab" role="tab"><i class="fa fa-map-marker-alt"></i>address</a>
                             <a class="nav-link" id="account-nav" data-toggle="pill" href="#account-tab" role="tab"><i class="fa fa-user"></i>Account Details</a>
-                            <a class="nav-link" href="index.jsp"><i class="fa fa-sign-out-alt"></i>Logout</a>
+                            <a class="nav-link" href="home"><i class="fa fa-sign-out-alt"></i>Logout</a>
                         </div>
                     </div>
                     <div class="col-md-9">
@@ -39,46 +39,31 @@
                                 <h4>${currentUser.firstName}'s Account</h4>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. In condimentum quam ac mi viverra dictum. In efficitur ipsum diam, at dignissim lorem tempor in. Vivamus tempor hendrerit finibus. Nulla tristique viverra nisl, sit amet bibendum ante suscipit non. Praesent in faucibus tellus, sed gravida lacus. Vivamus eu diam eros. Aliquam et sapien eget arcu rhoncus scelerisque.
-                                </p> 
+                                </p>
+
                             </div>
                             <div class="tab-pane fade" id="orders-tab" role="tabpanel" aria-labelledby="orders-nav">
                                 <div class="table-responsive">
                                     <table class="table table-bordered">
                                         <thead class="thead-dark">
-                                            <tr>
-                                                <th>No</th>
-                                                <th>Product</th>
-                                                <th>Date</th>
-                                                <th>Price</th>
-                                                <th>Status</th>
-                                                <th>Action</th>
-                                            </tr>
+                                        <tr>
+                                            <th>Order Number</th>
+                                            <th>Item</th>
+                                            <th>Quantity</th>
+                                            <th>Price</th>
+                                        </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>Product Name</td>
-                                                <td>01 Jan 2020</td>
-                                                <td>$99</td>
-                                                <td>Approved</td>
-                                                <td><button class="btn">View</button></td>
-                                            </tr>
-                                            <tr>
-                                                <td>2</td>
-                                                <td>Product Name</td>
-                                                <td>01 Jan 2020</td>
-                                                <td>$99</td>
-                                                <td>Approved</td>
-                                                <td><button class="btn">View</button></td>
-                                            </tr>
-                                            <tr>
-                                                <td>3</td>
-                                                <td>Product Name</td>
-                                                <td>01 Jan 2020</td>
-                                                <td>$99</td>
-                                                <td>Approved</td>
-                                                <td><button class="btn">View</button></td>
-                                            </tr>
+                                        <c:forEach var="order" items="${currentUser.orders}">
+                                            <c:forEach var="orderItem" items="${order.orderItems}">
+                                                <tr>
+                                                    <td>${order.orderNumber}</td>
+                                                    <td>${orderItem.product.title}</td>
+                                                    <td>${orderItem.quantity}</td>
+                                                    <td>${orderItem.product.price * orderItem.quantity}</td>
+                                                </tr>
+                                            </c:forEach>
+                                        </c:forEach>
                                         </tbody>
                                     </table>
                                 </div>

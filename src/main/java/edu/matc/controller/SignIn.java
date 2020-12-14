@@ -29,19 +29,10 @@ public class SignIn extends HttpServlet {
         throws ServletException, IOException {
         logger.info("The logged in user: " + request.getRemoteUser() + " has role of : " + request.isUserInRole("admin"));
 
-        String currentUserEmail = request.getRemoteUser();
-        List<User> currentUserList = genericDao.getByPropertyEqual("email", currentUserEmail);
-        logger.info("currentUserList " + currentUserList);
-        for (User thisUser: currentUserList) {
-            User currentUser = thisUser;
-            logger.info("User being sent " + currentUser);
-            request.setAttribute("currentUser", currentUser);
-        }
 
-
-        String url = "/myAccount";
-
-        RequestDispatcher dispatcher = request.getRequestDispatcher(url);
-        dispatcher.forward(request, response);
+//        String url = "/myAccount";
+        response.sendRedirect(request.getContextPath() + "/myAccount");
+//        RequestDispatcher dispatcher = request.getRequestDispatcher(url);
+//        dispatcher.forward(request, response);
     }
 }
