@@ -25,10 +25,10 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-3">
-                        <div aria-orientation="vertical">
-                            <a id="dashboard-nav" tabToShow="dashboard-tab" aria-controls="v-pills-home" ><i class="fa fa-tachometer-alt"></i>Dashboard</a>
-                            <a id="orders-nav" tabToShow="orders-tab" aria-controls="v-pills-profile" ><i class="fa fa-shopping-bag"></i>Orders</a>
-                            <a id="products-nav" tabToShow="products-tab" aria-controls="v-pills-messages"><i class="fa fa-paint-brush"></i>Products</a>
+                        <div class="btn-group-vertical">
+                            <button id="dashboard-nav" tabToShow="dashboard-tab"><i class="fa fa-tachometer-alt"></i>Dashboard</button>
+                            <button id="orders-nav" tabToShow="orders-tab"><i class="fa fa-shopping-bag"></i>Orders</button>
+                            <button id="products-nav" tabToShow="products-tab"><i class="fa fa-paint-brush"></i>Products</button>
                         </div>
                     </div>
                     <div class="col-md-9">
@@ -39,7 +39,7 @@
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. In condimentum quam ac mi viverra dictum. In efficitur ipsum diam, at dignissim lorem tempor in. Vivamus tempor hendrerit finibus. Nulla tristique viverra nisl, sit amet bibendum ante suscipit non. Praesent in faucibus tellus, sed gravida lacus. Vivamus eu diam eros. Aliquam et sapien eget arcu rhoncus scelerisque.
                                 </p>
                             </div>
-                            <div id="orders-tab" aria-labelledby="orders-nav">
+                            <div id="orders-tab" aria-labelledby="orders-nav" style="display:none;">
                                 <div class="table-responsive">
                                     <table class="table table-bordered">
                                         <thead class="thead-dark">
@@ -65,7 +65,7 @@
                                     </table>
                                 </div>
                             </div>
-                            <div id="products-tab" aria-labelledby="products-nav">
+                            <div id="products-tab" aria-labelledby="products-nav" style="display:none;">
                                 <div class="table-responsive">
                                     <table class="table table-bordered">
                                         <thead class="thead-dark">
@@ -77,6 +77,7 @@
                                             <th>Price</th>
                                             <th>Production Cost</th>
                                             <th>Customizable</th>
+                                            <th>Edit/Delete</th>
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -89,6 +90,7 @@
                                                 <td>${product.price}</td>
                                                 <td>${product.productionCost}</td>
                                                 <td>${product.customizable}</td>
+                                                <td><button></button></td>
                                             </tr>
                                         </c:forEach>
                                         </tbody>
