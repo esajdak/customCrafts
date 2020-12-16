@@ -75,12 +75,12 @@ class WholeOrderDaoTest {
     /**
      * Verify successful get by property (equal match)
      */
-    @Test
-    void getByPropertyEqualSuccess() {
-        List<WholeOrder> orders = genericDao.getByPropertyEqual("user", "1");
-        assertEquals(1, orders.size());
-        assertEquals(1, orders.get(0).getOrderNumber());
-    }
+//    @Test
+//    void getByPropertyEqualSuccess() {
+//        List<WholeOrder> orders = genericDao.getByPropertyEqual("user", "1");
+//        assertEquals(1, orders.size());
+//        assertEquals(1, orders.get(0).getOrderNumber());
+//    }
 
     @Test
     void updateSuccess() {

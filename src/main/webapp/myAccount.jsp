@@ -90,7 +90,13 @@
                                                 <td>${product.price}</td>
                                                 <td>${product.productionCost}</td>
                                                 <td>${product.customizable}</td>
-                                                <td><button></button></td>
+                                                <td>
+                                                    <form action="editProduct" method="post">
+                                                        <input type="hidden" id="productId" name="productId" value=${product.itemId}>
+                                                        <input type="submit" name="button" value="Edit">
+                                                        <input type="submit" name="button" value="Delete">
+                                                    </form>
+                                                </td>
                                             </tr>
                                         </c:forEach>
                                         </tbody>

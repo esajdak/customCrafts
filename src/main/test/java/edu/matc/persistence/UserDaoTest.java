@@ -1,12 +1,14 @@
 package edu.matc.persistence;
 
 import edu.matc.entity.Product;
+import edu.matc.entity.Role;
 import edu.matc.entity.User;
 import edu.matc.test.util.Database;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
+import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -114,6 +116,20 @@ class UserDaoTest {
         User insertedUser = (User)genericDao.getById(id);
         assertEquals(newUser, insertedUser);
         assertEquals(1, insertedUser.getProducts().size());
+    }
+
+    @Test
+    void insertWithRoleSuccess() {
+        User newUser = new User("John", "Doe", "jdd@yahoo.com", "password");
+        int id = genericDao.insert(newUser);
+        Role role = new Role();
+        role.setRoleName("all");
+        newUser.addRole(role);
+        Set<Role> newRole = newUser.getRoles();
+        assertNotEquals(0, newRole);
+        assertNotEquals(0,id);
+        User insertedUser = (User)genericDao.getById(id);
+        assertTrue(newUser.equals(insertedUser));
     }
 
 

@@ -28,35 +28,13 @@ import java.util.Set;
 public class UserPage extends HttpServlet {
     private final Logger logger = LogManager.getLogger(this.getClass());
     private GenericDao userDao = new GenericDao(User.class);
-//    private GenericDao orderDao = new GenericDao(WholeOrder.class);
-//    private GenericDao orderItemDao = new GenericDao(OrderItem.class);
-
-    //    getOrdersForUser();
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         String userEmail = request.getRemoteUser();
         User currentUser = getCurrentUser(userEmail);
 
-//        List<WholeOrder> ordersForUser = getUsersOrders(userEmail);
-//        List<OrderItem> orderItemsPerOrder = getAllOrderItemsPerOrder(ordersForUser);
-
-//        request.setAttribute("orders", ordersForUser);
         request.setAttribute("currentUser", currentUser);
-//        request.setAttribute("orderItems", orderItemsPerOrder);
-
-//        for (WholeOrder order: ordersForUser) {
-//            for (OrderItem orderItem: orderItemsPerOrder) {
-//                WholeOrder tryThis = orderItem.getWholeOrder();
-//                int tryThisInt = tryThis.getOrderNumber();
-//                if (order.getOrderNumber() == tryThisInt) {
-////                    logger.info(order.getOrderNumber());
-////                    logger.info(orderItem.getProduct());
-////                    logger.info(orderItem.getQuantity());
-//                }
-//            }
-//        }
-//        for ()
 
         logger.info("The logged in user: " + request.getRemoteUser() + " has role of : " + request.isUserInRole("admin"));
 
@@ -82,27 +60,4 @@ public class UserPage extends HttpServlet {
         return currentUser;
     }
 
-//    protected List<WholeOrder> getUsersOrders(String userEmail) {
-//        List<User> currentUserList = userDao.getByPropertyEqual("email", userEmail);
-//        int userId = 0;
-//        for (User currentUser: currentUserList) {
-//            userId = currentUser.getUserId();
-//        }
-//        List<WholeOrder> ordersForUser = orderDao.getByForeignKey("user", userId);
-//        return ordersForUser;
-//    }
-//
-//    protected List<OrderItem> getAllOrderItemsPerOrder(List<WholeOrder> ordersForUser) {
-//        List<OrderItem> itemsPerOrder = new ArrayList<>();
-//        for (WholeOrder order: ordersForUser) {
-//            int orderNumber = order.getOrderNumber();
-//            List<OrderItem> itemsForOneOrder = orderItemDao.getByForeignKey("wholeOrder", orderNumber);
-//            for (OrderItem itemInOrder: itemsForOneOrder) {
-//                if (!itemsPerOrder.contains(itemInOrder)) {
-//                    itemsPerOrder.add(itemInOrder);
-//                }
-//            }
-//        }
-//        return itemsPerOrder;
-//    }
 }

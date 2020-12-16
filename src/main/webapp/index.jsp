@@ -59,7 +59,11 @@
 <%--            </div>--%>
 <%--        </div>--%>
 <%--        <!-- Main Slider End -->--%>
-
+        <div class="container=fluid">
+            <div class="col-md-6">
+                <p>${sessionScope.message}</p>
+            </div>
+        </div>
         <!-- Feature Start-->
         <div class="feature">
             <div class="container-fluid">

@@ -11,6 +11,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 /**
@@ -36,13 +37,14 @@ public class Register extends HttpServlet {
                 request.getParameter("email"), request.getParameter("password"));
         if(id != 0) {
             //success
-            request.setAttribute("message", "nice job");
+            HttpSession session = request.getSession(false);
+            session.setAttribute("message", "You've successfully registered, please sign in to view your account.");
             response.sendRedirect(request.getContextPath() + "/home");
 //            dispatch = request.getRequestDispatcher("/home").sendRedirect(request.getContextPath());
         }
         else {
             //failed
-            request.setAttribute("message", "There was an erroring registering you, please try again");
+            request.setAttribute("message", "There was an error registering you, please try again");
             request.getRequestDispatcher("/signUp.jsp").forward(request, response);
         }
 
@@ -54,12 +56,12 @@ public class Register extends HttpServlet {
         newUser.setLastName(lastName);
         newUser.setEmail(email);
         newUser.setPassword(password);
-        Role role = new Role();
-        role.setRoleName("all");
-        newUser.addRole(role);
 
         GenericDao userDao = new GenericDao(User.class);
         int id = userDao.insert(newUser);
+        Role role = new Role();
+        role.setRoleName("all");
+        newUser.addRole(role);
         return id;
     }
 }
