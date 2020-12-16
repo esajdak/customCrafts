@@ -1,3 +1,6 @@
+## Video Demo ##
+https://youtu.be/PPvfqsCm2pM
+
 ## Problem Statement ##
 A lot of people have turned to Etsy to buy/sell their custom crafts. The problem with Etsy is that
 they consume a portion of your sales and charge you to post your products with a monthly fee.
