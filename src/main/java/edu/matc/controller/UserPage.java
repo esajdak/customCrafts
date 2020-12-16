@@ -19,6 +19,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
+/**
+ * Servlet to show User's account page
+ */
 @WebServlet(
         urlPatterns = {"/myAccount"}
 
@@ -48,8 +51,13 @@ public class UserPage extends HttpServlet {
 
     }
 
+    /**
+     * Gets current user.
+     *
+     * @param userEmail the user email
+     * @return the current user
+     */
     protected User getCurrentUser(String userEmail) {
-//        String currentUserEmail = request.getRemoteUser();
         User currentUser = new User();
         List<User> currentUserList = userDao.getByPropertyEqual("email", userEmail);
         logger.info("currentUserList " + currentUserList);

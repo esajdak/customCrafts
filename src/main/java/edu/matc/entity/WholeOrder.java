@@ -9,7 +9,7 @@ import java.util.Objects;
 import java.util.Set;
 
 /**
- * The type User.
+ * Class to represent WholeOrder
  */
 @Entity(name = "WholeOrder")
 @Table(name = "whole_order")
@@ -32,7 +32,7 @@ public class WholeOrder {
     /**
      * Instantiates a new WholeOrder.
      *
-     * @param user
+     * @param user the user
      */
     public WholeOrder(User user) {
         this.user = user;

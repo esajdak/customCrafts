@@ -60,7 +60,6 @@ class UserDaoTest {
 
     /**
      * Verify successful insert of a user
-     * todo test remove too
      */
     @Test
     void removeWithProductSuccess() {
@@ -68,15 +67,6 @@ class UserDaoTest {
         User newUser = new User("John", "Doe", "jdd@yahoo.com", "password");
         Product productToRemove = (Product)productDao.getById(1);
 
-        String productDescription = "Product 1";
-        String image = "Image 1";
-        String tags = "#FirstProduct";
-        String productionCost = "2.00";
-        String price = "15.00";
-        int customizable = 1;
-        String title = "First Product";
-
-        Product product = new Product(productDescription, newUser, image, tags, productionCost, price, customizable, title);
 
         newUser.removeProduct(productToRemove);
 
@@ -91,7 +81,6 @@ class UserDaoTest {
 
     /**
      * Verify successful insert of a user
-     * todo test remove too
      */
     @Test
     void insertWithProductSuccess() {
@@ -109,8 +98,8 @@ class UserDaoTest {
         Product product = new Product(productDescription, newUser, image, tags, productionCost, price, customizable, title);
 
         newUser.addProduct(product);
-
         int id = genericDao.insert(newUser);
+
 
         assertNotEquals(0,id);
         User insertedUser = (User)genericDao.getById(id);

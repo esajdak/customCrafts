@@ -13,10 +13,10 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 /**
- * A simple servlet to welcome the user.
+ * A servlet to welcome the user.
+ *
  * @author Elizabeth Sajdak
  */
-
 @WebServlet(
         urlPatterns = {"", "/home"}
 )

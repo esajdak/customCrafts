@@ -1,5 +1,6 @@
 package edu.matc.persistence;
 
+import edu.matc.controller.EditProduct;
 import edu.matc.entity.Product;
 import edu.matc.entity.User;
 import edu.matc.test.util.Database;
@@ -68,9 +69,6 @@ class ProductDaoTest {
         assertEquals(newProduct, insertedProduct);
         assertNotNull(insertedProduct.getUser());
         assertEquals(user, insertedProduct.getUser());
-        // Could continue comparing all values, but
-        // it may make sense to use .equals()
-        // TODO review .equals recommendations http://docs.jboss.org/hibernate/orm/5.2/productguide/html_single/Hibernate_Product_Guide.html#mapping-model-pojo-equalshashcode
     }
 
     /**

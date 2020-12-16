@@ -6,6 +6,9 @@ import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 
 
+/**
+ * A class to represent OrderItem.
+ */
 @Entity(name = "OrderItem")
 @Table(name = "order_item")
 @Getter @Setter @NoArgsConstructor
@@ -32,9 +35,9 @@ public class OrderItem {
     /**
      * Instantiates a new OrderItem.
      *
-     * @param product  the product
-     * @param wholeOrder    the order
-     * @param quantity the quantity
+     * @param product    the product
+     * @param wholeOrder the order
+     * @param quantity   the quantity
      */
     public OrderItem(Product product, WholeOrder wholeOrder, int quantity) {
         this.product = product;

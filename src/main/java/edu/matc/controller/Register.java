@@ -15,10 +15,10 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 /**
- * A simple servlet to welcome the user.
+ * A servlet to register a user
+ *
  * @author Elizabeth Sajdak
  */
-
 @WebServlet(
         urlPatterns = {"/signUp"}
 )
@@ -29,7 +29,6 @@ public class Register extends HttpServlet {
         RequestDispatcher dispatcher = request.getRequestDispatcher("/signUp.jsp");
         dispatcher.forward(request, response);
     }
-//todo verify email doesnt exist already
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         RequestDispatcher dispatch;
@@ -40,7 +39,6 @@ public class Register extends HttpServlet {
             HttpSession session = request.getSession(false);
             session.setAttribute("message", "You've successfully registered, please sign in to view your account.");
             response.sendRedirect(request.getContextPath() + "/home");
-//            dispatch = request.getRequestDispatcher("/home").sendRedirect(request.getContextPath());
         }
         else {
             //failed
@@ -50,6 +48,15 @@ public class Register extends HttpServlet {
 
     }
 
+    /**
+     * Create new user int.
+     *
+     * @param firstName the first name
+     * @param lastName  the last name
+     * @param email     the email
+     * @param password  the password
+     * @return the int
+     */
     protected int createNewUser(String firstName, String lastName, String email, String password) {
         User newUser = new User();
         newUser.setFirstName(firstName);

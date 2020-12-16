@@ -61,7 +61,6 @@ public class Product {
      * @param Customizable   the customizable
      * @param title          the title
      */
-// todo need different constructor to deal with optional values?
     public Product(String description, User user, String image, String tags, String productionCost, String price, int Customizable, String title) {
         this.user = user;
         this.description = description;

@@ -12,10 +12,10 @@ import javax.servlet.annotation.*;
 import java.io.IOException;
 
 /**
- * A simple servlet to welcome the user.
+ * A simple servlet to search products
+ *
  * @author Elizabeth Sajdak
  */
-
 @WebServlet(
         urlPatterns = {"/searchItem"}
 )
@@ -26,8 +26,6 @@ public class SearchProduct extends HttpServlet {
         GenericDao genericDao = new GenericDao(Product.class);
         String searchTerm = req.getParameter("searchTerm");
         if ((searchTerm != "") && (searchTerm != null)) {
-//            TODO add option to pick what to search by and add term
-//            req.setAttribute("items", productDao.getItemsByTag(searchTerm));
             req.setAttribute("products", genericDao.getAll());
         } else {
             req.setAttribute("products", genericDao.getAll());

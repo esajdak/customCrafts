@@ -14,6 +14,10 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * Servlet to sign in
+ * Author: Elizabeth Sajdak
+ */
 @WebServlet(
         urlPatterns = {"/signIn"}
 
@@ -29,10 +33,6 @@ public class SignIn extends HttpServlet {
         throws ServletException, IOException {
         logger.info("The logged in user: " + request.getRemoteUser() + " has role of : " + request.isUserInRole("admin"));
 
-
-//        String url = "/myAccount";
         response.sendRedirect(request.getContextPath() + "/myAccount");
-//        RequestDispatcher dispatcher = request.getRequestDispatcher(url);
-//        dispatcher.forward(request, response);
     }
 }

@@ -13,6 +13,8 @@ import java.util.List;
 
 /**
  * A generic Dao
+ *
+ * @param <T> the type parameter
  */
 public class GenericDao<T> {
     private Class<T> type;
@@ -36,8 +38,10 @@ public class GenericDao<T> {
     }
 
     /**
-     *Gets an entity by id
-     * @param id entity id to search by
+     * Gets an entity by id
+     *
+     * @param <T> the type parameter
+     * @param id  entity id to search by
      * @return an entity
      */
     public <T>T getById(int id) {
@@ -47,6 +51,11 @@ public class GenericDao<T> {
         return entity;
     }
 
+    /**
+     * Delete.
+     *
+     * @param entity the entity
+     */
     public void delete(T entity) {
         Session session = getSession();
         Transaction transaction = session.beginTransaction();
@@ -55,6 +64,11 @@ public class GenericDao<T> {
         session.close();
     }
 
+    /**
+     * Gets all.
+     *
+     * @return the all
+     */
     public List<T> getAll() {
         Session session = getSession();
 
@@ -70,10 +84,11 @@ public class GenericDao<T> {
 
     /**
      * update entity
-     * @param entity  entity to be inserted or updated
+     *
+     * @param entity entity to be inserted or updated
+     * @return the int
      */
     public int insert(T entity) {
-        //todo check if unique constrait violated, send id=0 if so
         int id = 0;
         Session session = getSession();
         Transaction transaction = session.beginTransaction();
@@ -86,6 +101,10 @@ public class GenericDao<T> {
     /**
      * Get entity by property (exact match)
      * sample usage: getByPropertyEqual("lastname", "Sajdak")
+     *
+     * @param propertyName the property name
+     * @param value        the value
+     * @return the by property equal
      */
     public List<T> getByPropertyEqual(String propertyName, String value) {
         Session session = getSession();
@@ -102,6 +121,13 @@ public class GenericDao<T> {
         return list;
     }
 
+    /**
+     * Gets by foreign key.
+     *
+     * @param fk_name the fk name
+     * @param fk_id   the fk id
+     * @return the by foreign key
+     */
     public List<T> getByForeignKey(String fk_name, int fk_id) {
         Session session = getSession();
 
@@ -118,6 +144,10 @@ public class GenericDao<T> {
     /**
      * Get entity by property (like)
      * sample usage: getByPropertyLike("lastname", "C")
+     *
+     * @param propertyName the property name
+     * @param value        the value
+     * @return the by property like
      */
     public List<T> getByPropertyLike(String propertyName, String value) {
         Session session = getSession();
@@ -138,7 +168,8 @@ public class GenericDao<T> {
 
     /**
      * update entity
-     * @param entity  entity to be inserted or updated
+     *
+     * @param entity entity to be inserted or updated
      */
     public void saveOrUpdate(T entity) {
         Session session = getSession();

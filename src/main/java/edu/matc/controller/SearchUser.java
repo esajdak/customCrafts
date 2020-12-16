@@ -12,10 +12,10 @@ import javax.servlet.annotation.*;
 import java.io.IOException;
 
 /**
- * A simple servlet to welcome the user.
+ * A simple servlet to search users
+ *
  * @author Elizabeth Sajdak
  */
-
 @WebServlet(
         urlPatterns = {"/searchUser"}
 )
@@ -27,7 +27,6 @@ public class SearchUser extends HttpServlet {
 
 //        String searchTerm = req.getParameter("searchTerm");
 //        if ((searchTerm != "") && (searchTerm != null)) {
-//            TODO add option to pick what to search by and add term
 //            req.setAttribute("items", productDao.getItemsByTag(searchTerm));
 //            req.setAttribute("products", productDao.getAllItems());
 //        } else {

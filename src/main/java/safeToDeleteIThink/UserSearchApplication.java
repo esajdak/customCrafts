@@ -1,4 +1,4 @@
-package edu.matc.controller;
+package safeToDeleteIThink;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;

@@ -71,4 +71,7 @@ Continued to work on templating jsp pages, doing them as I need when connecting 
 Set up log in page and sign up page, got new users to show up in the database. Realized I may need to do some extra work to 
 keep a user logged in/continue displaying their personal information where needed. 
 ## Week 16 ##
-
+...23 hours:
+Worked on getting the project back up and running in AWS, made some finishing touched to the project.
+Added the ability to edit/delete products from the myAccount page. Changed my account to be a protected page for
+only logged in users. Added more tests. Updated AWS database.

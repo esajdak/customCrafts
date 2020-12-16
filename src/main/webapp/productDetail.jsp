@@ -170,7 +170,7 @@
                                     <div class="col-lg-3">
                                         <div class="product-item">
                                             <div class="product-title">
-                                                <a href="#">${relatedProduct.title}</a>
+                                                <a href="productDetail?id=${relatedProduct.itemId}">${relatedProduct.title}</a>
                                                 <div class="ratting">
                                                     <i class="fa fa-star"></i>
                                                     <i class="fa fa-star"></i>

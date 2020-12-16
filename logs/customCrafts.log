@@ -821,3 +821,192 @@
 [ERROR] 2020-12-15 21:50:02.884 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
 [ERROR] 2020-12-15 21:50:03.091 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
 [ERROR] 2020-12-15 21:50:03.188 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 10:36:48.234 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 10:36:54.719 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[INFO ] 2020-12-16 10:36:55.229 [main] GenericDao - [WholeOrder(user=User(firstName=Elizabeth, lastName=Sajdak, email=esajdak@madisoncollege.edu, password=password, userId=1), orderNumber=1)]
+[ERROR] 2020-12-16 10:36:55.537 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 10:36:55.901 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 10:36:56.315 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 10:36:56.764 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 10:36:57.085 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[INFO ] 2020-12-16 10:36:57.148 [main] GenericDao - [edu.matc.entity.Product@5e99cc2d, edu.matc.entity.Product@9dfbe818, edu.matc.entity.Product@7d809fd2, edu.matc.entity.Product@6568d06c, edu.matc.entity.Product@4f65308c, edu.matc.entity.Product@c8336d5, edu.matc.entity.Product@49f809fe, edu.matc.entity.Product@759263eb, edu.matc.entity.Product@a22de10b, edu.matc.entity.Product@5bf4c0d9, edu.matc.entity.Product@594ab465, edu.matc.entity.Product@e116ca93]
+[ERROR] 2020-12-16 10:36:57.427 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 10:36:58.007 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[DEBUG] 2020-12-16 10:36:58.018 [main] GenericDao - Searching for product with title = Glass
+[ERROR] 2020-12-16 10:36:58.476 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 10:36:58.904 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 10:36:59.480 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 10:36:59.894 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 10:37:00.231 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[INFO ] 2020-12-16 10:37:00.618 [main] GenericDao - [User(firstName=Elizabeth, lastName=Sajdak, email=esajdak@madisoncollege.edu, password=password, userId=1), User(firstName=Kyle, lastName=Kelley, email=kk@gmail.com, password=password, userId=2)]
+[ERROR] 2020-12-16 10:37:00.934 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 10:37:01.346 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[DEBUG] 2020-12-16 10:37:01.351 [main] GenericDao - Searching for product with lastName = a
+[ERROR] 2020-12-16 10:37:02.067 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 10:37:02.697 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 10:37:03.385 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 10:37:03.676 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 10:37:04.606 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 10:37:04.976 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 11:10:44.766 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 11:45:34.155 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 12:58:16.462 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 13:00:16.590 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 13:11:12.188 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 13:17:29.734 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 13:22:25.035 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 13:22:30.352 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 13:22:30.946 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 13:22:31.945 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 13:24:45.498 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 13:24:56.727 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 13:24:57.661 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 13:24:58.349 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 13:24:58.974 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 13:24:59.660 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[INFO ] 2020-12-16 13:25:01.472 [main] GenericDao - [WholeOrder(user=User(firstName=Elizabeth, lastName=Sajdak, email=esajdak@madisoncollege.edu, password=password, userId=1), orderNumber=1)]
+[ERROR] 2020-12-16 13:25:01.990 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 13:25:03.530 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 13:25:04.490 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 13:25:05.498 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 13:25:06.273 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 13:25:06.664 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[INFO ] 2020-12-16 13:25:06.889 [main] GenericDao - [edu.matc.entity.Product@5e99cc2d, edu.matc.entity.Product@9dfbe818, edu.matc.entity.Product@7d809fd2, edu.matc.entity.Product@6568d06c, edu.matc.entity.Product@4f65308c, edu.matc.entity.Product@c8336d5, edu.matc.entity.Product@49f809fe, edu.matc.entity.Product@759263eb, edu.matc.entity.Product@a22de10b, edu.matc.entity.Product@5bf4c0d9, edu.matc.entity.Product@594ab465, edu.matc.entity.Product@e116ca93]
+[ERROR] 2020-12-16 13:25:07.032 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 13:25:07.355 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[DEBUG] 2020-12-16 13:25:07.370 [main] GenericDao - Searching for product with title = Glass
+[ERROR] 2020-12-16 13:25:07.691 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 13:25:08.010 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 13:25:08.457 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 13:25:09.018 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 13:25:09.209 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[INFO ] 2020-12-16 13:25:09.414 [main] GenericDao - [User(firstName=Elizabeth, lastName=Sajdak, email=esajdak@madisoncollege.edu, password=password, userId=1), User(firstName=Kyle, lastName=Kelley, email=kk@gmail.com, password=password, userId=2)]
+[ERROR] 2020-12-16 13:25:09.534 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 13:25:09.705 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[DEBUG] 2020-12-16 13:25:09.707 [main] GenericDao - Searching for product with lastName = a
+[ERROR] 2020-12-16 13:25:09.961 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 13:25:10.171 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 13:25:10.673 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 13:25:10.911 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 13:25:11.349 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 13:25:11.521 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 13:41:19.977 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 15:35:03.206 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 15:35:10.654 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 15:35:11.114 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 15:35:11.356 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[DEBUG] 2020-12-16 15:35:11.359 [main] GenericDao - Searching for product with title = Glass
+[ERROR] 2020-12-16 15:35:11.670 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 15:35:11.969 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 15:35:12.481 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 15:38:29.554 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 15:38:39.976 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 15:38:40.466 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 15:38:41.013 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 15:38:41.381 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 15:38:41.689 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[INFO ] 2020-12-16 15:38:42.056 [main] GenericDao - [WholeOrder(user=User(firstName=Elizabeth, lastName=Sajdak, email=esajdak@madisoncollege.edu, password=password, userId=1), orderNumber=1)]
+[ERROR] 2020-12-16 15:38:42.255 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 15:38:42.553 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 15:38:42.802 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 15:38:43.136 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 15:38:43.484 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 15:38:43.771 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[INFO ] 2020-12-16 15:38:43.822 [main] GenericDao - [edu.matc.entity.Product@5e99cc2d, edu.matc.entity.Product@9dfbe818, edu.matc.entity.Product@7d809fd2, edu.matc.entity.Product@6568d06c, edu.matc.entity.Product@4f65308c, edu.matc.entity.Product@c8336d5, edu.matc.entity.Product@49f809fe, edu.matc.entity.Product@759263eb, edu.matc.entity.Product@a22de10b, edu.matc.entity.Product@5bf4c0d9, edu.matc.entity.Product@594ab465, edu.matc.entity.Product@e116ca93]
+[ERROR] 2020-12-16 15:38:43.951 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 15:38:44.162 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[DEBUG] 2020-12-16 15:38:44.169 [main] GenericDao - Searching for product with title = Glass
+[ERROR] 2020-12-16 15:38:44.371 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 15:38:44.576 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 15:38:45.008 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 15:38:45.317 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 15:38:45.488 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[INFO ] 2020-12-16 15:38:45.650 [main] GenericDao - [User(firstName=Elizabeth, lastName=Sajdak, email=esajdak@madisoncollege.edu, password=password, userId=1), User(firstName=Kyle, lastName=Kelley, email=kk@gmail.com, password=password, userId=2)]
+[ERROR] 2020-12-16 15:38:45.796 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 15:38:45.984 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[DEBUG] 2020-12-16 15:38:45.985 [main] GenericDao - Searching for product with lastName = a
+[ERROR] 2020-12-16 15:38:46.245 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 15:38:46.442 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 15:38:46.650 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 15:38:46.809 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 15:38:47.068 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 15:38:47.250 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[INFO ] 2020-12-16 15:45:36.614 [http-nio-8080-exec-6] GenericDao - [edu.matc.entity.Product@82fee1e5, edu.matc.entity.Product@41acb198, edu.matc.entity.Product@21316952, edu.matc.entity.Product@b0042dc3, edu.matc.entity.Product@feb6a6f0, edu.matc.entity.Product@eda8d37e, edu.matc.entity.Product@99f779a3, edu.matc.entity.Product@c692f6c3, edu.matc.entity.Product@ffa58a59, edu.matc.entity.Product@fcfb7de5, edu.matc.entity.Product@57be04b, edu.matc.entity.Product@d6181476]
+[INFO ] 2020-12-16 15:45:43.181 [http-nio-8080-exec-10] GenericDao - [edu.matc.entity.Product@82fee1e5, edu.matc.entity.Product@41acb198, edu.matc.entity.Product@21316952, edu.matc.entity.Product@b0042dc3, edu.matc.entity.Product@feb6a6f0, edu.matc.entity.Product@eda8d37e, edu.matc.entity.Product@99f779a3, edu.matc.entity.Product@c692f6c3, edu.matc.entity.Product@ffa58a59, edu.matc.entity.Product@fcfb7de5, edu.matc.entity.Product@57be04b, edu.matc.entity.Product@d6181476]
+[INFO ] 2020-12-16 15:46:03.434 [http-nio-8080-exec-9] GenericDao - [edu.matc.entity.Product@82fee1e5, edu.matc.entity.Product@41acb198, edu.matc.entity.Product@21316952, edu.matc.entity.Product@b0042dc3, edu.matc.entity.Product@feb6a6f0, edu.matc.entity.Product@eda8d37e, edu.matc.entity.Product@99f779a3, edu.matc.entity.Product@c692f6c3, edu.matc.entity.Product@ffa58a59, edu.matc.entity.Product@fcfb7de5, edu.matc.entity.Product@57be04b, edu.matc.entity.Product@d6181476]
+[INFO ] 2020-12-16 15:52:33.239 [http-nio-8080-exec-7] GenericDao - [edu.matc.entity.Product@82fee1e5, edu.matc.entity.Product@41acb198, edu.matc.entity.Product@21316952, edu.matc.entity.Product@b0042dc3, edu.matc.entity.Product@feb6a6f0, edu.matc.entity.Product@eda8d37e, edu.matc.entity.Product@99f779a3, edu.matc.entity.Product@c692f6c3, edu.matc.entity.Product@ffa58a59, edu.matc.entity.Product@fcfb7de5, edu.matc.entity.Product@57be04b, edu.matc.entity.Product@d6181476]
+[INFO ] 2020-12-16 15:52:39.817 [http-nio-8080-exec-10] GenericDao - [edu.matc.entity.Product@82fee1e5, edu.matc.entity.Product@41acb198, edu.matc.entity.Product@21316952, edu.matc.entity.Product@b0042dc3, edu.matc.entity.Product@feb6a6f0, edu.matc.entity.Product@eda8d37e, edu.matc.entity.Product@99f779a3, edu.matc.entity.Product@c692f6c3, edu.matc.entity.Product@ffa58a59, edu.matc.entity.Product@fcfb7de5, edu.matc.entity.Product@57be04b, edu.matc.entity.Product@d6181476]
+[INFO ] 2020-12-16 15:53:08.730 [http-nio-8080-exec-6] SignIn - The logged in user: esajdak@madisoncollege.edu has role of : true
+[INFO ] 2020-12-16 15:53:09.336 [http-nio-8080-exec-4] UserPage - currentUserList [User(firstName=Elizabeth, lastName=Sajdak, email=esajdak@madisoncollege.edu, password=password, userId=1)]
+[INFO ] 2020-12-16 15:53:09.342 [http-nio-8080-exec-4] UserPage - User being sent User(firstName=Elizabeth, lastName=Sajdak, email=esajdak@madisoncollege.edu, password=password, userId=1)
+[INFO ] 2020-12-16 15:53:09.345 [http-nio-8080-exec-4] UserPage - The logged in user: esajdak@madisoncollege.edu has role of : true
+[INFO ] 2020-12-16 15:53:31.810 [http-nio-8080-exec-2] UserPage - currentUserList [User(firstName=Elizabeth, lastName=Sajdak, email=esajdak@madisoncollege.edu, password=password, userId=1)]
+[INFO ] 2020-12-16 15:53:31.810 [http-nio-8080-exec-2] UserPage - User being sent User(firstName=Elizabeth, lastName=Sajdak, email=esajdak@madisoncollege.edu, password=password, userId=1)
+[INFO ] 2020-12-16 15:53:31.810 [http-nio-8080-exec-2] UserPage - The logged in user: esajdak@madisoncollege.edu has role of : true
+[INFO ] 2020-12-16 15:53:50.972 [http-nio-8080-exec-6] GenericDao - [edu.matc.entity.Product@82fee1e5, edu.matc.entity.Product@41acb198, edu.matc.entity.Product@21316952, edu.matc.entity.Product@91999ec, edu.matc.entity.Product@feb6a6f0, edu.matc.entity.Product@eda8d37e, edu.matc.entity.Product@99f779a3, edu.matc.entity.Product@c692f6c3, edu.matc.entity.Product@ffa58a59, edu.matc.entity.Product@fcfb7de5, edu.matc.entity.Product@57be04b, edu.matc.entity.Product@d6181476]
+[INFO ] 2020-12-16 15:53:55.532 [http-nio-8080-exec-4] UserPage - currentUserList [User(firstName=Elizabeth, lastName=Sajdak, email=esajdak@madisoncollege.edu, password=password, userId=1)]
+[INFO ] 2020-12-16 15:53:55.532 [http-nio-8080-exec-4] UserPage - User being sent User(firstName=Elizabeth, lastName=Sajdak, email=esajdak@madisoncollege.edu, password=password, userId=1)
+[INFO ] 2020-12-16 15:53:55.533 [http-nio-8080-exec-4] UserPage - The logged in user: esajdak@madisoncollege.edu has role of : true
+[INFO ] 2020-12-16 15:57:47.472 [http-nio-8080-exec-10] GenericDao - [edu.matc.entity.Product@82fee1e5, edu.matc.entity.Product@41acb198, edu.matc.entity.Product@21316952, edu.matc.entity.Product@91999ec, edu.matc.entity.Product@feb6a6f0, edu.matc.entity.Product@eda8d37e, edu.matc.entity.Product@99f779a3, edu.matc.entity.Product@c692f6c3, edu.matc.entity.Product@ffa58a59, edu.matc.entity.Product@fcfb7de5, edu.matc.entity.Product@57be04b, edu.matc.entity.Product@d6181476]
+[INFO ] 2020-12-16 15:57:58.447 [http-nio-8080-exec-3] ProductDetail - productOnPageedu.matc.entity.Product@41acb198
+[INFO ] 2020-12-16 15:57:58.447 [http-nio-8080-exec-3] ProductDetail - productOnPageTags#shotglasses #glasses #shots
+[INFO ] 2020-12-16 15:57:58.450 [http-nio-8080-exec-3] ProductDetail - arrOfTags[Ljava.lang.String;@7ef9103a
+[DEBUG] 2020-12-16 15:57:58.465 [http-nio-8080-exec-3] GenericDao - Searching for product with tags = #shotglasses
+[DEBUG] 2020-12-16 15:57:58.571 [http-nio-8080-exec-3] GenericDao - Searching for product with tags = #glasses
+[DEBUG] 2020-12-16 15:57:58.848 [http-nio-8080-exec-3] GenericDao - Searching for product with tags = #shots
+[INFO ] 2020-12-16 15:57:58.973 [http-nio-8080-exec-3] ProductDetail - relatedProducts[edu.matc.entity.Product@41acb198, edu.matc.entity.Product@91999ec, edu.matc.entity.Product@ffa58a59]
+[INFO ] 2020-12-16 16:05:53.119 [http-nio-8080-exec-6] GenericDao - [edu.matc.entity.Product@82fee1e5, edu.matc.entity.Product@41acb198, edu.matc.entity.Product@21316952, edu.matc.entity.Product@91999ec, edu.matc.entity.Product@feb6a6f0, edu.matc.entity.Product@eda8d37e, edu.matc.entity.Product@99f779a3, edu.matc.entity.Product@c692f6c3, edu.matc.entity.Product@ffa58a59, edu.matc.entity.Product@fcfb7de5, edu.matc.entity.Product@57be04b, edu.matc.entity.Product@d6181476]
+[INFO ] 2020-12-16 16:05:57.991 [http-nio-8080-exec-10] GenericDao - [edu.matc.entity.Product@82fee1e5, edu.matc.entity.Product@41acb198, edu.matc.entity.Product@21316952, edu.matc.entity.Product@91999ec, edu.matc.entity.Product@feb6a6f0, edu.matc.entity.Product@eda8d37e, edu.matc.entity.Product@99f779a3, edu.matc.entity.Product@c692f6c3, edu.matc.entity.Product@ffa58a59, edu.matc.entity.Product@fcfb7de5, edu.matc.entity.Product@57be04b, edu.matc.entity.Product@d6181476]
+[DEBUG] 2020-12-16 16:06:38.529 [http-nio-8080-exec-3] GenericDao - Searching for product with tags = #ornaments
+[DEBUG] 2020-12-16 16:06:39.112 [http-nio-8080-exec-3] GenericDao - Searching for product with tags = #christmas
+[DEBUG] 2020-12-16 16:06:46.125 [http-nio-8080-exec-4] GenericDao - Searching for product with tags = #ornaments
+[DEBUG] 2020-12-16 16:06:46.286 [http-nio-8080-exec-4] GenericDao - Searching for product with tags = #christmas
+[DEBUG] 2020-12-16 16:08:57.054 [http-nio-8080-exec-8] GenericDao - Searching for product with tags = #ornaments
+[DEBUG] 2020-12-16 16:08:57.293 [http-nio-8080-exec-8] GenericDao - Searching for product with tags = #christmas
+[INFO ] 2020-12-16 16:09:04.382 [http-nio-8080-exec-6] UserPage - currentUserList []
+[INFO ] 2020-12-16 16:09:04.416 [http-nio-8080-exec-6] UserPage - The logged in user: null has role of : false
+[INFO ] 2020-12-16 16:12:44.128 [http-nio-8080-exec-3] GenericDao - [edu.matc.entity.Product@5e99cc2d, edu.matc.entity.Product@9dfbe818, edu.matc.entity.Product@7d809fd2, edu.matc.entity.Product@6568d06c, edu.matc.entity.Product@5b05dd70, edu.matc.entity.Product@49f809fe, edu.matc.entity.Product@759263eb, edu.matc.entity.Product@a22de10b, edu.matc.entity.Product@5bf4c0d9, edu.matc.entity.Product@594ab465, edu.matc.entity.Product@e116ca93, edu.matc.entity.Product@b1b2febe]
+[INFO ] 2020-12-16 16:12:49.660 [http-nio-8080-exec-10] GenericDao - [edu.matc.entity.Product@5e99cc2d, edu.matc.entity.Product@9dfbe818, edu.matc.entity.Product@7d809fd2, edu.matc.entity.Product@6568d06c, edu.matc.entity.Product@5b05dd70, edu.matc.entity.Product@49f809fe, edu.matc.entity.Product@759263eb, edu.matc.entity.Product@a22de10b, edu.matc.entity.Product@5bf4c0d9, edu.matc.entity.Product@594ab465, edu.matc.entity.Product@e116ca93, edu.matc.entity.Product@b1b2febe]
+[DEBUG] 2020-12-16 16:24:29.433 [http-nio-8080-exec-6] GenericDao - Searching for product with tags = #ornaments
+[DEBUG] 2020-12-16 16:24:29.926 [http-nio-8080-exec-6] GenericDao - Searching for product with tags = #christmas
+[INFO ] 2020-12-16 16:25:21.045 [http-nio-8080-exec-3] UserPage - currentUserList [User(firstName=Elizabeth, lastName=Sajdak, email=esajdak@madisoncollege.edu, password=password, userId=1)]
+[INFO ] 2020-12-16 16:25:21.047 [http-nio-8080-exec-3] UserPage - User being sent User(firstName=Elizabeth, lastName=Sajdak, email=esajdak@madisoncollege.edu, password=password, userId=1)
+[INFO ] 2020-12-16 16:25:21.081 [http-nio-8080-exec-3] UserPage - The logged in user: esajdak@madisoncollege.edu has role of : true
+[INFO ] 2020-12-16 16:25:31.244 [http-nio-8080-exec-10] GenericDao - [edu.matc.entity.Product@5e99cc2d, edu.matc.entity.Product@9dfbe818, edu.matc.entity.Product@7d809fd2, edu.matc.entity.Product@6568d06c, edu.matc.entity.Product@5b05dd70, edu.matc.entity.Product@49f809fe, edu.matc.entity.Product@759263eb, edu.matc.entity.Product@a22de10b, edu.matc.entity.Product@5bf4c0d9, edu.matc.entity.Product@594ab465, edu.matc.entity.Product@e116ca93, edu.matc.entity.Product@b1b2febe]
+[DEBUG] 2020-12-16 16:25:36.990 [http-nio-8080-exec-1] GenericDao - Searching for product with tags = #ornaments
+[DEBUG] 2020-12-16 16:25:37.143 [http-nio-8080-exec-1] GenericDao - Searching for product with tags = #christmas
+[INFO ] 2020-12-16 16:25:40.684 [http-nio-8080-exec-7] UserPage - currentUserList [User(firstName=Elizabeth, lastName=Sajdak, email=esajdak@madisoncollege.edu, password=password, userId=1)]
+[INFO ] 2020-12-16 16:25:40.685 [http-nio-8080-exec-7] UserPage - User being sent User(firstName=Elizabeth, lastName=Sajdak, email=esajdak@madisoncollege.edu, password=password, userId=1)
+[INFO ] 2020-12-16 16:25:40.685 [http-nio-8080-exec-7] UserPage - The logged in user: esajdak@madisoncollege.edu has role of : true
+[ERROR] 2020-12-16 16:27:11.425 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 16:27:17.214 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 16:27:17.749 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 16:27:18.245 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 16:27:18.675 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 16:27:19.055 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[INFO ] 2020-12-16 16:27:19.583 [main] GenericDao - [WholeOrder(user=User(firstName=Elizabeth, lastName=Sajdak, email=esajdak@madisoncollege.edu, password=password, userId=1), orderNumber=1)]
+[ERROR] 2020-12-16 16:27:19.810 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 16:27:20.198 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 16:27:20.433 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 16:27:20.763 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 16:27:21.149 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 16:27:21.403 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[INFO ] 2020-12-16 16:27:21.454 [main] GenericDao - [edu.matc.entity.Product@5e99cc2d, edu.matc.entity.Product@9dfbe818, edu.matc.entity.Product@7d809fd2, edu.matc.entity.Product@6568d06c, edu.matc.entity.Product@4f65308c, edu.matc.entity.Product@c8336d5, edu.matc.entity.Product@49f809fe, edu.matc.entity.Product@759263eb, edu.matc.entity.Product@a22de10b, edu.matc.entity.Product@5bf4c0d9, edu.matc.entity.Product@594ab465, edu.matc.entity.Product@e116ca93]
+[ERROR] 2020-12-16 16:27:21.548 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 16:27:21.734 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[DEBUG] 2020-12-16 16:27:21.737 [main] GenericDao - Searching for product with title = Glass
+[ERROR] 2020-12-16 16:27:21.873 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 16:27:22.036 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 16:27:22.286 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 16:27:22.569 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 16:27:22.718 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[INFO ] 2020-12-16 16:27:22.850 [main] GenericDao - [User(firstName=Elizabeth, lastName=Sajdak, email=esajdak@madisoncollege.edu, password=password, userId=1), User(firstName=Kyle, lastName=Kelley, email=kk@gmail.com, password=password, userId=2)]
+[ERROR] 2020-12-16 16:27:22.929 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 16:27:23.057 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[DEBUG] 2020-12-16 16:27:23.058 [main] GenericDao - Searching for product with lastName = a
+[ERROR] 2020-12-16 16:27:23.183 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 16:27:23.285 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 16:27:23.465 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 16:27:23.560 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 16:27:23.763 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1
+[ERROR] 2020-12-16 16:27:23.920 [main] Database - com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'email' at row 1

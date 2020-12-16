@@ -14,15 +14,18 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * A simple servlet to welcome the user.
+ * A servlet to edit the product.
+ *
  * @author Elizabeth Sajdak
  */
-
 @WebServlet(
         urlPatterns = {"/editThisProduct"}
 )
 
 public class EditThisProduct extends HttpServlet {
+    /**
+     * The Product dao.
+     */
     GenericDao productDao = new GenericDao(Product.class);
 
     @Override
@@ -35,6 +38,18 @@ public class EditThisProduct extends HttpServlet {
         response.sendRedirect(request.getContextPath() + "/myAccount");
     }
 
+    /**
+     * Update product.
+     *
+     * @param productToEdit  the product to edit
+     * @param title          the title
+     * @param description    the description
+     * @param tags           the tags
+     * @param productionCost the production cost
+     * @param price          the price
+     * @param customizable   the customizable
+     * @param image          the image
+     */
     protected void updateProduct(Product productToEdit, String title, String description, String tags, String productionCost,
                                  String price, String customizable, String image) {
         productToEdit.setTitle(title);

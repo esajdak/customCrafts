@@ -21,20 +21,18 @@
 - [x] Create user dao unit tests
 - [x] Weekly journal entry
 - [x] Set up logging
-- [ ] Create class uml diagram
 - [x] Prepare for Week 5 peer design/code review
 
 
 ### Week 5
 
-- [ ] Create the template for all jsps using bootstrap or materialize
+- [x] Create the template for all jsps using bootstrap or materialize
 - [x] Weekly journal entry
 - [x] Add the product table
 - [x] Add the product entity
 - [x] Create the product dao
 - [x] Create the product dao unit tests
-- [ ] Add a jsp to display user and role
-- [ ] Add jsp to add a user
+- [x] Add a jsp to display user and role
 
 ### Week 6
 
@@ -42,11 +40,11 @@
 - [x] Deploy to AWS for first time
 - [x] Weekly journal entry
 - [x] Create db tables
-- [ ] Add the db entities (test, dev and prod dbs)
-- [ ] Realize that these daos are repetitive. Refactor into a generic dao!
-- [ ] Add update and delete functionality in jsp for user and role
-- [ ] Build the item/user search jsp
-- [ ] Build the item/user add/update/delete jsp
+- [x] Add the db entities (test, dev and prod dbs)
+- [x] Realize that these daos are repetitive. Refactor into a generic dao!
+- [x] Add update and delete functionality in jsp for user and role
+- [x] Build the item/user search jsp
+- [x] Build the item/user add/update/delete jsp
 - [x] Prepare for Checkpoint 2: Database designed and created, at least one DAO implemented with Hibernate, DAO is unit tested, Log4J is implemented (no System.out.printlns), class design and any other diagrams you plan to use have been created. 
 
 
@@ -57,19 +55,18 @@
 - [x] Set up authentication on AWS
 - [x] Add the db Tables, populate with data, (test, dev and prod dbs)
 - [x] Create the db tables entities
-- [ ] Update order table to use products and users
-- [ ] Update products and users tests to be sure they work with the new relationships
-- [ ] Review and incorporate any feedback from Checkpoint 2.
+- [x] Update order table to use products and users
+- [x] Update products and users tests to be sure they work with the new relationships
+- [x] Review and incorporate any feedback from Checkpoint 2.
 
 
 ### Week 8
 
 - [x] Weekly journal entry
 - [ ] Integration with api
-- [ ] Create the dao
-- [ ] Create the dao unit tests
-- [ ] Build the item search jsp
-- [ ] Build the crud jsps
+- [x] Create the dao
+- [x] Create the dao unit tests
+- [x] Build the crud jsps
 - [x] Prepare for Checkpoint 3: Deployed to AWS, at least one JSP that displays data from the database is implemented. 
 
 ### Week 9
@@ -79,8 +76,7 @@
 
 ### Week 8
 - [x] Weekly journal entry
-- [ ] Implement paging of search results
-- [ ] Code review
+- [x] Code review
 
 ### Week 9
 - [x] Weekly journal entry
@@ -95,28 +91,28 @@
 
 ### Week 12 - Team project due
 - [x] Weekly journal entry
-- [ ] Review indie project and create list of todos
+- [x] Review indie project and create list of todos
 
 ### Week 13
-- [ ] Weekly journal entry
-- [ ] Complete todos identified in week 12
-- [ ] Prepare for week 13 peer code reviews
+- [x] Weekly journal entry
+- [x] Complete todos identified in week 12
+- [x] Prepare for week 13 peer code reviews
 - [ ] Code quality check
-- [ ] Review rubric to make sure I'm on target
+- [x] Review rubric to make sure I'm on target
 
 ### Week 14
-- [ ] Weekly journal entry
-- [ ] Create final presentation
+- [x] Weekly journal entry
+- [x] Create final presentation
 
 ### Week 15
-- [ ] Final Presentation
-- [ ] Create video
-- [ ] Finalize all documentation
+- [x] Final Presentation
+- [x] Create video
+- [x] Finalize all documentation
 - [ ] Code quality check
 
 ### Week 16
-- [ ] Weekly journal entry
-- [ ] Final touches before code complete
+- [x] Weekly journal entry
+- [x] Final touches before code complete
 
 
 

@@ -6,7 +6,7 @@ import javax.persistence.*;
 import java.util.Objects;
 
 /**
- * The type Role.
+ * Class to represent Role.
  */
 @Entity(name = "Role")
 @Table(name = "role")
@@ -25,9 +25,19 @@ public class Role {
     @JoinColumn(name = "user_id", foreignKey = @ForeignKey(name = "role_user_user_id_fk"))
     private User user;
 
+    /**
+     * Instantiates a new Role.
+     */
     public Role() {
     }
 
+    /**
+     * Instantiates a new Role.
+     *
+     * @param roleName the role name
+     * @param email    the email
+     * @param user     the user
+     */
     public Role(String roleName, String email, User user) {
         this.roleName = roleName;
         this.email = email;

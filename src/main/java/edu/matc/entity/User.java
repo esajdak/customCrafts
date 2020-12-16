@@ -9,7 +9,7 @@ import java.util.Objects;
 import java.util.Set;
 
 /**
- * The type User.
+ * Class to represent User
  */
 @Entity(name = "User")
 @Table(name = "user")

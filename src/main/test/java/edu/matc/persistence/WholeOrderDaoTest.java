@@ -40,7 +40,6 @@ class WholeOrderDaoTest {
     void getByIdSuccess() {
         WholeOrder retrievedOrder = (WholeOrder)genericDao.getById(1);
         assertNotNull(retrievedOrder);
-//        todo compare whole user?
         assertEquals(1, retrievedOrder.getUser().getUserId());
     }
 
@@ -75,12 +74,13 @@ class WholeOrderDaoTest {
     /**
      * Verify successful get by property (equal match)
      */
-//    @Test
-//    void getByPropertyEqualSuccess() {
-//        List<WholeOrder> orders = genericDao.getByPropertyEqual("user", "1");
-//        assertEquals(1, orders.size());
-//        assertEquals(1, orders.get(0).getOrderNumber());
-//    }
+    @Test
+    void getByForeignKeySuccess() {
+
+        List<WholeOrder> orders = genericDao.getByForeignKey("user", 1);
+        assertEquals(1, orders.size());
+        assertEquals(1, orders.get(0).getOrderNumber());
+    }
 
     @Test
     void updateSuccess() {
